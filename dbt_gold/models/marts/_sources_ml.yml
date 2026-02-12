@@ -1,0 +1,42 @@
+version: 2
+
+sources:
+  - name: gold_ml
+    description: "Tablas de Machine Learning en la capa Gold"
+    schema: default
+    tables:
+      - name: ml_customer_clusters
+        description: "Segmentación de clientes usando K-Means clustering"
+        columns:
+          - name: customer_sk
+            description: "Surrogate key del cliente"
+          - name: customer_name
+            description: "Nombre del cliente/punto de venta"
+          - name: cluster_id
+            description: "ID numérico del cluster (0, 1, 2)"
+          - name: cluster_label
+            description: "Etiqueta descriptiva (Premium, Regular, Básico)"
+          - name: total_sales
+            description: "Ventas totales del cliente"
+          - name: silhouette_score
+            description: "Métrica de calidad del clustering (0-1)"
+            
+      - name: ml_demand_forecast
+        description: "Predicciones de demanda mensual por producto-territorio"
+        columns:
+          - name: product_name
+            description: "Nombre del producto"
+          - name: country
+            description: "País del territorio"
+          - name: forecast_date
+            description: "Fecha del pronóstico (mes)"
+          - name: actual_sales
+            description: "Ventas reales"
+          - name: predicted_sales
+            description: "Ventas predichas por el modelo"
+          - name: forecast_accuracy
+            description: "Precisión del forecast en porcentaje"
+          - name: model_r2
+            description: "R² del modelo de regresión"
+          - name: model_rmse
+            description: "RMSE del modelo"

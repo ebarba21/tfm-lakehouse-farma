@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: mart_cluster_analysis
+    description: "Analisis agregado de los clusters de clientes"
+    columns:
+      - name: cluster_label
+        description: "Etiqueta del segmento de cliente"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Premium - Alto Volumen', 'Regular - Volumen Medio', 'Básico - Bajo Volumen']
+      - name: num_customers
+        description: "Numero de clientes en el cluster"
+        tests:
+          - not_null
+      - name: total_cluster_sales
+        description: "Ventas totales del cluster"
+        tests:
+          - not_null
+
+  - name: mart_forecast_analysis
+    description: "Analisis de precision del modelo de forecast por producto"
+    columns:
+      - name: product_name
+        description: "Nombre del producto"
+        tests:
+          - not_null
+          - unique
+      - name: product_accuracy_pct
+        description: "Precision promedio del forecast para este producto"
+        tests:
+          - not_null
+      - name: accuracy_category
+        description: "Categoria de precision (Excelente/Bueno/Aceptable/Necesita mejora)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Excelente', 'Bueno', 'Aceptable', 'Necesita mejora']
+      - name: model_r2
+        description: "R2 del modelo de regresion"
+        tests:
+          - not_null

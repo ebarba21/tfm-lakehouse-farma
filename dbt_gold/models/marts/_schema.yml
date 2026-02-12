@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: mart_sales_rep_performance
+    description: "Análisis de rendimiento por representante comercial. Métricas de ventas, clientes y cobertura por cada comercial."
+    columns:
+      - name: sales_rep_sk
+        description: "Clave subrogada del representante comercial"
+        data_tests:
+          - unique
+          - not_null
+      - name: sales_rep_name
+        description: "Nombre del representante comercial"
+        data_tests:
+          - not_null
+      - name: total_sales
+        description: "Suma total de ventas del comercial"
+        data_tests:
+          - not_null
+
+  - name: mart_geographic_analysis
+    description: "Análisis de ventas por geografía. Métricas agregadas por país y ciudad."
+    columns:
+      - name: country
+        description: "País"
+        data_tests:
+          - not_null
+      - name: city
+        description: "Ciudad"
+        data_tests:
+          - not_null
+      - name: total_sales
+        description: "Suma total de ventas en esa ubicación"
+        data_tests:
+          - not_null
+
+  - name: mart_product_performance
+    description: "Análisis de rendimiento por producto. Métricas de ventas y distribución por producto."
+    columns:
+      - name: product_sk
+        description: "Clave subrogada del producto"
+        data_tests:
+          - unique
+          - not_null
+      - name: product_name
+        description: "Nombre del producto"
+        data_tests:
+          - not_null
+      - name: total_sales
+        description: "Suma total de ventas del producto"
+        data_tests:
+          - not_null

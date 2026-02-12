@@ -1,0 +1,42 @@
+﻿# ===== Datos generados (Delta Lake) =====
+data/bronze/
+data/silver/
+data/gold/
+data/checkpoints/
+data/ivy/
+
+# ===== Logs =====
+logs/
+*.log
+airflow/logs/
+dbt_gold/logs/
+dbt_gold/target/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ===== dbt =====
+dbt_gold/target/
+dbt_gold/dbt_packages/
+dbt_gold/logs/
+dbt_gold/.user.yml
+
+# ===== Airflow =====
+airflow/logs/
+airflow/plugins/
+
+# ===== Entorno =====
+.env
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp

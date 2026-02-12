@@ -1,0 +1,231 @@
+# =============================================================================
+# TFM Lakehouse Farma - Stack completo con Airflow
+# =============================================================================
+# Stack local para el pipeline de datos farmacéuticos con arquitectura lakehouse.
+# Incluye Kafka, Spark, Thrift Server (SQL), Airflow y simulador de pedidos.
+#
+# Uso:
+#   Levantar todo el stack:
+#     $ docker-compose up -d
+#
+#   Ver UI de Airflow:
+#     http://localhost:8080 (usuario: airflow, contraseña: airflow)
+#
+#   Ver logs del scheduler:
+#     $ docker-compose logs -f airflow-scheduler
+#
+# Puertos expuestos:
+#   - 8080: Airflow Webserver UI
+#   - 9092: Kafka (acceso desde host)
+#   - 10000: Spark Thrift Server (JDBC/Hive para DBeaver, dbt)
+#   - 4040: Spark UI (cuando hay jobs activos)
+#
+# =============================================================================
+
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.10.4-python3.11
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'false'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    # Configuración para conexión con Spark
+    SPARK_CONTAINER: spark
+    DBT_PROJECT_DIR: /opt/airflow/dbt_gold
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins
+    - ./dbt_gold:/opt/airflow/dbt_gold
+    - /var/run/docker.sock:/var/run/docker.sock
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on: &airflow-common-depends-on
+    postgres:
+      condition: service_healthy
+
+services:
+  # ---------------------------------------------------------------------------
+  # PostgreSQL - Metastore de Airflow
+  # ---------------------------------------------------------------------------
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+
+  # ---------------------------------------------------------------------------
+  # Airflow Webserver - UI en puerto 8080
+  # ---------------------------------------------------------------------------
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  # ---------------------------------------------------------------------------
+  # Airflow Scheduler - Ejecuta los DAGs
+  # ---------------------------------------------------------------------------
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  # ---------------------------------------------------------------------------
+  # Airflow Init - Inicialización de la base de datos y usuario admin
+  # ---------------------------------------------------------------------------
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        # Crear directorios necesarios
+        mkdir -p /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins
+        chown -R "${AIRFLOW_UID:-50000}:0" /opt/airflow/{logs,dags,plugins}
+        
+        # Inicializar base de datos
+        airflow db migrate
+        
+        # Crear usuario admin si no existe
+        airflow users create \
+          --username airflow \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email airflow@example.com \
+          --password airflow || true
+        
+        echo "Airflow inicializado correctamente"
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: airflow
+      _AIRFLOW_WWW_USER_PASSWORD: airflow
+    user: "0:0"
+
+  # ---------------------------------------------------------------------------
+  # Kafka - Broker de mensajería
+  # ---------------------------------------------------------------------------
+  kafka:
+    image: apache/kafka-native:4.1.1
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_LISTENERS: "CONTROLLER://localhost:9091,HOST://0.0.0.0:9092,DOCKER://0.0.0.0:9093"
+      KAFKA_ADVERTISED_LISTENERS: "HOST://localhost:9092,DOCKER://kafka:9093"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "CONTROLLER:PLAINTEXT,DOCKER:PLAINTEXT,HOST:PLAINTEXT"
+      KAFKA_NODE_ID: "1"
+      KAFKA_PROCESS_ROLES: "broker,controller"
+      KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+      KAFKA_CONTROLLER_QUORUM_VOTERS: "1@localhost:9091"
+      KAFKA_INTER_BROKER_LISTENER_NAME: "DOCKER"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: "1"
+
+  # ---------------------------------------------------------------------------
+  # Spark - Motor de procesamiento (para spark-submit de jobs)
+  # ---------------------------------------------------------------------------
+  spark:
+    image: apache/spark:3.5.1-python3
+    command: ["bash", "-lc", "tail -f /dev/null"]
+    depends_on:
+      - kafka
+    ports:
+      - "4040:4040"
+    volumes:
+      - ./data:/data
+      - ./:/app
+      - ./data/ivy:/home/spark/.ivy2
+      - spark-warehouse:/spark-warehouse
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: "kafka:9093"
+      KAFKA_TOPIC: "orders"
+
+  # ---------------------------------------------------------------------------
+  # Spark Thrift Server - Endpoint SQL para DBeaver y dbt
+  # ---------------------------------------------------------------------------
+  spark-thrift:
+    image: apache/spark:3.5.1-python3
+    user: root
+    command:
+      - bash
+      - -c
+      - |
+        pip install --quiet numpy pandas
+        cd /opt/spark/jars
+        curl -sLO https://repo1.maven.org/maven2/io/delta/delta-spark_2.12/3.1.0/delta-spark_2.12-3.1.0.jar
+        curl -sLO https://repo1.maven.org/maven2/io/delta/delta-storage/3.1.0/delta-storage-3.1.0.jar
+        /opt/spark/sbin/start-thriftserver.sh \
+          --conf spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension \
+          --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog \
+          --conf spark.sql.warehouse.dir=/spark-warehouse \
+          --conf spark.driver.memory=2g \
+          --hiveconf hive.server2.thrift.port=10000 \
+          --hiveconf hive.server2.thrift.bind.host=0.0.0.0
+        sleep 10
+        tail -f /opt/spark/logs/*thriftserver*.out 2>/dev/null || tail -f /dev/null
+    depends_on:
+      - kafka
+    ports:
+      - "10000:10000"
+      - "4041:4040"
+    volumes:
+      - ./data:/data
+      - ./:/app
+      - ./data/ivy:/home/spark/.ivy2
+      - spark-warehouse:/spark-warehouse
+    environment:
+      SPARK_NO_DAEMONIZE: "true"
+
+  # ---------------------------------------------------------------------------
+  # Simulator - Generador de eventos de pedidos
+  # ---------------------------------------------------------------------------
+  simulator:
+    build:
+      context: ./src/simulator
+    depends_on:
+      - kafka
+    volumes:
+      - ./data:/data
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: "kafka:9093"
+      KAFKA_TOPIC: "orders"
+      EMIT_INTERVAL_MS: "200"
+      PYTHONUNBUFFERED: "1"
+    restart: unless-stopped
+
+volumes:
+  spark-warehouse:
+  postgres-db-volume:

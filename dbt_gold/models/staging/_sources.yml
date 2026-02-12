@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: silver
+    description: "Capa Silver del lakehouse - datos curados"
+    schema: default
+    tables:
+      - name: pharma_sales
+        identifier: silver_pharma_sales
+        description: "Ventas farmacéuticas curadas desde pharma-data.csv"
+  - name: gold
+    description: "Capa Gold - modelo dimensional"
+    schema: default
+    tables:
+      - name: fact_sales
+        identifier: gold_fact_sales
+        description: "Tabla de hechos de ventas"
+      - name: dim_customer
+        identifier: gold_dim_customer
+        description: "Dimensión de clientes"
+      - name: dim_product
+        identifier: gold_dim_product
+        description: "Dimensión de productos"
+      - name: dim_sales_rep
+        identifier: gold_dim_sales_rep
+        description: "Dimensión de representantes comerciales"
+      - name: dim_time
+        identifier: gold_dim_time
+        description: "Dimensión de tiempo"
+      - name: ml_customer_clusters
+        identifier: gold_ml_customer_clusters
+        description: "Clusters de clientes (ML)"
