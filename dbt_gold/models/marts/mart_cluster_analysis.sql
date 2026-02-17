@@ -5,17 +5,8 @@
     )
 }}
 
-/*
-    Mart: Customer Cluster Analysis
-    ================================
-    Analiza los segmentos de clientes generados por el modelo K-Means,
-    proporcionando insights sobre el comportamiento de cada cluster.
-    
-    Segmentos:
-    - Premium: Clientes de alto volumen
-    - Regular: Clientes de volumen medio
-    - Basico: Clientes de bajo volumen
-*/
+-- Análisis agregado de los segmentos de clientes generados por K-Means.
+-- Segmentos: Premium (alto volumen), Regular (medio), Básico (bajo)
 
 WITH cluster_data AS (
     SELECT
@@ -57,7 +48,6 @@ SELECT
     cs.avg_quantity,
     cs.min_sales,
     cs.max_sales,
-    -- Porcentaje del total
     ROUND(cs.total_cluster_sales * 100.0 / SUM(cs.total_cluster_sales) OVER(), 2) AS pct_of_total_sales,
     ROUND(cs.num_customers * 100.0 / SUM(cs.num_customers) OVER(), 2) AS pct_of_total_customers
 FROM cluster_summary cs

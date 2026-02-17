@@ -42,7 +42,7 @@ tfm-lakehouse-farma/
 # Levantar todos los servicios
 docker compose up -d
 
-# Acceder a Airflow (admin/admin)
+# Acceder a Airflow (airflow/airflow)
 # http://localhost:8080
 
 # Activar el DAG lakehouse_farma_pipeline y ejecutar
@@ -60,9 +60,28 @@ Esquema en estrella con 4 dimensiones y 2 tablas de hechos:
 - **Segmentacion de clientes**: K-Means, 3 clusters, Silhouette Score = 0.817
 - **Prediccion de demanda**: Gradient Boosted Trees, precision media >90%
 
-## Calidad de Datos
+## Tests
 
-21 tests automatizados con dbt (not_null, unique, accepted_values, relationships).
+El proyecto combina dos niveles de testing complementarios:
+
+**Tests unitarios (pytest)** — 55 test cases en `tests/test_pipeline.py`:
+- Funciones puras (normalize_column_name con 6 casos)
+- Validacion del esquema de eventos Kafka (15 campos, tipos)
+- Consistencia de rutas entre scripts del pipeline
+- Configuracion dbt (materializacion, conexion Thrift)
+- Estructura del proyecto (14 archivos criticos, 5 marts)
+- Configuracion Kafka con monkeypatch
+- PharmaDataCatalog con CSV mock (fixtures + tmp_path)
+- Generacion de eventos con mocker.spy
+
+```bash
+pip install -r requirements-dev.txt
+pytest tests/ -v
+```
+
+**Tests de calidad de datos (dbt)** — 21 data tests en `_schema.yml` y `_schema_ml.yml`:
+- not_null, unique, accepted_values, relationships
+- Se ejecutan automaticamente como parte del DAG de Airflow
 
 ## Consultas SQL
 ```bash

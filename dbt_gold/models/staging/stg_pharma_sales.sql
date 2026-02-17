@@ -1,6 +1,5 @@
--- stg_pharma_sales.sql
--- Modelo staging que lee de la capa Silver de pharma_sales
--- Sirve como fuente de verdad para los marts
+-- Modelo staging: lee la capa Silver de pharma_sales
+-- Sirve como fuente de verdad para los marts de dbt
 
 {{ config(materialized='view') }}
 

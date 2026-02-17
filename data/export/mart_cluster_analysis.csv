@@ -1,0 +1,4 @@
+"cluster_label","num_customers","avg_sales_per_customer","total_cluster_sales","avg_transactions","avg_ticket","avg_quantity","min_sales","max_sales","pct_of_total_sales","pct_of_total_customers"
+Premium - Alto Volumen,95,32455529.76,3083275326.91,383.2,84905.8,75603.79,20485704,94960728,25.84,12.65
+Regular - Volumen Medio,456,17919088.31,8171104270.49,379.92,47170.14,44198.81,10504986,26673649,68.47,60.72
+Básico - Bajo Volumen,200,3399794.9,679958980,200.28,16969.86,8361.25,1681412.0,7157747.0,5.7,26.63

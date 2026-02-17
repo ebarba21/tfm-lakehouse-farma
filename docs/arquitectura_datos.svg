@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
   <defs>
-    <!-- Gradientes para las capas -->
     <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#CD7F32;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#8B5A2B;stop-opacity:1" />
@@ -42,60 +41,53 @@
       <stop offset="0%" style="stop-color:#4A5568;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#2D3748;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="pbiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F2C811;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4A90A;stop-opacity:1" />
+    </linearGradient>
     
-    <!-- Sombra -->
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.2"/>
     </filter>
     
-    <!-- Marcador de flecha -->
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
     </marker>
-    <marker id="arrowheadBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#017CEE"/>
-    </marker>
   </defs>
   
-  <!-- Fondo -->
   <rect width="1400" height="900" fill="#FAFAFA"/>
   
   <!-- Título -->
   <text x="700" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1A202C" text-anchor="middle">Arquitectura de Datos - Lakehouse Farma</text>
   <text x="700" y="70" font-family="Arial, sans-serif" font-size="14" fill="#718096" text-anchor="middle">Patrón Medallion con Delta Lake | Procesamiento Batch y Streaming</text>
   
-  <!-- ==================== CAPA DE ORQUESTACIÓN (AIRFLOW) ==================== -->
+  <!-- ==================== AIRFLOW ==================== -->
   <rect x="50" y="90" width="1300" height="50" rx="8" fill="url(#airflowGrad)" filter="url(#shadow)"/>
   <text x="700" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Apache Airflow - Orquestación del Pipeline</text>
   
-  <!-- ==================== FUENTES DE DATOS ==================== -->
-  <!-- Contenedor Sources -->
+  <!-- ==================== SOURCES ==================== -->
   <rect x="50" y="170" width="180" height="280" rx="8" fill="none" stroke="#E2E8F0" stroke-width="2" stroke-dasharray="5,5"/>
   <text x="140" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4A5568" text-anchor="middle">SOURCES</text>
   
-  <!-- CSV File -->
   <rect x="70" y="215" width="140" height="70" rx="6" fill="url(#sourceGrad)" filter="url(#shadow)"/>
   <text x="140" y="245" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">pharma-data.csv</text>
   <text x="140" y="265" font-family="Arial, sans-serif" font-size="10" fill="#CBD5E0" text-anchor="middle">Kaggle Dataset</text>
   <text x="140" y="278" font-family="Arial, sans-serif" font-size="9" fill="#A0AEC0" text-anchor="middle">249,704 registros</text>
   
-  <!-- Kafka -->
   <rect x="70" y="305" width="140" height="70" rx="6" fill="url(#kafkaGrad)" filter="url(#shadow)"/>
   <text x="140" y="332" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Apache Kafka</text>
   <text x="140" y="350" font-family="Arial, sans-serif" font-size="10" fill="#CBD5E0" text-anchor="middle">Topic: orders</text>
   <text x="140" y="365" font-family="Arial, sans-serif" font-size="9" fill="#A0AEC0" text-anchor="middle">Streaming en tiempo real</text>
   
-  <!-- Simulador -->
   <rect x="70" y="395" width="140" height="45" rx="6" fill="#2D3748" filter="url(#shadow)"/>
   <text x="140" y="418" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">Simulador Python</text>
   <text x="140" y="432" font-family="Arial, sans-serif" font-size="9" fill="#A0AEC0" text-anchor="middle">Faker + Producer</text>
   
-  <!-- ==================== CAPA BRONZE ==================== -->
+  <!-- ==================== BRONZE ==================== -->
   <rect x="280" y="170" width="200" height="280" rx="8" fill="none" stroke="#CD7F32" stroke-width="2"/>
   <rect x="280" y="170" width="200" height="35" rx="8" fill="url(#bronzeGrad)"/>
   <text x="380" y="193" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">BRONZE (Raw)</text>
   
-  <!-- Tablas Bronze -->
   <rect x="300" y="225" width="160" height="55" rx="5" fill="white" stroke="#CD7F32" stroke-width="1.5" filter="url(#shadow)"/>
   <text x="380" y="248" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#8B5A2B" text-anchor="middle">pharma_sales_raw</text>
   <text x="380" y="265" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="middle">Delta Lake | ~250K rows</text>
@@ -104,20 +96,16 @@
   <text x="380" y="318" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#8B5A2B" text-anchor="middle">orders_stream_raw</text>
   <text x="380" y="335" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="middle">Delta Lake | Streaming</text>
   
-  <!-- Delta Lake badge Bronze -->
   <rect x="310" y="370" width="140" height="25" rx="4" fill="url(#deltaGrad)"/>
   <text x="380" y="387" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Delta Lake Storage</text>
-  
-  <!-- Spark badge Bronze -->
   <rect x="310" y="405" width="140" height="25" rx="4" fill="url(#sparkGrad)"/>
   <text x="380" y="422" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Apache Spark</text>
   
-  <!-- ==================== CAPA SILVER ==================== -->
+  <!-- ==================== SILVER ==================== -->
   <rect x="530" y="170" width="200" height="280" rx="8" fill="none" stroke="#A0A0A0" stroke-width="2"/>
   <rect x="530" y="170" width="200" height="35" rx="8" fill="url(#silverGrad)"/>
   <text x="630" y="193" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">SILVER (Curated)</text>
   
-  <!-- Tablas Silver -->
   <rect x="550" y="225" width="160" height="55" rx="5" fill="white" stroke="#A0A0A0" stroke-width="1.5" filter="url(#shadow)"/>
   <text x="630" y="248" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4A5568" text-anchor="middle">pharma_sales</text>
   <text x="630" y="265" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="middle">Limpio, validado, tipado</text>
@@ -126,19 +114,17 @@
   <text x="630" y="318" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4A5568" text-anchor="middle">orders</text>
   <text x="630" y="335" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="middle">Deduplicado, normalizado</text>
   
-  <!-- Transformaciones Silver -->
   <rect x="550" y="365" width="160" height="70" rx="5" fill="#F7FAFC" stroke="#CBD5E0" stroke-width="1"/>
   <text x="630" y="385" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#4A5568" text-anchor="middle">Transformaciones:</text>
   <text x="630" y="400" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">• Normalización de nombres</text>
   <text x="630" y="412" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">• Validación de tipos</text>
   <text x="630" y="424" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">• Reglas de calidad</text>
   
-  <!-- ==================== CAPA GOLD ==================== -->
+  <!-- ==================== GOLD ==================== -->
   <rect x="780" y="170" width="270" height="280" rx="8" fill="none" stroke="#DAA520" stroke-width="2"/>
   <rect x="780" y="170" width="270" height="35" rx="8" fill="url(#goldGrad)"/>
   <text x="915" y="193" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">GOLD (Business)</text>
   
-  <!-- Dimensiones -->
   <rect x="795" y="220" width="115" height="100" rx="5" fill="#FFFBEB" stroke="#DAA520" stroke-width="1" filter="url(#shadow)"/>
   <text x="852" y="240" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400E" text-anchor="middle">DIMENSIONES</text>
   <text x="852" y="258" font-family="Arial, sans-serif" font-size="9" fill="#4A5568" text-anchor="middle">dim_customer (751)</text>
@@ -146,7 +132,6 @@
   <text x="852" y="288" font-family="Arial, sans-serif" font-size="9" fill="#4A5568" text-anchor="middle">dim_sales_rep (80)</text>
   <text x="852" y="303" font-family="Arial, sans-serif" font-size="9" fill="#4A5568" text-anchor="middle">dim_time (72)</text>
   
-  <!-- Hechos -->
   <rect x="920" y="220" width="115" height="100" rx="5" fill="#FEF3C7" stroke="#DAA520" stroke-width="1" filter="url(#shadow)"/>
   <text x="977" y="240" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400E" text-anchor="middle">HECHOS</text>
   <text x="977" y="265" font-family="Arial, sans-serif" font-size="9" fill="#4A5568" text-anchor="middle">fact_sales</text>
@@ -154,49 +139,52 @@
   <text x="977" y="300" font-family="Arial, sans-serif" font-size="9" fill="#4A5568" text-anchor="middle">fact_orders</text>
   <text x="977" y="315" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">(streaming)</text>
   
-  <!-- Modelo Estrella indicador -->
   <rect x="795" y="330" width="240" height="25" rx="4" fill="#FEF3C7" stroke="#D69E2E" stroke-width="1"/>
   <text x="915" y="347" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#744210" text-anchor="middle">Star Schema - Modelo Dimensional</text>
   
-  <!-- KPIs -->
   <rect x="795" y="365" width="240" height="70" rx="5" fill="#F7FAFC" stroke="#CBD5E0" stroke-width="1"/>
   <text x="915" y="385" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#4A5568" text-anchor="middle">KPIs Disponibles:</text>
   <text x="915" y="400" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">• Ventas por canal/territorio</text>
   <text x="915" y="412" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">• Rendimiento comercial</text>
   <text x="915" y="424" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">• Top productos/clientes</text>
   
-  <!-- ==================== CAPA ML ==================== -->
-  <rect x="1100" y="170" width="250" height="130" rx="8" fill="none" stroke="#7C3AED" stroke-width="2"/>
-  <rect x="1100" y="170" width="250" height="35" rx="8" fill="url(#mlGrad)"/>
-  <text x="1225" y="193" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">MACHINE LEARNING</text>
+  <!-- ==================== CONSUMO: contenedor unificado ==================== -->
+  <!-- Recuadro punteado que agrupa ML + dbt + Power BI -->
+  <rect x="1090" y="160" width="265" height="300" rx="10" fill="none" stroke="#CBD5E0" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="1222" y="178" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#718096" text-anchor="middle">CONSUMO Y ANALÍTICA</text>
   
-  <!-- Modelo Clustering -->
-  <rect x="1115" y="215" width="105" height="70" rx="5" fill="white" stroke="#7C3AED" stroke-width="1.5" filter="url(#shadow)"/>
-  <text x="1167" y="235" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6" text-anchor="middle">K-Means</text>
-  <text x="1167" y="250" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="middle">ml_customer_</text>
-  <text x="1167" y="262" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="middle">clusters</text>
-  <text x="1167" y="277" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Silhouette: 0.817</text>
+  <!-- ML -->
+  <rect x="1100" y="187" width="245" height="82" rx="7" fill="none" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="1100" y="187" width="245" height="28" rx="7" fill="url(#mlGrad)"/>
+  <text x="1222" y="206" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Machine Learning</text>
   
-  <!-- Modelo Forecast -->
-  <rect x="1230" y="215" width="105" height="70" rx="5" fill="white" stroke="#7C3AED" stroke-width="1.5" filter="url(#shadow)"/>
-  <text x="1282" y="235" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6" text-anchor="middle">GBT Regressor</text>
-  <text x="1282" y="250" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="middle">ml_demand_</text>
-  <text x="1282" y="262" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="middle">forecast</text>
-  <text x="1282" y="277" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Accuracy: 87-99%</text>
+  <rect x="1110" y="222" width="108" height="40" rx="4" fill="white" stroke="#7C3AED" stroke-width="1" filter="url(#shadow)"/>
+  <text x="1164" y="238" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5B21B6" text-anchor="middle">K-Means Clustering</text>
+  <text x="1164" y="252" font-family="Arial, sans-serif" font-size="7" fill="#718096" text-anchor="middle">Silhouette: 0.817</text>
   
-  <!-- ==================== CAPA DBT ==================== -->
-  <rect x="1100" y="320" width="250" height="130" rx="8" fill="none" stroke="#FF694B" stroke-width="2"/>
-  <rect x="1100" y="320" width="250" height="35" rx="8" fill="url(#dbtGrad)"/>
-  <text x="1225" y="343" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">dbt - Analytics Layer</text>
+  <rect x="1227" y="222" width="108" height="40" rx="4" fill="white" stroke="#7C3AED" stroke-width="1" filter="url(#shadow)"/>
+  <text x="1281" y="238" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#5B21B6" text-anchor="middle">GBT Regressor</text>
+  <text x="1281" y="252" font-family="Arial, sans-serif" font-size="7" fill="#718096" text-anchor="middle">Accuracy: 87-99%</text>
   
-  <!-- Marts dbt -->
-  <rect x="1115" y="365" width="220" height="70" rx="5" fill="white" stroke="#FF694B" stroke-width="1" filter="url(#shadow)"/>
-  <text x="1225" y="383" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#C53030" text-anchor="middle">Marts Analíticos</text>
-  <text x="1140" y="400" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="start">• mart_sales_rep_performance</text>
-  <text x="1140" y="412" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="start">• mart_geographic_analysis</text>
-  <text x="1140" y="424" font-family="Arial, sans-serif" font-size="8" fill="#4A5568" text-anchor="start">• mart_product_performance</text>
+  <!-- dbt -->
+  <rect x="1100" y="278" width="245" height="82" rx="7" fill="none" stroke="#FF694B" stroke-width="2"/>
+  <rect x="1100" y="278" width="245" height="28" rx="7" fill="url(#dbtGrad)"/>
+  <text x="1222" y="297" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">dbt Core - Analytics</text>
   
-  <!-- ==================== FLECHAS DE FLUJO ==================== -->
+  <rect x="1110" y="313" width="225" height="40" rx="4" fill="white" stroke="#FF694B" stroke-width="1" filter="url(#shadow)"/>
+  <text x="1222" y="329" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#C53030" text-anchor="middle">5 Marts Analíticos + 21 Tests de Calidad</text>
+  <text x="1222" y="343" font-family="Arial, sans-serif" font-size="7" fill="#718096" text-anchor="middle">sales_rep | geographic | product | cluster | forecast</text>
+  
+  <!-- Power BI -->
+  <rect x="1100" y="369" width="245" height="82" rx="7" fill="none" stroke="#D4A90A" stroke-width="2"/>
+  <rect x="1100" y="369" width="245" height="28" rx="7" fill="url(#pbiGrad)"/>
+  <text x="1222" y="388" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1A202C" text-anchor="middle">Power BI - Dashboarding</text>
+  
+  <rect x="1110" y="404" width="225" height="40" rx="4" fill="white" stroke="#D4A90A" stroke-width="1" filter="url(#shadow)"/>
+  <text x="1222" y="420" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#7C6200" text-anchor="middle">Conexión JDBC via Spark Thrift Server</text>
+  <text x="1222" y="434" font-family="Arial, sans-serif" font-size="7" fill="#718096" text-anchor="middle">Resumen Ejecutivo | Marts dbt | Machine Learning</text>
+  
+  <!-- ==================== FLECHAS ==================== -->
   <!-- Sources a Bronze -->
   <line x1="210" y1="250" x2="295" y2="250" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="210" y1="340" x2="295" y2="320" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
@@ -210,16 +198,25 @@
   <line x1="730" y1="280" x2="790" y2="280" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   
   <!-- Gold a ML -->
-  <line x1="1050" y1="250" x2="1095" y2="250" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="1050" y1="240" x2="1095" y2="230" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   
   <!-- Gold a dbt -->
-  <line x1="1050" y1="350" x2="1095" y2="370" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="1050" y1="310" x2="1095" y2="318" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
   
-  <!-- ==================== LEYENDA DE PROCESAMIENTO ==================== -->
+  <!-- Gold a Power BI (JDBC directo, linea discontinua dorada) -->
+  <line x1="1050" y1="390" x2="1095" y2="410" stroke="#D4A90A" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Etiquetas de flujo -->
+  <text x="252" y="238" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Batch</text>
+  <text x="252" y="310" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Stream</text>
+  <text x="512" y="238" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Curate</text>
+  <text x="762" y="268" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Model</text>
+  <text x="1070" y="408" font-family="Arial, sans-serif" font-size="7" fill="#D4A90A" text-anchor="middle">JDBC</text>
+  
+  <!-- ==================== DETALLE ==================== -->
   <rect x="50" y="480" width="1300" height="180" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
   <text x="700" y="510" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A202C" text-anchor="middle">Detalle del Procesamiento por Capa</text>
   
-  <!-- Bronze Detail -->
   <rect x="70" y="530" width="280" height="115" rx="6" fill="#FDF4E7" stroke="#CD7F32" stroke-width="1"/>
   <text x="210" y="552" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8B5A2B" text-anchor="middle">Bronze Layer</text>
   <text x="85" y="572" font-family="Arial, sans-serif" font-size="10" fill="#4A5568" text-anchor="start">Ingesta:</text>
@@ -228,7 +225,6 @@
   <text x="85" y="617" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• Checkpointing para exactly-once</text>
   <text x="85" y="632" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• Metadatos de ingesta añadidos</text>
   
-  <!-- Silver Detail -->
   <rect x="370" y="530" width="280" height="115" rx="6" fill="#F5F5F5" stroke="#A0A0A0" stroke-width="1"/>
   <text x="510" y="552" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4A5568" text-anchor="middle">Silver Layer</text>
   <text x="385" y="572" font-family="Arial, sans-serif" font-size="10" fill="#4A5568" text-anchor="start">Curación:</text>
@@ -237,7 +233,6 @@
   <text x="385" y="617" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• Deduplicación por clave natural</text>
   <text x="385" y="632" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• Reglas de calidad (qty>0, price>=0)</text>
   
-  <!-- Gold Detail -->
   <rect x="670" y="530" width="280" height="115" rx="6" fill="#FFFBEB" stroke="#DAA520" stroke-width="1"/>
   <text x="810" y="552" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">Gold Layer</text>
   <text x="685" y="572" font-family="Arial, sans-serif" font-size="10" fill="#4A5568" text-anchor="start">Modelado:</text>
@@ -246,58 +241,51 @@
   <text x="685" y="617" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• 4 dimensiones + 2 tablas de hechos</text>
   <text x="685" y="632" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• Vistas SQL para KPIs</text>
   
-  <!-- ML + dbt Detail -->
   <rect x="970" y="530" width="360" height="115" rx="6" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1"/>
-  <text x="1150" y="552" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#5B21B6" text-anchor="middle">ML + Analytics Layer</text>
+  <text x="1150" y="552" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#5B21B6" text-anchor="middle">Consumo y Analítica</text>
   <text x="985" y="572" font-family="Arial, sans-serif" font-size="10" fill="#4A5568" text-anchor="start">Machine Learning (Spark MLlib):</text>
   <text x="985" y="587" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• Clustering K-Means: Segmentación de 751 clientes</text>
   <text x="985" y="602" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• GBT Regressor: Forecast de demanda mensual</text>
-  <text x="985" y="620" font-family="Arial, sans-serif" font-size="10" fill="#4A5568" text-anchor="start">dbt Core:</text>
-  <text x="985" y="635" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• 5 marts analíticos + 21 tests de calidad</text>
+  <text x="985" y="620" font-family="Arial, sans-serif" font-size="10" fill="#4A5568" text-anchor="start">dbt Core + Power BI:</text>
+  <text x="985" y="635" font-family="Arial, sans-serif" font-size="9" fill="#718096" text-anchor="start">• 5 marts + 21 tests | Dashboard JDBC (3 páginas)</text>
   
-  <!-- ==================== TECNOLOGÍAS ==================== -->
+  <!-- ==================== STACK ==================== -->
   <rect x="50" y="680" width="1300" height="70" rx="8" fill="#1A202C" filter="url(#shadow)"/>
   <text x="100" y="710" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="start">Stack:</text>
   
-  <!-- Tech badges -->
-  <rect x="160" y="695" width="100" height="28" rx="4" fill="url(#sparkGrad)"/>
-  <text x="210" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Spark 3.5.1</text>
+  <rect x="155" y="695" width="100" height="28" rx="4" fill="url(#sparkGrad)"/>
+  <text x="205" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Spark 3.5.1</text>
   
-  <rect x="275" y="695" width="110" height="28" rx="4" fill="url(#deltaGrad)"/>
-  <text x="330" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Delta Lake 3.1</text>
+  <rect x="265" y="695" width="110" height="28" rx="4" fill="url(#deltaGrad)"/>
+  <text x="320" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Delta Lake 3.1</text>
   
-  <rect x="400" y="695" width="100" height="28" rx="4" fill="url(#kafkaGrad)"/>
-  <text x="450" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Kafka 4.1.1</text>
+  <rect x="385" y="695" width="100" height="28" rx="4" fill="url(#kafkaGrad)"/>
+  <text x="435" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Kafka 4.1.1</text>
   
-  <rect x="515" y="695" width="105" height="28" rx="4" fill="url(#airflowGrad)"/>
-  <text x="567" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Airflow 2.10</text>
+  <rect x="495" y="695" width="105" height="28" rx="4" fill="url(#airflowGrad)"/>
+  <text x="547" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Airflow 2.10</text>
   
-  <rect x="635" y="695" width="85" height="28" rx="4" fill="url(#dbtGrad)"/>
-  <text x="677" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">dbt 1.11</text>
+  <rect x="610" y="695" width="85" height="28" rx="4" fill="url(#dbtGrad)"/>
+  <text x="652" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">dbt 1.11</text>
   
-  <rect x="735" y="695" width="95" height="28" rx="4" fill="#3182CE"/>
-  <text x="782" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Python 3.11</text>
+  <rect x="705" y="695" width="95" height="28" rx="4" fill="#3182CE"/>
+  <text x="752" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Python 3.11</text>
   
-  <rect x="845" y="695" width="85" height="28" rx="4" fill="#2496ED"/>
-  <text x="887" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Docker</text>
+  <rect x="810" y="695" width="85" height="28" rx="4" fill="#2496ED"/>
+  <text x="852" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Docker</text>
   
-  <!-- Métricas -->
-  <text x="980" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">|</text>
-  <text x="1010" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">249,704 registros</text>
-  <text x="1140" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">|</text>
-  <text x="1160" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">751 clientes</text>
-  <text x="1260" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">|</text>
-  <text x="1280" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">~7 min</text>
+  <rect x="905" y="695" width="95" height="28" rx="4" fill="url(#pbiGrad)"/>
+  <text x="952" y="714" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1A202C" text-anchor="middle">Power BI</text>
+  
+  <text x="1030" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">|</text>
+  <text x="1050" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">249,704 registros</text>
+  <text x="1180" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">|</text>
+  <text x="1200" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">751 clientes</text>
+  <text x="1290" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">|</text>
+  <text x="1310" y="710" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="start">~7 min</text>
   
   <!-- ==================== FOOTER ==================== -->
-  <text x="700" y="780" font-family="Arial, sans-serif" font-size="11" fill="#718096" text-anchor="middle">TFM Máster Data Engineering - Universidad Complutense de Madrid - 2026</text>
-  <text x="700" y="798" font-family="Arial, sans-serif" font-size="10" fill="#A0AEC0" text-anchor="middle">Eric López</text>
-  
-  <!-- ==================== INDICADORES DE FLUJO ==================== -->
-  <!-- Etiquetas de flujo -->
-  <text x="252" y="238" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Batch</text>
-  <text x="252" y="310" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Stream</text>
-  <text x="512" y="238" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Curate</text>
-  <text x="762" y="268" font-family="Arial, sans-serif" font-size="8" fill="#718096" text-anchor="middle">Model</text>
+  <text x="700" y="790" font-family="Arial, sans-serif" font-size="11" fill="#718096" text-anchor="middle">TFM Máster Data Engineering - Universidad Complutense de Madrid - 2026</text>
+  <text x="700" y="808" font-family="Arial, sans-serif" font-size="10" fill="#A0AEC0" text-anchor="middle">Eric Barba López</text>
   
 </svg>

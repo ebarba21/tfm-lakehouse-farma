@@ -1,0 +1,241 @@
+"product_sk","product_nk","product_name","product_class"
+1,"2e54da485b862dcdb7ba002f782766ee",Abatatriptan,Antibiotics
+2,e653cee1c9f5cc61386ee31e804d3303,Abilovir Aprotasol,Antipiretics
+3,da0bc4403c272ceb4351879c3798a016,Abobozolid,Antimalarial
+4,"870ab7f78addb433fa8430e4755a7f57",Abranatal Lysoprosate,Antiseptics
+5,"821bc0c755353ac8f902ace62caa21ca",Abtasol,Antiseptics
+6,"8c3ed321858f72d75a708ca0ae019eef",Acantaine,Antibiotics
+7,ee6c0872d02f4137dc5a472c734515fc,Acelimus,Analgesics
+8,"55cb657afa4faf5d1f8f188d62da64d9",Aciprex,Antipiretics
+9,"76376ad2307945e1219db43d2a43144c",Aclonuma,Antimalarial
+10,"605c5f71489e11311d7d893d0e1568ba",Acubulin,Antipiretics
+11,a94aa012a90de1d78e0730a0063af8b4,Acycnafine Microvate,Mood Stabilizers
+12,"8a68ea893f8244f914812b9756182874",Acycpex,Mood Stabilizers
+13,"2518c9589e4d33648e14fb3b5e4a2896",Adalatamine,Antiseptics
+14,"49be5024444f8fc0dc523caea5da18ee",Adideine,Mood Stabilizers
+15,fa67e9d2577f10a227217eda4ac59aef,Adrecetam Barazoxane,Antimalarial
+16,"8d2b535909365161ae6b2295fa68849b",Adriacaine,Mood Stabilizers
+17,"0db7f8faf1228d951139523467e1c591",Adriafinil Ehtymara,Antiseptics
+18,"7bc853ebd0a7a399ef68e92840a69382",Adtiza Gammaluble,Antibiotics
+19,c354f594c50b65c98dc5ac9c86b998e0,Afaxacin,Analgesics
+20,a2b0b70f83d9dfb561bcaf8f8e58a206,Afinitasol,Antipiretics
+21,ccb241acbffe1b691ffe66a3bdf6c0ef,Afluferon Entrarenone,Antimalarial
+22,"4e8f4e97305841b5dc85d290b24d8a69",Afretosine,Mood Stabilizers
+23,"43c65fd73afcf0fa2b33e2f1b9967f36",Agalsiline,Mood Stabilizers
+24,"22e1ddfb0fc8ee618b2368e7f3457438",Aggrakine,Antiseptics
+25,ac8901aad84321805173bcade3844de7,Aggretisol,Antimalarial
+26,"90a8df6817df3f8322c89a5823a1d6e7",Alarudin Azarolac,Mood Stabilizers
+27,"5b7b4715374ef2d9a15c71633746d220",Albudazole Erobloc,Antiseptics
+28,de3cd26cb0daa64496dbef02825c18b3,Albuterenone,Antimalarial
+29,"5232217671f1064b42707eb1a0c0db44",Aldevac,Analgesics
+30,d93c07798203146b011020d5b8facec0,Alemtuvatol Megalinum,Analgesics
+31,"13e3500dedda9f98f9c18d4443115c8c",Algluconium Dorzofoxin,Antibiotics
+32,"49e242d02c78b4de528001d36745acf3",Alglutriptan,Analgesics
+33,"487965ef40d13cc6187740ad9876e663",Alimmethate Insudase,Analgesics
+34,"07093df22d95ff051c8211799001bd9f",Alisteride Pemidizem,Antiseptics
+35,"0385f6aa7fffe853e67d646512301cb4",Allomenda,Antipiretics
+36,"88f22b462c257b4a9222cc4cb4955cd8",Alpharolac,Antipiretics
+37,"2f7052fda02ae139052b706ab4837c90",Alpradipine,Analgesics
+38,"11d292960ccc79b31dba112ee92d23b2",Amamadin,Antimalarial
+39,"88290b02ed22542b731c05efca927fd1",Amavirase,Antipiretics
+40,e48ab1c976bacdd9f11a45630ba8fd05,Amcibax Amcikeran,Analgesics
+41,e67415ceedf6ffdb8916f6d4ccee0642,Amlominphen Dexanovate,Analgesics
+42,"1b8779de4d51942fcbb995208b968716",Amphesirox,Antiseptics
+43,fb4015f70dcf0d2d2f3049582c8aaae1,Ampinonide,Antimalarial
+44,"627344aee2b899ced43110bd63bfd931",Ampysin,Analgesics
+45,"419a882eedf90f5ccd6f132d71933258",Androporin,Antiseptics
+46,a3bc3fb53372651ae323f1b82f48f0bf,Angioparin Brimosumab,Mood Stabilizers
+47,"1dbc18476b1582209d190afb38cd67dc",Antaparin Varizyme,Mood Stabilizers
+48,f93b0d37ce0b337f1135c8ef942a660c,Antilamin Clinbital,Antibiotics
+49,"8c89bda4238aeee71120d5d69b28e75d",Aprerase,Antipiretics
+50,d5605081e2385aefa8c65c4510810e7d,Apromin,Antiseptics
+51,"8e134cc7d99983df5bf2f82a8afccac2",Apronazol,Antibiotics
+52,"71bb6854e29deb97ae7805e77f16c06a",Aquamycin Lacoran,Analgesics
+53,c83ba4b2bf2592f42f5a6e7ae9018b10,Araxetine,Antibiotics
+54,fe584dc1fd79ca5a6affebadc9e27849,Argalazine Abostryl,Antipiretics
+55,"25ccebd3f153e1e50bef1a2ee29711e4",Arivac,Antimalarial
+56,"1a97e64911c593ae5341d1375307d24e",Asparathasone Unipan,Antibiotics
+57,"0f316fd2fc802f8468d3a4198a47c624",Aspinavir Silovance,Antibiotics
+58,"8543fc977c8cd6ed86d36c8622315d8f",Atomorelin,Analgesics
+59,"47e9a0d3d211a051188764b79df29821",Atrabicin Alkerotec,Antiseptics
+60,def6259255c2648c9ecccde749344ade,Belavarix Benzabicin,Antibiotics
+61,"3e28c51b3e6cb25879dd2914dc19f0ac",Benzoprox,Antiseptics
+62,"9c4c11e674644dc9413adf5fe7e903bb",Betanem,Analgesics
+63,"6cc7fd7017409f72ae529751b49c00bd",Bexridol,Antipiretics
+64,"2ba9685cee0237dd5ea5963adc89d2f0",Biotasol Siloderm,Antiseptics
+65,"1bc1895802d66573eaf3ef8c01a705f3",Brimorix Amonine,Antibiotics
+66,de04e159f0a80cbc077824adc4675f25,Ceftatana Serolamide,Antipiretics
+67,"813c890c81a4eecd49ac4db83d8f684a",Cephovelam,Mood Stabilizers
+68,"5a15566299883c3b063f952dba12815a",Cephozumab Synmethate,Antibiotics
+69,"178fffccc18724a43c1585aff4bbf2d3",Ceretosine,Antiseptics
+70,a8d104494b70f2af57a9f00140eee395,Choriogestrel,Antiseptics
+71,"288057027b66fb040b7b78ab8552f431",Choriotrisin,Antibiotics
+72,"91141cb7e47b727ea59b7d9e20f52094",Ciclonazol,Antiseptics
+73,"7b0b9253b3efd685f154e85916cfa687",Claricriptine Adaferol,Antibiotics
+74,c06645df37b730b46403ff36804c2e5f,Claripenem,Antibiotics
+75,"07a498b66e51654c8a205fb668b9908e",Clindaracil,Analgesics
+76,"4d909b3a0e17f74317d3a8b4398cabae",Clinicilin Pentozone,Antimalarial
+77,"539d4c8f01c85b8e81799eae4a12d690",Clinolan Pitoletra,Mood Stabilizers
+78,"7d29a172b92f1bcb11e93f7a3049b1d0",Cogxone Levanide,Antimalarial
+79,"024e81a3ac5d408269e6d60e5642105d",Comzyme,Antibiotics
+80,"4837e60ff42b1a90cf41be93fcdc9456",Cordamectin Actolamin,Antipiretics
+81,dd6fb4f5f9c09efc5a47dcf34030f351,Cortirodine Alimcline,Antipiretics
+82,"3c3f2e331bc2ece5e295f0571472b466",Cricane Acamsumab,Antiseptics
+83,"7c98d84bb20d4e54a0d1c0314edd3ae4",Cyclovital,Antimalarial
+84,dda1769eba80d8c6cbb943584f08d94e,Dantocept Ferurenone,Antiseptics
+85,cd5d635f581ce305eb25bde1a4a87e6a,Dantolac Pazocor,Analgesics
+86,"3dff68954a38a1e4199af2ac14aef34a",Darlofen,Antipiretics
+87,da2339ef0c08091553bd20f6c7edef1a,Dasagestin,Analgesics
+88,"22f7ac68084230be244bf7e93438fc68",Decidenu Galantrigine,Antipiretics
+89,"846e209091cfe83ca93d58931323fe6f",Dexacilin Triline,Analgesics
+90,b9876cb60aef12f74f4d2bd87f114006,Dexmebital Acanplan,Analgesics
+91,d9ef0fd6b9124b4a799dbedad5ba977d,Dexmeprazole Transnuvia,Mood Stabilizers
+92,e60fb77f689a96cf0be7ae43b5190fe6,Diaxolol,Antiseptics
+93,"75c6af0c00477933ec255ff9edc5d4da",Diazemid Felcept,Analgesics
+94,"5a0ba30d75bdc15880958344e46a552d",Diprolimus,Antiseptics
+95,f744f36d9e89d410272a4510524b031b,Diprotaine,Antiseptics
+96,"3bb35df292f0e7efc659ffe8bc3f8d48",Docstryl Rivacin,Antiseptics
+97,bf494a48db92200853a41dd31c9e6193,Dorzovorin Pentadarone,Antimalarial
+98,cf6bb26935b05b803f7e039caea10119,Doxivorin,Antimalarial
+99,c3b62e5c00bf970ffc0705a07a10f7a2,Duraprazole Agalsixolol,Antiseptics
+100,efe88a99f3a9a9684ca3aea47aa7c8b0,Effidomide Evofribrate,Antiseptics
+101,eaba7cb6dd3b82d15aae866f8a9cf4cb,Effigine Propraprex,Antimalarial
+102,ef49bca4a7f7fd374baefdf5d9af517a,Enzastryl,Antiseptics
+103,"6066fc1c35a5af4090f48794baf983b9",Eproline,Antibiotics
+104,"64c10a8a830f6f4e5287cc94ca3539ae",Epzipitant,Analgesics
+105,c22a34b6dfcf0f3091e4f2b22a11f2cb,Ergomethate,Mood Stabilizers
+106,"1a429622eeba61d40141f709d91530e3",Exexone,Mood Stabilizers
+107,aa1dc2329d827d5de168284dc260fec4,Exotropin Empizine,Mood Stabilizers
+108,"41b15b04fca9060100a5527a61c87f3a",Factofribrate,Mood Stabilizers
+109,"165e02181a323b103dccaacd8ac68503",Factolamide,Antiseptics
+110,"2e157d9bffc374ed30ca316ac4885925",Fentalac,Antipiretics
+111,"5adb47b3773cb54b595a20b5fbc402cc",Fentatrol Rapatelase,Antibiotics
+112,"0d3859ad8a7dd56562e4c8d71a739d2b",Feruprazole,Mood Stabilizers
+113,"516853c18550f718797584cd96a1864d",Finanel,Antimalarial
+114,"8dfffa10080697f12bb3b3a2c63cb8bb",Flutacerol,Analgesics
+115,"66506bbd6138e871795bb40c3521e42e",Formolovir Amanferon,Analgesics
+116,"41640486fff16d56afd1ca72da5e3e93",Fosinofen,Antipiretics
+117,ae186d88e171003d5751185f0f3bc483,Ganineva Agenium,Antiseptics
+118,"0e17aed22e8c86a9794aff48647b7d4d",Halcifergen Nevazone,Antimalarial
+119,"5ecfb9a133871549ade358e7a30306a6",Halciramine,Antimalarial
+120,"7fb997bdaf54cb39868ebf5b84257ec9",Hemavate Spirolinum,Mood Stabilizers
+121,"7875b1f07ccfd8f8c826b8b6a8715f63",Hepavice,Mood Stabilizers
+122,b6e9038aad572adfc05f228c0527d7b0,Hydroxyprosyn,Antibiotics
+123,"13a1692d6c5fe5f21146c92b54b145f4",Ibruferon,Antiseptics
+124,"4a474e9254e2fdb2c84700bf623ae1f1",Ibrulinum,Antipiretics
+125,"75ea46a033d06745f687081ccacd11bf",Imiderm Vibranovate,Antipiretics
+126,"7c901530c02c79ec20905e7a81ac4e52",Imiformin Transmunex,Antibiotics
+127,"7a00ad5b70898d6732d4dd17f53117b1",Immurenol Temarate,Antipiretics
+128,"47c34f59ca6b386874170df71d0d5068",Insozyme,Antiseptics
+129,e715595a1bffcdec2d0c96a6978f8493,Interfedox Pilobamol,Antiseptics
+130,f70bd2fe07f42a64789d7a96c1a6bfbe,Interfeferon Aspipex,Antiseptics
+131,c6a9d76a6dcf21e88bff60f81e197ed3,Interfestar,Antibiotics
+132,"0919bf0f5ee09605d59c34391fc23c50",Interzide,Antimalarial
+133,"9a7fedb8a7da794ff7ffecfcc22fd946",Invisteride Diclomycin,Mood Stabilizers
+134,e1191427a49f320e57204cc7b0c2c9a4,Ionclotide,Analgesics
+135,d27efb9c9fbd8457e1225142c754138c,Ketamara Evogel,Antipiretics
+136,e1c30d83fe418a2f0113a5cede34fa84,Ketastadil,Analgesics
+137,afe3f35a29b84b8f004a0755d5b486ac,Kinenadryl,Antipiretics
+138,c7efbfa56b95cd8cf51128b37f6e339b,Kinerinex,Antiseptics
+139,"5a8fe93aea9e2e5941c52c2d459c4365",Kinovatol,Analgesics
+140,"7e0112bb91a368d3b61aaa8e0e0c3d01",Kiovax Tercorolac,Analgesics
+141,"70809c3bc567143654b3960586d138a8",Lacoplex Hyaluvance,Mood Stabilizers
+142,fa5aea6d3d3ce7761490d561bd1e68f9,Lactubucil,Antipiretics
+143,"9ce8d74ea0f9b4c2c4a752c8e016c275",Lansopril Acribax,Antipiretics
+144,"8707aa899e81090dc7fc8d6cd2469ff7",Lansostral Acgestin,Antiseptics
+145,ddde2534732316c6fdcae3f6da62674b,Lioletine Refliruvax,Analgesics
+146,"54959a94cbf5747445d83cf3463a3d4a",Liomulin,Mood Stabilizers
+147,f6ce4fce09aa64721c798d4915c06db5,Lovapur,Mood Stabilizers
+148,a6421226085511691368929264d04624,Lovavatol Azelavarix,Mood Stabilizers
+149,"842bb25d5f16b5e48f6061db62291a87",Lovephilus,Analgesics
+150,"3940b533057597fb39cafb2e097c7814",Lovepion,Antiseptics
+151,"7520e48d2389beb2d575b69b5816d29f",Magnemunex,Antiseptics
+152,"3219294ed95e8bd3e1132ca4b7ea5f33",Magneprex,Antimalarial
+153,"462aedea161362a0ba83d12c0fb4dbfd",Malavirine Alimdine,Mood Stabilizers
+154,e7f0f48acb7ca365b81640d2641bc844,Malaxolol Aeroprosyn,Antiseptics
+155,"2307b495b40641f302f26f7b6b2b77d0",Megenorphine,Antimalarial
+156,c36fb664ad84bfebf42077cc7d2abb7b,Menogine,Antiseptics
+157,"3d5a2a1d4925850e8a90c4e7d0601791",Metapatch,Antipiretics
+158,"9604c4319ba2dc094d300bc6da86ce89",Methiclotide,Antibiotics
+159,"5403cb6c16087fc52de874690b5d582c",Microroban Afatigomar,Antimalarial
+160,"2333e3e924be33c5e8499cfa7802a46f",Morphizolid Tianalin,Mood Stabilizers
+161,"1d9a6bf3978492ec28cb6c249f854f44",Neuropogen Empibax,Analgesics
+162,f56f2f95ad275c662c816e803dd1f178,Nevanide Actozide,Antibiotics
+163,fdde887e4850cf899c6216c448c54680,Nisorase,Antibiotics
+164,"9a8fc27fa592287f3629060c279ebccf",Novakyn Tracprox,Antiseptics
+165,"207034583d5092cf2589cbc11d4880f9",Oxymotroban Fexoformin,Analgesics
+166,"04d07ff9390d89e5fc0997b6296122ed",Palodizem,Mood Stabilizers
+167,af2c69bc74bdeda949be0d75bf3398d5,Panpion,Antiseptics
+168,f54ec750300494261afb8f979f37664c,Paronium Atracustone,Analgesics
+169,"7da31324b0b8ac59b103a072c8c8999c",Pazofenac,Mood Stabilizers
+170,"16635b1c2ec62885b0f94a5260ccb65e",Penitrana,Analgesics
+171,"2ac97263806d1db4ae5f677e72db847f",Pentastrin,Antibiotics
+172,b2ea3b28ef69e261abe8fb0bb10708ea,Pitodomide,Antimalarial
+173,"2aa1983868e0ac30e133277902be671b",Presetron,Mood Stabilizers
+174,"0b2b935fe4700b35de8d63aa7e56998a",Primapion,Antibiotics
+175,b5ee8e3d90a13f6cc22974b7df3d099a,Primatate Univatol,Mood Stabilizers
+176,"7675cfbf8cbf251c12857d3ee311be66",Proderal,Antiseptics
+177,"4caaef7b57dbc50e0562168f71cd50f6",Proprabax,Analgesics
+178,edf39eb2f2d17681d5028b983900bb91,Propralamide Dexlanzolam,Mood Stabilizers
+179,deaa302883a24fdfddfc45ca76ae6b5e,Propratecan,Antimalarial
+180,f9783f0303ccec5944d53994c28880eb,Pulmodiol Adalaxime,Analgesics
+181,"0dafef6dc87675ed7442ea799675dd52",Pulmofine,Antibiotics
+182,"84d0c14ee8b94de15dc19dfbf4a98e2a",Pulmogen Alitora,Antiseptics
+183,"99db273d8ab90824604bf3bce058dc60",Quiniprosyn,Antiseptics
+184,c53b2246c9d33d25ee273432f51cea36,Quixitriptan Alanesin,Antiseptics
+185,"657cccc675254e74bbe2bc2db546eaa3",Ranediol,Antibiotics
+186,"4132f13cb93c629617f6ccc8fde6aa6e",Raparidol,Mood Stabilizers
+187,"5565e0069acaa471a914e95ba0a59153",Rebedase Aplencor,Mood Stabilizers
+188,bfceb915dfe85870c723e97073849ed6,Relenstrel Exurabine,Antibiotics
+189,"06b3d1356919342e0af7cc82f5a05b3f",Relenvice,Antimalarial
+190,"0aad6d62a958bac7ffba983e0f772218",Requimadin,Antimalarial
+191,"05f6a5a5b3d1e2be2363803de1a5f2d1",Ribabyclor,Antiseptics
+192,"60d6cf619b7ff412d028579ed8948836",Robapril,Antipiretics
+193,a0de997639f6b42b11375fc184e71b64,Rositroban,Mood Stabilizers
+194,c33ff1a9e1d95cd0afc24ec85a9785f0,Sanctumine,Antimalarial
+195,"68b230fcd8ba2f977aca7eaecb80fda4",Saprodeine Zanprosyn,Antibiotics
+196,"6169bdc00600a913c2bd499d37795b74",Secrelazine Insonamic,Antipiretics
+197,e4360aa3ed13eca0e1aeb57925229b05,Sevoderm,Antipiretics
+198,e6b9057adc3682b8920200762131da81,Sevotrana Tiafoxin,Analgesics
+199,e7206076a71b95da3001b30bc060c50c,Sodinel Olofribrate,Antimalarial
+200,"5e591c4d19f2eea8f105686e86803b2b",Solasteride,Mood Stabilizers
+201,"8927f9da6b1002132003c6e56006ae9f",Spiroderall,Mood Stabilizers
+202,cfb3516aa4540097967ed37f540dd862,Stelazolid,Antimalarial
+203,"875df5fd88f05f11e442fa068143f674",Sucprine Specbalamin,Antiseptics
+204,bcab903d9f0e742fc788014f30f7dbf0,Sumanazole,Analgesics
+205,"606521e59d9eca77a38e4870d75a04d3",Symbiroban,Antibiotics
+206,"6989dc462b864305bbc844f45fc4de1f",Symbisine Prednimadin,Mood Stabilizers
+207,"97471ce0bd28730b397e96d9d7e94d4f",Symbitrim,Analgesics
+208,"6bf4f897b8c861035f8899d531e7705a",Symdocet,Antipiretics
+209,"10f28bf82eb02ade81068d054f93505f",Syntheruvax Proracin,Antimalarial
+210,ac476e820056b55a8717d125006823cf,Tacrodomide,Antipiretics
+211,cd21123a045099320d216b691ac3d3ab,Temasone Thiobucil,Antimalarial
+212,"3db1d993ab33742ef57b2d080a3b5a08",Tesnorphine Silotamine,Antibiotics
+213,"888393a8df78ffb162427cd2c9e61ba1",Testant,Mood Stabilizers
+214,e2de63310e74d3c31058370935615c97,Tetalamide,Antibiotics
+215,"388410cf86a38043c6c5b24f2fc84c94",Tetratanyl,Antimalarial
+216,dbbd70b2cbcc25214f26042a419d47d8,Thalilamide,Antibiotics
+217,"2f8b5d4962fe8975454f629f247473ac",Theopril,Antipiretics
+218,"9daa30a9f0c9f2915d83489dca96e11f",Thionide,Analgesics
+219,"72259b2de49d1a5c724f3527981eeedd",Tiaracil,Antipiretics
+220,b87e45cca6032cee269c6f0b8fcc337e,Topifribrate,Analgesics
+221,"5f099d78704b8a9c58b1b65f1e195328",Topipizole,Mood Stabilizers
+222,"7666c31dd1434699fe7d35bb66a627ab",Topitaine,Mood Stabilizers
+223,"10e17f1e2ee3c793918d05aca24a17d1",Tracdomide,Antipiretics
+224,ab799bc95366989c6a7c816f699d4228,Travoloride,Antiseptics
+225,"5c6026f1e8bda6a048fa08a76b7a15e8",Travosoline Capolac,Antipiretics
+226,"00f5967a2df3e2a90edbd44e45463335",Trazobalamin,Mood Stabilizers
+227,"2efd6c8438b68c9072d1b8824c48803e",Trazozaprine,Mood Stabilizers
+228,f8dd386b78274121b6c14d9f504ea7a0,Ultrimax Ultriset,Antiseptics
+229,"857685406f642a70812cd680f021256e",Veratorol Ciclovatol,Mood Stabilizers
+230,"1b941746f9b935a70f3db866765b195a",Vibratosine Alemtrace,Antibiotics
+231,"96a54f3d11404530c3bf8da4d486b153",Victomax,Analgesics
+232,e76f07bd1ce06fa0da5c02d31a83c1a8,Victomine,Antimalarial
+233,d4035c6a2a71d2cc35bf0a692291d4aa,Xenaderal,Mood Stabilizers
+234,"7a01d523194116fbf5de8b83cbf70ac3",Xenaminphen,Antimalarial
+235,e6ab3d9e233e7f841b8b20c8403ac1be,Zarostral,Antipiretics
+236,"8cfdf441f9b62a4120bb4ff7d833b8be",Zithrotrol,Antiseptics
+237,"510ce2a9417cdd50803fa3ba1eef5974",Zonitonin,Antiseptics
+238,"4a6dc75ee0d49b8b1256708529ee1682",Zonixamine Immulinum,Analgesics
+239,"7455ed73f0599af601e9fc0f040141e8",Zynosine,Antimalarial
+240,"9295571a94c53688588dada15da42dff",Zyvance,Analgesics

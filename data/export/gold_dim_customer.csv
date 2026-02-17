@@ -1,0 +1,752 @@
+"customer_sk","customer_nk","customer_name","city","country","latitude","longitude","channel","sub_channel","distributor"
+1,daa13badedf31b763feddd66efc44406,Abernathy And Sons,Freiburg Im Breisgau,GERMANY,47.9947,7.8497,pharmacy,retail,Crist Inc
+2,"71e0133ea570e8527c6e9eeaf6161648",Abernathy And Sons Pharmaceutical Limited,Dietzenbach,GERMANY,50.0086,8.7756,hospital,private,Daugherty-rempel
+3,b72710deb39fd794ee20c81a7de74c4c,Abernathy Group,Horb Am Neckar,GERMANY,48.445,8.6911,hospital,government,Bashirian-kassulke
+4,fcd22c9db047339fd60b566766af3b54,Abernathy Group Pharmaceutical Limited,Brzesko,POLAND,49.9667,20.6167,hospital,government,Beier
+5,ee431a82766f4860457af029306cbc9b,Abernathy Group Pharmacy,Melle,GERMANY,52.2031,8.3361,pharmacy,retail,Daugherty-rempel
+6,a64554b80a3439a2cba41f6e9593b773,Armstrong Inc Pharm,Pfaffenhofen,GERMANY,48.5333,11.5167,hospital,government,Daugherty-rempel
+7,"17f50cfc39741b24424a805d2d906466",Armstrong Inc Pharma Plc,Passau,GERMANY,48.5667,13.4667,pharmacy,retail,Erdman
+8,"85eeefa2fd506ae11f3a7668d072e329","Armstrong, Medhurst And Bogisich Pharmaceutical Ltd",Waldshut-tiengen,GERMANY,47.6231,8.2144,hospital,private,Erdman
+9,acc515404aa3ddd7018e03e535b6afe8,"Armstrong, Medhurst And Bogisich Pharmacy",Lehrte,GERMANY,52.3725,9.9769,hospital,government,Erdman
+10,b02e9b358fa9b9ad1f41c63beb488cab,Balistreri Group Pharm,Böblingen,GERMANY,48.6833,9.0,hospital,government,Daugherty-rempel
+11,aa33dcdc324358cd86fb89559b279a34,Balistreri Group Pharmaceutical Ltd,Prudnik,POLAND,50.3197,17.5792,pharmacy,institution,Beier
+12,"38738942d72785ef65de72be24886914",Balistreri Group Pharmacy,Bad Honnef Am Rhein,GERMANY,50.645,7.2269,pharmacy,institution,Crist Inc
+13,"0c82cefab6d3acdaec543dbeca45d040","Balistreri, Torp And Gulgowski",Bietigheim-bissingen,GERMANY,48.9667,9.1333,hospital,private,Crist Inc
+14,"65b2ef82f2a4e8e68b035289f86cba3a","Balistreri, Torp And Gulgowski Pharmacy",Chełmża,POLAND,53.2,18.6,hospital,private,Beier
+15,bb39ff844e24cc19b885ccb164176d3c,Balistreri-watsica Pharma Plc,Siegen,GERMANY,50.8756,8.0167,pharmacy,institution,Crist Inc
+16,"0cf5eb5ea802fb72beca3a28fc218a1a",Balistreri-watsica Pharmacy,Ełk,POLAND,53.8167,22.35,pharmacy,retail,Cassin
+17,a4fa122a02cfce88b537cc64881fd569,Barrows Inc,Hajnówka,POLAND,52.7333,23.5667,hospital,private,Beier
+18,"03124263faebb3b4028fadaedeb3d8af",Barrows Inc Pharmaceutical Limited,Speyer,GERMANY,49.3194,8.4311,pharmacy,retail,Crist Inc
+19,cbbadeccafe0776780b8f0f8ee241a0c,Barrows Inc Pharmacy,Teltow,GERMANY,52.4022,13.2706,hospital,private,Erdman
+20,a3c9781501ad440bed33dd3794cb1eb3,"Barrows, Zboncak And Reichert Pharm",Aurich,GERMANY,53.4714,7.4836,pharmacy,institution,Erdman
+21,"8277810db0aaca27746b3c8b91a8f571","Barrows, Zboncak And Reichert Pharma Plc",Burg,GERMANY,52.2725,11.855,pharmacy,institution,Erdman
+22,"5afc6196c64ba8331bc65abc9bc577e4",Barrows-kohler Pharm,Hamburg,GERMANY,53.55,10.0,hospital,private,Crist Inc
+23,f3cc5165eb2f46c84253df50f8405fb8,Barrows-kohler Pharma Plc,Coesfeld,GERMANY,51.9458,7.1675,pharmacy,retail,Daugherty-rempel
+24,"39eab4d690cd7f296a57959f61a89a49",Bartoletti-altenwerth,Police,POLAND,53.55,14.5708,hospital,government,Beier
+25,dd0793de2f04f505bdaeefce9da0e97e,Bartoletti-altenwerth Pharm,Aalen,GERMANY,48.8372,10.0936,hospital,private,Daugherty-rempel
+26,"76ae44524fc4bcd6828ba00ac4e908e7",Barton Ltd Pharm,Rendsburg,GERMANY,54.3044,9.6644,pharmacy,institution,Erdman
+27,"979f5868c593586db61b846d1c45c476",Barton Ltd Pharma Plc,Czeladź,POLAND,50.3333,19.0833,hospital,private,Cassin
+28,"9f54eaacbbce9d19053ecd68eea7e79c",Barton Ltd Pharmaceutical Limited,Celle,GERMANY,52.6256,10.0825,pharmacy,retail,Daugherty-rempel
+29,"91988d88d1e994330e348cb13cd97e88",Bashirian Group,Pforzheim,GERMANY,48.895,8.705,pharmacy,institution,Crist Inc
+30,"61df9392818b0ef6f96f54bfa05b1167",Bashirian Group Pharmacy,Georgsmarienhütte,GERMANY,52.2031,8.0447,pharmacy,institution,Erdman
+31,"1057359df7f4e034bd4bf4b835151d97",Bashirian-kassulke Pharma Plc,Kraków,POLAND,50.0614,19.9372,hospital,private,Beier
+32,"567b5b70794d80eac6d3ef2a7e61c539",Bashirian-kassulke Pharmacy,Kamp-lintfort,GERMANY,51.5,6.5333,hospital,private,Erdman
+33,"67de502805a0f67617eb983f9af0b68d",Bayer Llc,Rudolstadt,GERMANY,50.7169,11.3275,hospital,private,Erdman
+34,"7ea0efc29fbc0c3035110428d6c5cd89",Bayer Llc Pharm,Neunkirchen,GERMANY,49.3448,7.1799,hospital,government,Erdman
+35,d41679e6193df1a5acb1fbb7bc20b775,Bayer Llc Pharmaceutical Ltd,Bytów,POLAND,54.1667,17.5,hospital,private,Beier
+36,"9a0c4c97007b87128ca06de691474821","Beahan, Littel And Ondricka",Memmingen,GERMANY,47.9878,10.1811,pharmacy,institution,Daugherty-rempel
+37,"1a37857de27cc58fd63fb7b4e62645f0","Beahan, Littel And Ondricka Pharma Plc",Salzwedel,GERMANY,52.85,11.15,hospital,government,Crist Inc
+38,"8ea8bf3133c39379df960600a81fc5d2","Beahan, Littel And Ondricka Pharmacy",Łęczyca,POLAND,52.0583,19.2,pharmacy,institution,Beier
+39,"8eb4873457139f6b58ebb0b37e346426","Beer, Kohler And Beatty",Oberursel,GERMANY,50.2028,8.5769,hospital,government,Bashirian-kassulke
+40,"8238b66a25ffa6fc9e255add1b5c951f","Beer, Kohler And Beatty Pharmaceutical Ltd",Rypin,POLAND,53.0667,19.45,pharmacy,retail,Beier
+41,e2dc45c17569004883c77013e7f207df,"Beer, Kohler And Beatty Pharmacy",Obertshausen,GERMANY,50.0715,8.8482,pharmacy,retail,Crist Inc
+42,c4d7b4aaa1ac496174ba341a32a32c04,Beier Plc,Heidelberg,GERMANY,49.4122,8.71,pharmacy,retail,Erdman
+43,"614a9c057e2d2ddc2d9849dd2018bfeb",Beier Plc Pharm,Hückelhoven,GERMANY,51.0608,6.2197,pharmacy,institution,Erdman
+44,"2984f3db5eb43d32a47a1f85e952ee2b",Beier Plc Pharma Plc,Lampertheim,GERMANY,49.5942,8.4671,pharmacy,institution,Erdman
+45,"628e0ee740bae471bef06958a8d19761",Beier Plc Pharmacy,Włocławek,POLAND,52.65,19.05,hospital,private,Beier
+46,"3e29ca223dadcff02d144e65a19a6efb","Bernier, Murphy And Rau Pharma Plc",Geldern,GERMANY,51.5197,6.3325,hospital,government,Crist Inc
+47,b81d096f3712b32c89728b9e9815972e,"Bernier, Murphy And Rau Pharmaceutical Limited",Oberhausen,GERMANY,51.4699,6.8514,hospital,government,Erdman
+48,aeff7119c790cdfccb6aac3b1d810e35,"Bernier, Murphy And Rau Pharmaceutical Ltd",Ruda Śląska,POLAND,50.2628,18.8536,pharmacy,institution,Beier
+49,fc28785ced7361417c4bbb005affbe25,"Blanda, Stehr And Gleason Pharma Plc",Starnberg,GERMANY,47.9972,11.3406,hospital,private,Erdman
+50,e7f4b57f5fc6cab9e74019a342e220ce,"Blanda, Stehr And Gleason Pharmaceutical Ltd",Kamen,GERMANY,51.5917,7.6653,pharmacy,institution,Erdman
+51,"0f23c621460c73300709567415e761c9","Blick, Pacocha And Schowalter",Inowrocław,POLAND,52.7958,18.2611,pharmacy,retail,Beier
+52,be3c30e2543a2b078cbc7e1cff41e7d1,"Blick, Pacocha And Schowalter Pharmaceutical Limited",Delbrück,GERMANY,51.7667,8.5667,hospital,private,Crist Inc
+53,"35a532c6a98da4e45df61286ae366b04","Blick, Pacocha And Schowalter Pharmacy",Würzburg,GERMANY,49.7944,9.9294,hospital,government,Crist Inc
+54,aca893495c6779cb2aa30033a344d287,"Block, Thiel And Kuphal Pharm",Taunusstein,GERMANY,50.1435,8.1606,hospital,government,Crist Inc
+55,"4a5cb120261a9fd455b25a1d09cb76fe","Block, Thiel And Kuphal Pharmaceutical Limited",Ludwigsburg,GERMANY,48.8975,9.1919,hospital,government,Erdman
+56,"3e94170ccd8cf3c2a21de0a8f656d5f5",Block-romaguera,Remscheid,GERMANY,51.1906,7.2247,pharmacy,institution,Erdman
+57,f4ee88a0bab6d51dc776394df2d9fe7b,Block-romaguera Pharmaceutical Limited,Tarnowskie Góry,POLAND,50.45,18.8667,hospital,private,Beier
+58,"14e90a0ad85ffe8e543c30fe0f707616",Block-romaguera Pharmacy,Werl,GERMANY,51.5528,7.9139,hospital,private,Daugherty-rempel
+59,"6d53cc5d3bcc030794f28ef0178b693d","Bogan, Jacobs And Kris Pharmaceutical Limited",Wetzlar,GERMANY,50.5667,8.5,pharmacy,institution,Erdman
+60,abd372b292286163c1f3647bb3bd025e,"Bogan, Jacobs And Kris Pharmaceutical Ltd",Heppenheim,GERMANY,49.6415,8.645,hospital,government,Erdman
+61,"18c946ae52883c0f6a2f5f576380e2bf","Bogan, Jacobs And Kris Pharmacy",Lubartów,POLAND,51.4667,22.6,pharmacy,institution,Beier
+62,"13c6671c88670ba3a90de90b5baeb71f",Bosco-marquardt Pharm,Lębork,POLAND,54.55,17.75,hospital,private,Beier
+63,"6e990d6242a9ce325aa39d1ca15082d5",Bosco-marquardt Pharmaceutical Limited,Brandenburg,GERMANY,52.4117,12.5561,hospital,government,Erdman
+64,c9fe11c824f6eb7465bb461eb67c0fa4,Bosco-marquardt Pharmaceutical Ltd,Höxter,GERMANY,51.7667,9.3667,hospital,private,Erdman
+65,"15eff3070eaf476a24b5af925c66dd8a",Botsford And Sons,Marl,GERMANY,51.6667,7.1167,hospital,private,Crist Inc
+66,df0df8965957b9c8cc3b90a5b032cc7b,Botsford And Sons Pharma Plc,Bad Hersfeld,GERMANY,50.8683,9.7067,hospital,government,Erdman
+67,d1045fdfe644e0c7fb3fd609ebeb97cb,Botsford And Sons Pharmaceutical Ltd,Kołobrzeg,POLAND,54.1667,15.5667,pharmacy,institution,Beier
+68,de3e4c450dc74a9cb2b08d27028fbf34,Botsford Plc,Reutlingen,GERMANY,48.4833,9.2167,hospital,government,Daugherty-rempel
+69,"86f66f38e362a7eefa35c4aa98a65b88",Botsford Plc Pharmacy,Pabianice,POLAND,51.6642,19.35,pharmacy,institution,Beier
+70,ef1c30bf4067ecc922d0eb20fdc8ba16,Boyer And Sons,Greifswald,GERMANY,54.0833,13.3833,pharmacy,institution,Erdman
+71,"1c7f2692b5c07f3da22cd50c813a671f",Boyer And Sons Pharmaceutical Limited,Wałcz,POLAND,53.2667,16.4667,hospital,government,Beier
+72,c1f461952c07c94a9500634806af0484,Boyer And Sons Pharmaceutical Ltd,Arnstadt,GERMANY,50.8342,10.9464,hospital,private,Erdman
+73,fb04bcb4d32ea2b912c9363d4cfc6af1,"Brakus, Rempel And Harber Pharm",Winnenden,GERMANY,48.8764,9.3978,hospital,private,Erdman
+74,"21553661c28496913b710ce723207865","Brakus, Rempel And Harber Pharma Plc",Nowy Targ,POLAND,49.4833,20.0333,pharmacy,institution,Cassin
+75,"60a080f418eeeab833f556828e870ef0","Brakus, Rempel And Harber Pharmacy",Fulda,GERMANY,50.5528,9.6775,hospital,private,Daugherty-rempel
+76,"31353bf529697f92c844795952a79318",Breitenberg-kuhn,Duisburg,GERMANY,51.4322,6.7611,pharmacy,institution,Bashirian-kassulke
+77,"446cb0c1f50a1e16106b02e39c79f61c",Breitenberg-kuhn Pharma Plc,Cloppenburg,GERMANY,52.8478,8.0439,pharmacy,retail,Erdman
+78,e05ef886359e44b3526b8411d749e8ce,Breitenberg-kuhn Pharmacy,Radom,POLAND,51.4036,21.1567,hospital,private,Beier
+79,"97d6c530f88cfefd0c136a2db1a6ad0e",Buckridge Inc Pharm,Brühl,GERMANY,50.8333,6.9,hospital,government,Daugherty-rempel
+80,be936e68c37007e252000c691d12dc75,Buckridge Inc Pharmaceutical Limited,Senftenberg,GERMANY,51.5167,14.0167,hospital,government,Daugherty-rempel
+81,"9d7f5b52ae9109508fbf775219bb393d","Buckridge, Dach And Carroll",Friedrichshafen,GERMANY,47.6542,9.4792,pharmacy,retail,Daugherty-rempel
+82,"953ab76f18d42d7ea6c6b872b3abf37d","Buckridge, Dach And Carroll Pharmaceutical Limited",Luboń,POLAND,52.3333,16.8833,hospital,private,Beier
+83,"2ec3eae7f1fd9d462f2ff50d8d009c1d","Buckridge, Dach And Carroll Pharmaceutical Ltd",Baunatal,GERMANY,51.2589,9.4183,pharmacy,retail,Daugherty-rempel
+84,e10b1c3385eeda774b0aebf67a16bd25,"Buckridge, Hand And Hyatt",Dinslaken,GERMANY,51.5667,6.7333,pharmacy,institution,Erdman
+85,e20eb7d8dcf1203b61100ae25c7ac9c2,"Buckridge, Hand And Hyatt Pharma Plc",Zgorzelec,POLAND,51.1528,15.0,pharmacy,institution,Beier
+86,"8988be525f85ad3c856d23cb2182c415","Buckridge, Hand And Hyatt Pharmaceutical Ltd",Bad Neuenahr-ahrweiler,GERMANY,50.5447,7.1133,pharmacy,institution,Crist Inc
+87,d6e435f114da86125b48d8d9e86663be,Buckridge-davis,Legnica,POLAND,51.2101,16.1619,hospital,private,Beier
+88,"917fb29ec7b45798225c4d95542848d6",Buckridge-davis Pharmaceutical Limited,Forchheim,GERMANY,49.7197,11.0581,hospital,private,Erdman
+89,"69f4be39d65515675c6fe10264760f1d",Buckridge-davis Pharmaceutical Ltd,Herne,GERMANY,51.5426,7.219,pharmacy,retail,Erdman
+90,"51fffc0ed7a4965e20ffd0ab865b2bcc",Buckridge-strosin Pharma Plc,Neuruppin,GERMANY,52.9222,12.8,hospital,private,Erdman
+91,"4da736d41803acb6acfef522c4dc6548",Buckridge-strosin Pharmaceutical Limited,Pruszków,POLAND,52.1667,20.8,hospital,government,Beier
+92,c3fb73393e6e449f57c92f6c00042c29,Buckridge-strosin Pharmaceutical Ltd,Erlangen,GERMANY,49.5964,11.0044,hospital,government,Crist Inc
+93,"8018f94c4a3258cca5a9901701cfc93a",Carter-conn Pharm,Lemgo,GERMANY,52.0277,8.9043,pharmacy,institution,Daugherty-rempel
+94,"2e899fc9dd3640a9d32763d5d57d9041",Carter-conn Pharma Plc,Brwinów,POLAND,52.1417,20.7167,hospital,private,Cassin
+95,e9beb9bbaba70603cb07f7b83cfc81be,Carter-conn Pharmaceutical Ltd,Günzburg,GERMANY,48.4525,10.2711,pharmacy,institution,Crist Inc
+96,"79d1e516d7915ef4010857e73b101df4",Cartwright-fay,Stolberg,GERMANY,50.7667,6.2333,hospital,government,Crist Inc
+97,a15b1547d9c686c4ee773f0101e764dd,Cartwright-fay Pharmaceutical Ltd,Wangen Im Allgäu,GERMANY,47.6858,9.8342,pharmacy,retail,Erdman
+98,e5d7f8eb2737476f6ce61f031a161c79,"Casper, Hyatt And Jakubowski Pharmaceutical Limited",Otwock,POLAND,52.1167,21.2667,hospital,government,Beier
+99,"64e4bbcb078bdf73341309d3c84c1e5d","Casper, Hyatt And Jakubowski Pharmaceutical Ltd",Neuburg,GERMANY,48.7333,11.1833,pharmacy,institution,Daugherty-rempel
+100,"12a782346ea3c0c215781556077f0510","Casper, Hyatt And Jakubowski Pharmacy",Minden,GERMANY,52.2883,8.9167,hospital,government,Erdman
+101,a41cebdb8de3388725b96a5145c39335,Cassin Plc Pharma Plc,Mühldorf,GERMANY,48.2456,12.5228,pharmacy,retail,Erdman
+102,a65b20aeb91a333cfabb50482d26998c,Cassin Plc Pharmaceutical Limited,Weißenfels,GERMANY,51.2,11.9667,pharmacy,retail,Erdman
+103,b249fd1f178c9b6928dd71629e420a0b,Cassin Plc Pharmacy,Miastko,POLAND,54.0,16.9833,hospital,private,Beier
+104,"7d8a44027e765ae816484191c9d84425",Collins-schmidt Pharma Plc,Marburg,GERMANY,50.8167,8.7667,pharmacy,retail,Daugherty-rempel
+105,c76ef833672ecf731f9433cf6fdeb92c,Collins-schmidt Pharmaceutical Limited,Bretten,GERMANY,49.0364,8.7061,pharmacy,institution,Daugherty-rempel
+106,"6e2fb2c09b28e3dc911a3c6bc743c81c","Corkery, Trantow And Ferry Pharm",Hildesheim,GERMANY,52.15,9.95,hospital,private,Crist Inc
+107,"38c6e4f637c3caeca03d55825146c9da","Corkery, Trantow And Ferry Pharma Plc",Geesthacht,GERMANY,53.4381,10.3747,pharmacy,institution,Erdman
+108,"033643d5d617ef4846f0ba6eb1455b5b",Corkery-kovacek Pharm,Kehl,GERMANY,48.5711,7.8089,hospital,private,Daugherty-rempel
+109,"01c20a30ac7eef1ffb9955fcb6a76315",Corkery-kovacek Pharma Plc,Frankfurt,GERMANY,50.1136,8.6797,pharmacy,institution,Daugherty-rempel
+110,b36d5189909b8dfc7c6c27615575bda6,"Cormier, Dietrich And Zulauf Pharma Plc",Puławy,POLAND,51.4166,21.9694,hospital,government,Beier
+111,"8fcd5998e62cb82e23f02108e7551584","Cormier, Dietrich And Zulauf Pharmaceutical Limited",Esslingen,GERMANY,48.7406,9.3108,hospital,government,Erdman
+112,"84e8a8268d3fc780a86a53ae6fdf51c2","Cormier, Dietrich And Zulauf Pharmacy",Riesa,GERMANY,51.3081,13.2939,pharmacy,institution,Erdman
+113,f1e410179137595c367b74b2125ae7ea,Cremin-zemlak Pharma Plc,Haan,GERMANY,51.1931,7.0131,pharmacy,institution,Erdman
+114,"68741238f8268223caba06dc7f990817",Cremin-zemlak Pharmaceutical Limited,Cottbus,GERMANY,51.7606,14.3342,pharmacy,institution,Erdman
+115,"358172f2612b2ea477df64520fd4806a",Crist Inc,Stary Sącz,POLAND,49.5625,20.6364,hospital,private,Beier
+116,dea3029a5d2d8cfcd1f3b5f5d30e325a,Crist Inc Pharma Plc,Eschwege,GERMANY,51.1881,10.0528,pharmacy,retail,Crist Inc
+117,"36c7f2d59fb0bced7199ab7d5f61b604",Crist Inc Pharmaceutical Ltd,Völklingen,GERMANY,49.25,6.8333,hospital,government,Erdman
+118,"4232bb647c9d95044401ee632add24d9",Crist Llc,Mühlacker,GERMANY,48.95,8.8392,pharmacy,institution,Erdman
+119,c56223d74bf0ad5b5f3664f5d079ff71,Crist Llc Pharma Plc,Neustadt,GERMANY,49.35,8.15,pharmacy,retail,Erdman
+120,"84654ed61432f029f244fe3093b523e9",Crist Ltd Pharma Plc,Willich,GERMANY,51.2631,6.5492,hospital,government,Erdman
+121,"65bf255e9d4d18a33d82b531c8bf253b","Crist, Wisoky And Nolan Pharm",Bielefeld,GERMANY,52.0167,8.5333,hospital,government,Crist Inc
+122,"1ea86762f02cc4b750260875c9e71033","Crist, Wisoky And Nolan Pharmaceutical Limited",Wermelskirchen,GERMANY,51.1392,7.2051,hospital,government,Erdman
+123,d4c356aca3270caa4b1474295dd6b5c4,"Crist, Wisoky And Nolan Pharmaceutical Ltd",Toruń,POLAND,53.0167,18.6167,pharmacy,retail,Beier
+124,b47b6b68c16eefaa991000703447b7ef,Crona Group,Viersen,GERMANY,51.2556,6.3917,hospital,government,Erdman
+125,"4c1cf48ddb82d6ffd2b961a8dd6abd31",Crona Group Pharma Plc,Kwidzyn,POLAND,53.7358,18.9308,pharmacy,institution,Beier
+126,bc00ef29c9094f5c3ff246cbc410880d,Crona Plc Pharma Plc,Białogard,POLAND,54.007,15.9875,hospital,private,Beier
+127,"11e7a19318456ec5257324051ee15683",Crona Plc Pharmaceutical Ltd,Schloß Holte-stukenbrock,GERMANY,51.8833,8.6167,pharmacy,institution,Erdman
+128,c470772ddb8ba1686a5b06b766a13b9f,Crona Plc Pharmacy,Eschweiler,GERMANY,50.8167,6.2833,hospital,government,Erdman
+129,c05a80e5bcc861f2607047d9a048512e,Cummings Llc,Schwäbisch Gmünd,GERMANY,48.8,9.8,hospital,government,Erdman
+130,"5089c44636bb05dc78ce1ca9fb4f15e0",Cummings Llc Pharmaceutical Ltd,Sundern,GERMANY,51.3167,8.0,pharmacy,retail,Erdman
+131,"0fd653e2dd3f282e68ba5cd90726083e",D'amore And Sons,Wągrowiec,POLAND,52.8,17.2,hospital,private,Beier
+132,"21743bb1f8204b3541cc1cac2df38c49",D'amore And Sons Pharm,Görlitz,GERMANY,51.1528,14.9872,pharmacy,retail,Erdman
+133,"1172f07e85658f3a0184a2a2633df23f",D'amore And Sons Pharmacy,Lohne,GERMANY,52.6667,8.2386,hospital,government,Erdman
+134,"57857fde46eb546e0deb181e10160956",Dach Ltd Pharm,Saarlouis,GERMANY,49.3167,6.75,pharmacy,retail,Daugherty-rempel
+135,b95a8385a1370925b97ea0ed33d0f859,Dach Ltd Pharma Plc,Karlsruhe,GERMANY,49.0167,8.4,hospital,private,Crist Inc
+136,ecd5d072ba6df023ec71a5ccbee7f10c,Dach Plc,Deggendorf,GERMANY,48.8353,12.9644,hospital,private,Crist Inc
+137,e13584b03ffbf438d7f63e1b3e9a86be,Dach Plc Pharm,Mainz,GERMANY,50.0,8.2711,pharmacy,institution,Erdman
+138,"237105fca71560c0e1a3f480faaf5898","Daniel, Baumbach And Nitzsche",Steinheim Am Main,GERMANY,50.1257,8.83,hospital,private,Crist Inc
+139,ca51a87d72d045f391aa354c52874453,"Daniel, Baumbach And Nitzsche Pharmacy",Kempten,GERMANY,47.7333,10.3167,pharmacy,retail,Crist Inc
+140,"1afa4a244a4ded2b830ffe14c5f6e2a1",Daugherty-rempel Pharm,Neu Isenburg,GERMANY,50.0558,8.6971,hospital,private,Erdman
+141,"108835ec580abc7e762fc26767f5b9bd",Daugherty-rempel Pharma Plc,Bełżyce,POLAND,51.1833,22.2667,hospital,government,Cassin
+142,ba1f8dee4ba672df678ec06f3e00ef86,Daugherty-rempel Pharmaceutical Limited,Sigmaringen,GERMANY,48.0867,9.2164,hospital,private,Erdman
+143,"98b6d9104d27bcd3f4951e8b5f17e3fa","Denesik, Walter And Beatty",Nordhorn,GERMANY,52.4333,7.0667,pharmacy,institution,Daugherty-rempel
+144,"5e418fb81b903eb73ae34d89f94213ef","Denesik, Walter And Beatty Pharma Plc",Ostrów Mazowiecka,POLAND,52.8,21.9,pharmacy,institution,Beier
+145,"6424885ebfdb806f91d6660be6ffb73f","Denesik, Walter And Beatty Pharmacy",Ludwigsfelde,GERMANY,52.2997,13.2667,hospital,private,Erdman
+146,"242891b80fa451ea95504aebc5c446dd",Denesik-hintz Pharm,Międzyrzec Podlaski,POLAND,51.9833,22.8,pharmacy,retail,Beier
+147,"284c211ed5952b5f3d2281ea113988ab",Denesik-hintz Pharma Plc,Wiehl,GERMANY,50.95,7.5333,pharmacy,institution,Erdman
+148,"7ef249e64bb86f60a883bb8740f904fd",Denesik-hintz Pharmaceutical Limited,Dülmen,GERMANY,51.8308,7.2783,hospital,government,Erdman
+149,"4ba4d88a726a561c9b1f73ba9b41b5fa",Doyle-tillman Pharm,Erftstadt,GERMANY,50.8167,6.7667,hospital,private,Erdman
+150,"768a33f4556dcfe2579c693be1d8d00f",Doyle-tillman Pharmaceutical Limited,Zirndorf,GERMANY,49.45,10.95,pharmacy,institution,Erdman
+151,"50338dfb846eb834530c98692b29e445",Doyle-tillman Pharmaceutical Ltd,Dęblin,POLAND,51.5667,21.8614,hospital,private,Beier
+152,"90cb84ca031544b7e277d625ecb4a136",Durgan-rice Pharmaceutical Ltd,Leichlingen,GERMANY,51.1167,7.0167,hospital,government,Daugherty-rempel
+153,"47ce7be8aac4ee02828002913e33c43c",Durgan-rice Pharmacy,Dormagen,GERMANY,51.0964,6.84,pharmacy,institution,Erdman
+154,"770352c6697781d65791da20ad300db8","Effertz, Heaney And Tillman Pharm",Regensburg,GERMANY,49.0167,12.0833,hospital,government,Erdman
+155,ce496722f1545542df508848cf2a7878,"Effertz, Heaney And Tillman Pharma Plc",Bad Nauheim,GERMANY,50.3667,8.75,hospital,government,Erdman
+156,"406a876c9a9e7380ae5a8e317d206752","Effertz, Heaney And Tillman Pharmaceutical Ltd",Jaworzno,POLAND,50.2,19.275,hospital,government,Beier
+157,"149f1d16f4152ef90a60cc4ebeb6b8d4",Emard-o'connell Pharm,Rosenheim,GERMANY,47.8561,12.1289,pharmacy,retail,Erdman
+158,"0384879a5f147c50c3cb884e9fea5fe0",Emard-o'connell Pharmaceutical Ltd,Kevelaer,GERMANY,51.5833,6.25,pharmacy,retail,Crist Inc
+159,a36881e687490a8a5c08914673c4565d,Emard-o'connell Pharmacy,Zakopane,POLAND,49.2994,19.9519,pharmacy,retail,Cassin
+160,"92bca4077abf361f1c933ee93115b69c",Erdman Plc,Holzminden,GERMANY,51.8297,9.4483,pharmacy,retail,Daugherty-rempel
+161,"00506c36b171f59a4143db118599f239",Erdman Plc Pharma Plc,Freital,GERMANY,51.0167,13.65,hospital,private,Daugherty-rempel
+162,fecdc67f28eb15c2ac3acd9b80246050,Erdman Plc Pharmacy,Ozimek,POLAND,50.6731,18.2131,pharmacy,institution,Beier
+163,c00cb0bec5e378f9f90a549e90680ee3,"Erdman, Senger And Oberbrunner Pharm",Rawa Mazowiecka,POLAND,51.7667,20.25,pharmacy,retail,Beier
+164,"17b8eee8203087ae59e29139561ded60","Erdman, Senger And Oberbrunner Pharmaceutical Ltd",Geretsried,GERMANY,47.8667,11.4667,hospital,private,Crist Inc
+165,f705296b52f8beb7cfbf59927a6c260e,"Erdman, Senger And Oberbrunner Pharmacy",Straubing,GERMANY,48.8772,12.5758,pharmacy,retail,Crist Inc
+166,"4adb1392581ff1f3fff6cdb3b8c84379",Fadel-west,Złotoryja,POLAND,51.1264,15.9198,pharmacy,institution,Beier
+167,d581e5400df8d1e2d5243e8f579bc0da,Fadel-west Pharmaceutical Ltd,Filderstadt,GERMANY,48.6667,9.2167,pharmacy,retail,Crist Inc
+168,"371f81dec8e77fa678bb1233d25cc914",Fadel-west Pharmacy,Ditzingen,GERMANY,48.8264,9.0667,hospital,government,Erdman
+169,c5fe2ce24fc5c90d2ea5c2f84e2a7cf8,Fahey-flatley,Hagen,GERMANY,51.3594,7.475,hospital,government,Erdman
+170,fee1d35c09984094cd8bc221f4998c4c,Fahey-flatley Pharmaceutical Ltd,Uelzen,GERMANY,52.9647,10.5658,hospital,government,Crist Inc
+171,"995b29775abb4774ec628caceed7b919",Fahey-prosacco Pharmaceutical Limited,Einbeck,GERMANY,51.8167,9.8667,pharmacy,retail,Daugherty-rempel
+172,"1ab4eec60d3c3688e04231a2e4b47b71",Fahey-prosacco Pharmacy,Jena,GERMANY,50.9272,11.5864,hospital,government,Erdman
+173,"6d806c7b6f08451be1bed64f8451fd3b",Feest Plc,Świecie,POLAND,53.4167,18.4333,pharmacy,retail,Cassin
+174,cea43ff263656c9aa8b53e9155faf0dd,Feest Plc Pharmaceutical Limited,Göppingen,GERMANY,48.7025,9.6528,pharmacy,institution,Erdman
+175,"4611f1a4120b39ae96b71ac9d3152bc0",Feest Plc Pharmaceutical Ltd,Neustadt,GERMANY,48.8111,9.3656,hospital,private,Erdman
+176,"21334c4d2407c0bac0a241d458a50c90",Feest-kshlerin,Velbert,GERMANY,51.34,7.0416,hospital,government,Daugherty-rempel
+177,da8ed3df0ac6c3eacd7efd126ae98da4,Feest-kshlerin Pharma Plc,Merzig,GERMANY,49.4471,6.6312,hospital,government,Erdman
+178,c62a84f2c160bfcd9293ac8eb1d571b7,Feest-kshlerin Pharmaceutical Ltd,Świdnik,POLAND,51.2333,22.7,pharmacy,institution,Beier
+179,"51647c75d0f43c2ff80256e64a893c7e",Feest-roob Pharmaceutical Limited,Osterode,GERMANY,51.7286,10.2522,pharmacy,institution,Erdman
+180,cd70e6ff42a4e097eaf4948759c46501,Feest-roob Pharmaceutical Ltd,Wolsztyn,POLAND,52.1167,16.1167,pharmacy,institution,Beier
+181,"7e29dd199dde99fab8025eca4ed2d451",Feest-roob Pharmacy,Nordhausen,GERMANY,51.505,10.7911,hospital,government,Erdman
+182,"96a33dc3ec05fea4936bb3f1c2389bb2",Franecki Inc Pharma Plc,Schwerte,GERMANY,51.4458,7.5653,pharmacy,retail,Crist Inc
+183,"51612625c7269da58c14224a95c2f66f",Franecki Inc Pharmacy,Norden,GERMANY,53.5967,7.2056,pharmacy,institution,Crist Inc
+184,"28c5ede4b6f30a29ce745ac91aaff5ef",Friesen Group,Meiningen,GERMANY,50.55,10.4167,pharmacy,retail,Erdman
+185,"852e19be3d15acd272804d4445bcdce7",Friesen Group Pharm,Erkrath,GERMANY,51.2239,6.9147,hospital,government,Bashirian-kassulke
+186,ae527664825c4569d827eecc3eb93976,Fritsch Llc Pharm,Biberach,GERMANY,48.0981,9.7886,hospital,government,Erdman
+187,"19c6a9b997f0b506516bda8d7ca4bc21",Fritsch Llc Pharmaceutical Ltd,Mülheim,GERMANY,51.4283,6.8789,hospital,government,Crist Inc
+188,"9d4aaeb12f8f4b6540b4c15e29c82414","Fritsch, Hodkiewicz And Sipes Pharma Plc",Ettlingen,GERMANY,48.9333,8.4,hospital,government,Crist Inc
+189,f8caf7269a091f058c8bb7aa46c80e9c,"Fritsch, Hodkiewicz And Sipes Pharmacy",Haldensleben,GERMANY,52.2833,11.4167,pharmacy,retail,Erdman
+190,ddf126c5da6231959ccd8c25a1d53097,Fritsch-hauck Pharm,Fürstenwalde,GERMANY,52.3667,14.0667,hospital,government,Erdman
+191,a92b8a209f3a8d60c0ce8bd90cbe3b02,Fritsch-hauck Pharma Plc,Mysłowice,POLAND,50.2333,19.1333,hospital,government,Beier
+192,"7e2d592348d3343b565576ff5f41af8d",Fritsch-hauck Pharmaceutical Ltd,Fürth,GERMANY,49.4783,10.9903,pharmacy,retail,Crist Inc
+193,"922e6638e7d8864c5086f6ada6e00c34",Funk And Sons Pharm,Gießen,GERMANY,50.5833,8.6667,pharmacy,institution,Crist Inc
+194,"1dbce8711aa55c7de4d78329fdd158f6",Funk And Sons Pharmaceutical Limited,Tarnobrzeg,POLAND,50.5833,21.6833,pharmacy,retail,Beier
+195,a0ac5c238ec5d70f442d8db7984e4d7f,Funk And Sons Pharmacy,Friedberg,GERMANY,48.35,10.9833,pharmacy,retail,Erdman
+196,"450c71e20ffdae390b86e2ae9502f795",Funk Plc Pharm,Delmenhorst,GERMANY,53.0506,8.6317,pharmacy,institution,Crist Inc
+197,"6f890ada04f1de6e0763eb0c8a5759f2",Funk Plc Pharma Plc,Rietberg,GERMANY,51.8,8.4333,pharmacy,institution,Daugherty-rempel
+198,"042c67c7c738569c35d05a18784bd45f",Funk Plc Pharmaceutical Limited,Mikołów,POLAND,50.171,18.9041,hospital,government,Beier
+199,"38807b716da35a940d50905f50282ba1","Funk, Ratke And Heaney",Bad Dürkheim,GERMANY,49.4618,8.1724,pharmacy,retail,Crist Inc
+200,"34706d3eda77b6d2150944a2446980c2","Funk, Ratke And Heaney Pharma Plc",Bautzen,GERMANY,51.1814,14.4239,hospital,government,Erdman
+201,"7fd78437a65fa03901505c2de4433589","Funk, Ratke And Heaney Pharmacy",Prabuty,POLAND,53.7558,19.1975,hospital,government,Beier
+202,f567b516361da90b3802fa202e1089ab,"Gerhold, Mills And Effertz",Ansbach,GERMANY,49.3,10.5833,hospital,government,Crist Inc
+203,"15e55a52e72d7bfb60849f410a921eea","Gerhold, Mills And Effertz Pharm",Głubczyce,POLAND,50.2009,17.8286,pharmacy,institution,Beier
+204,"0ccb0c833b72ceab26dfd6995eec4200","Gerhold, Mills And Effertz Pharma Plc",Stadthagen,GERMANY,52.3247,9.2069,hospital,private,Erdman
+205,ef257036e3c48be415cbe8f8ba6a4f71,Gerlach Llc,Krzeszowice,POLAND,50.1333,19.6333,hospital,government,Beier
+206,"6f3c4ce2bc67787bfa9579dac43c52da",Gerlach Llc Pharma Plc,Torgau,GERMANY,51.5603,13.0056,hospital,private,Crist Inc
+207,"5a7e43130ed3baa3db01a0fa61903e3e",Gerlach Llc Pharmacy,Hofheim,GERMANY,50.0876,8.4447,pharmacy,retail,Erdman
+208,"84fc304e1fca052abfa6aa00dc780588",Gerlach Plc Pharmaceutical Ltd,Lünen,GERMANY,51.6167,7.5167,hospital,private,Erdman
+209,"8d091649f9a5396a07ee3225bc2bb254",Gibson-hill,Troisdorf,GERMANY,50.8161,7.1556,pharmacy,retail,Erdman
+210,d3bcafe77b7d124a389912ad50e68cc0,Gibson-hill Pharma Plc,Chrzanów,POLAND,50.1333,19.4,hospital,private,Beier
+211,"8652dc75f2a4bf3c12b853066826af28",Gibson-hill Pharmaceutical Limited,Friedberg,GERMANY,50.3353,8.755,pharmacy,institution,Daugherty-rempel
+212,d05fde89ef6d5e38d9ab5ced7ad42cce,Gleason Plc Pharma Plc,Bad Reichenhall,GERMANY,47.7247,12.8769,pharmacy,retail,Crist Inc
+213,"764a773ebb53e1458461c8b12c2eb637",Gleason Plc Pharmaceutical Limited,Niederkassel,GERMANY,50.8167,7.0333,pharmacy,retail,Daugherty-rempel
+214,"9e02408d5b3823dc7cdd82f426b3b91f","Gleichner, Bahringer And Morar Pharma Plc",Gostynin,POLAND,52.4167,19.4667,hospital,private,Cassin
+215,"25d54deb110ebc3f3f2657b863e86b2c","Gleichner, Bahringer And Morar Pharmaceutical Limited",Freising,GERMANY,48.4028,11.7489,pharmacy,institution,Crist Inc
+216,f3e274764d5ba8e06eb098321c98bc90,"Gleichner, Bahringer And Morar Pharmacy",Brilon,GERMANY,51.3956,8.5678,hospital,private,Erdman
+217,"615ad79eb77a531651e50698d24f2ab2",Goldner-tillman Pharm,Dachau,GERMANY,48.2603,11.4342,hospital,government,Erdman
+218,"8816b578483bad20486ab2e2a077a9e1",Goldner-tillman Pharmacy,Petershagen,GERMANY,52.3833,8.9667,pharmacy,institution,Erdman
+219,"2de7911a8dad56180a3eaa701974fb06",Gottlieb-cruickshank Pharm,Schwabach,GERMANY,49.3292,11.0208,pharmacy,retail,Erdman
+220,f9cc8d467c2aaa695f143f2e563169d1,Gottlieb-cruickshank Pharma Plc,Brzeszcze,POLAND,50.0,19.15,hospital,private,Beier
+221,c4424d027722c37dcf16743596a2d195,Gottlieb-koss Pharm,Hattingen,GERMANY,51.3992,7.1858,pharmacy,institution,Crist Inc
+222,"487cfdd793bac4a8b3efa8660486bfff",Gottlieb-koss Pharmacy,Sangerhausen,GERMANY,51.4667,11.3,hospital,private,Erdman
+223,"2e2923d471f9fdbe4579f04ae0ecf71b",Graham And Sons Pharm,Germering,GERMANY,48.1333,11.3667,hospital,government,Crist Inc
+224,dcdacfbc55cfb4dffa8e34e35bef6bae,Graham And Sons Pharma Plc,Bad Salzungen,GERMANY,50.8117,10.2333,pharmacy,institution,Crist Inc
+225,caf6125a5cb579aa4c038a17cf639452,Graham And Sons Pharmacy,Warka,POLAND,51.7833,21.2,hospital,private,Beier
+226,be209101555fb6919f390a16062acfdd,"Greenholt, Donnelly And O'reilly Pharmaceutical Limited",Rumia,POLAND,54.5667,18.4,pharmacy,retail,Beier
+227,"149193bc7b5764b8d055c7e4f587cff9","Greenholt, Donnelly And O'reilly Pharmaceutical Ltd",Villingen-schwenningen,GERMANY,48.0603,8.4586,pharmacy,retail,Bashirian-kassulke
+228,"005550fa250fad819d245266ff2407d9","Grimes, Jacobs And Durgan Pharm",Bełchatów,POLAND,51.3667,19.3667,hospital,private,Beier
+229,a97344ce978b39e016cbe6ef7f1d781e,"Grimes, Jacobs And Durgan Pharma Plc",Gütersloh,GERMANY,51.9,8.3833,hospital,government,Daugherty-rempel
+230,e86aa0b22d21d63b9dd973ec34091c5a,Gulgowski-vandervort Pharm,Rathenow,GERMANY,52.6,12.3333,hospital,private,Daugherty-rempel
+231,"676ca2e80042bde387639ba7cb651705",Gulgowski-vandervort Pharma Plc,Oranienburg,GERMANY,52.7544,13.2369,pharmacy,institution,Daugherty-rempel
+232,e01c79dac51dc8f597797e0c3a755f89,"Haag, Bradtke And Terry",Osterholz-scharmbeck,GERMANY,53.2269,8.7947,pharmacy,institution,Crist Inc
+233,"0636476bfa1b68b6c5b79c7dfd520b51","Haag, Bradtke And Terry Pharm",Hanau,GERMANY,50.1328,8.9169,hospital,government,Crist Inc
+234,"8322a5edb21b874a9bfa005757be90bc","Haag, Bradtke And Terry Pharmacy",Biała Podlaska,POLAND,52.0333,23.1167,hospital,government,Cassin
+235,c1ab58be60500fb8daa33e2aee61d60a,"Hahn, Rutherford And Gislason Pharm",Kulmbach,GERMANY,50.1,11.4333,pharmacy,retail,Erdman
+236,a3f5cc58fe2d2054ea4c1bea22c3c879,"Hahn, Rutherford And Gislason Pharmaceutical Limited",Łaziska Górne,POLAND,50.15,18.8333,hospital,private,Beier
+237,"55ada87f4b45a5fadb84efd1b0316d2d","Hahn, Rutherford And Gislason Pharmacy",Wolfenbüttel,GERMANY,52.1622,10.5369,pharmacy,retail,Erdman
+238,"20b7d763b6dba2262ff9c4e3d2a6970d",Haley Plc Pharmaceutical Limited,Opole,POLAND,50.6722,17.9253,pharmacy,retail,Beier
+239,"3921e1733671d802565ef61f57782ddf",Haley Plc Pharmacy,Kassel,GERMANY,51.3158,9.4979,pharmacy,retail,Erdman
+240,aabfb6fafbcab170ac18c4583010020c,"Hammes, Bashirian And Pacocha",Aschaffenburg,GERMANY,49.9757,9.1478,pharmacy,institution,Daugherty-rempel
+241,ff7dbcf18d7a3d344e14d33ee831d8f9,"Hammes, Bashirian And Pacocha Pharmacy",Schwelm,GERMANY,51.2904,7.2972,pharmacy,institution,Daugherty-rempel
+242,f7f0d3175799d858c588db558083d8fa,Hane Ltd,Nürtingen,GERMANY,48.6267,9.3353,hospital,government,Erdman
+243,"4ba685ed56781f20d649c4c4784ad8b3",Hane Ltd Pharmaceutical Ltd,Aichach,GERMANY,48.45,11.1333,hospital,private,Crist Inc
+244,"0a57c418612ba6796f33bbfc0c048d02",Hansen Group Pharm,Gryfów Śląski,POLAND,51.0308,15.4202,hospital,private,Beier
+245,"36597c40323d384713ac9114d90c9716",Hansen Group Pharmacy,Warendorf,GERMANY,51.9539,7.9933,hospital,government,Crist Inc
+246,"22f4b6b64c7ddccb891f776f486385ee","Hansen, Fadel And Schroeder Pharm",Gniezno,POLAND,52.5333,17.6,pharmacy,retail,Beier
+247,d62dfaeb2689cd0172e63b21d64458cf,"Hansen, Fadel And Schroeder Pharma Plc",Wolfsburg,GERMANY,52.4231,10.7872,pharmacy,institution,Daugherty-rempel
+248,"88186a1726f88eba095d672ea8d02e66","Hansen, Fadel And Schroeder Pharmaceutical Ltd",Herrenberg,GERMANY,48.5967,8.8708,pharmacy,retail,Erdman
+249,"07c47f06a0aabdd0545ab28f27945caf","Harris, Daugherty And Okuneva Pharm",Neuwied,GERMANY,50.4286,7.4614,hospital,government,Erdman
+250,b7a55e3f93298d6f1a7cee994da3b054,"Harris, Daugherty And Okuneva Pharma Plc",Krotoszyn,POLAND,51.697,17.4357,pharmacy,retail,Beier
+251,"2c8b3ea49e575c89338af2a24d361f54","Harris, Daugherty And Okuneva Pharmaceutical Limited",Meißen,GERMANY,51.1636,13.4775,hospital,government,Erdman
+252,"2496c02f72f53f3b69f640b7a0bd61eb",Harris-conroy Pharm,Oelde,GERMANY,51.8258,8.1436,pharmacy,retail,Daugherty-rempel
+253,"723b4186a075dc22f497fd4cdf10088a",Harris-conroy Pharmacy,Wilhelmshaven,GERMANY,53.5167,8.1333,pharmacy,retail,Erdman
+254,b7f91ecb6f388577ca7ab4a89dd57e3c,Hartmann-wolf,Trzebnica,POLAND,51.305,17.0614,hospital,government,Beier
+255,ec98c5e3c41e975a08dd468696ab81dd,Hartmann-wolf Pharmaceutical Limited,Kitzingen,GERMANY,49.7333,10.1667,hospital,private,Erdman
+256,"92ac841d9b587b621b47201cf25e9371",Hartmann-wolf Pharmacy,Wunstorf,GERMANY,52.4238,9.4359,pharmacy,retail,Erdman
+257,d565ac9c2a4bf66344d0a54a5590a9a4,Hayes-kilback Pharma Plc,Arnsberg,GERMANY,51.3967,8.0644,pharmacy,institution,Bashirian-kassulke
+258,"74bfc27c65998004aacd554ad1b2c44e",Hayes-kilback Pharmaceutical Limited,Springe,GERMANY,52.2167,9.55,pharmacy,retail,Bashirian-kassulke
+259,"989d695a739ddffba5d1d8a68861274f",Hayes-kilback Pharmaceutical Ltd,Żary,POLAND,51.6333,15.1333,pharmacy,retail,Beier
+260,c642235f578648145cadae5a9d0175da,"Heathcote, Grant And Witting Pharm",Bielsko-biała,POLAND,49.8225,19.0444,pharmacy,institution,Beier
+261,d3015cea8063868e4026a6f3ec01f714,"Heathcote, Grant And Witting Pharmaceutical Limited",Balingen,GERMANY,48.2731,8.8506,pharmacy,institution,Erdman
+262,c3820a85e05d99118897e57c4c2d0fe4,"Heathcote, Grant And Witting Pharmacy",Braunschweig,GERMANY,52.2692,10.5211,hospital,private,Bashirian-kassulke
+263,"7e01b159a3a720b135b0001ef55b3423","Heathcote, Kovacek And Parker",Hof,GERMANY,50.3167,11.9167,pharmacy,retail,Erdman
+264,"739a172d06e51617b2a5cc671043f831",Heidenreich Group Pharm,Mannheim,GERMANY,49.4878,8.4661,hospital,government,Erdman
+265,"5d57c6d14f3f3061933600f994aa0c67",Heidenreich Group Pharmaceutical Ltd,Rzeszów,POLAND,50.05,22.0,pharmacy,institution,Beier
+266,"3586fca67be195c681516dffbf364b91",Heidenreich Group Pharmacy,Leer,GERMANY,53.2308,7.4528,pharmacy,institution,Daugherty-rempel
+267,"028be7a29d4e473e8fc8560793f94525",Heller-abernathy,Brzeg Dolny,POLAND,51.273,16.7081,hospital,private,Beier
+268,"57eae9d6e2b870153e6d65d31a1912a2",Heller-abernathy Pharma Plc,Heide,GERMANY,54.1961,9.0933,pharmacy,retail,Erdman
+269,b3ef23df9a8208746cdfb12582ceea29,Heller-abernathy Pharmaceutical Limited,Siegburg,GERMANY,50.8014,7.2044,hospital,private,Erdman
+270,"627c6dc83a4937e64a437e371aee236c","Herman, Rice And Rippin",Ziębice,POLAND,50.6,17.0444,hospital,government,Beier
+271,a9a9917d08c50ff084882758599ce2d4,"Herman, Rice And Rippin Pharm",Annaberg-buchholz,GERMANY,50.58,13.0022,pharmacy,institution,Daugherty-rempel
+272,"0987274763643e9c5417cc0cdc34c88b","Herman, Rice And Rippin Pharmaceutical Limited",Schorndorf,GERMANY,48.8,9.5333,pharmacy,institution,Bashirian-kassulke
+273,"8d4093230d70f23882b616645b1d6cb5",Herman-koss Pharm,Lubsko,POLAND,51.7877,14.9724,hospital,private,Beier
+274,"3bb48300d10f7c813315747d01d5d1a3",Herman-koss Pharmaceutical Limited,Mosbach,GERMANY,49.35,9.1333,hospital,government,Daugherty-rempel
+275,"238486f5ff8803597614e72e5569cbd9",Herman-koss Pharmaceutical Ltd,Gifhorn,GERMANY,52.4886,10.5464,hospital,private,Bashirian-kassulke
+276,"0e1a0aabf516af046d8642143e1acaa0",Hermiston And Sons Pharma Plc,Bochnia,POLAND,49.9833,20.4333,pharmacy,institution,Beier
+277,f4519e66f7d3fc2a6b5ae73834371a8c,Hermiston And Sons Pharmaceutical Ltd,Geislingen An Der Steige,GERMANY,48.6244,9.8306,pharmacy,retail,Erdman
+278,a40ecdc317f07f72040cdace94f56da5,Hermiston And Sons Pharmacy,Plauen,GERMANY,50.495,12.1383,pharmacy,institution,Erdman
+279,"8f5a11b7a430925c3c8a54472930094c",Hermiston Llc,Strzegom,POLAND,51.0,16.3333,pharmacy,institution,Beier
+280,e6aed241855642aff4b069bb8e38d912,Hermiston Llc Pharm,Moers,GERMANY,51.4592,6.6197,pharmacy,retail,Erdman
+281,f7c0a1e5f749d3e4f96730155bc0844a,Hermiston Llc Pharmaceutical Limited,Gevelsberg,GERMANY,51.3265,7.3559,pharmacy,retail,Crist Inc
+282,"4ec39d41cab5e0fe7741bf11cd0d1220",Hermiston Llc Pharmaceutical Ltd,Weingarten,GERMANY,47.8078,9.6417,pharmacy,retail,Daugherty-rempel
+283,"81a457a3354a72d95dc28ed89a5d16cc",Hill Ltd,Gliwice,POLAND,50.2976,18.6766,pharmacy,retail,Beier
+284,"8552c614a686637044bd7d8e6408fb70",Hill Ltd Pharma Plc,Seelze,GERMANY,52.3961,9.5981,hospital,government,Erdman
+285,"0b12f8611f34f0b18447de2415708ecd",Hill Ltd Pharmaceutical Limited,Augsburg,GERMANY,48.3717,10.8983,hospital,government,Crist Inc
+286,"5d5eb31463857099a214da50d876c5b0",Hill-daniel,Derne,GERMANY,51.6667,7.6167,hospital,government,Daugherty-rempel
+287,"4c145025060755195aa395704285f1bf",Hill-daniel Pharmaceutical Ltd,Neumünster,GERMANY,54.0714,9.99,hospital,government,Crist Inc
+288,e641e6da8b4ebf886ec852bc479da199,"Hills, Stroman And Ernser",Rheda-wiedenbrück,GERMANY,51.8417,8.3,pharmacy,retail,Erdman
+289,a792027df23ff6ccf7f05db8949590aa,"Hills, Stroman And Ernser Pharm",Pułtusk,POLAND,52.7025,21.0828,hospital,private,Beier
+290,eca4cc09af92108f7ac960ebd1bd5789,"Hills, Stroman And Ernser Pharmaceutical Ltd",Zittau,GERMANY,50.8961,14.8072,pharmacy,institution,Erdman
+291,"733bf1324f22250a40258d05172c0c78","Hirthe, Williamson And Macejkovic",Schwandorf,GERMANY,49.3236,12.0993,pharmacy,retail,Erdman
+292,"872a061fee7637d15bcd556186ae5e10","Hirthe, Williamson And Macejkovic Pharma Plc",Brzeg,POLAND,50.8667,17.4833,hospital,government,Beier
+293,bcb449c0f9d87c828afc898a96e1f0d3,"Hirthe, Williamson And Macejkovic Pharmacy",Landshut,GERMANY,48.5397,12.1508,hospital,government,Erdman
+294,"30c8ab110f2d8af85d75e1b5d0107225",Hoeger Ltd,Heidenheim,GERMANY,48.6761,10.1544,pharmacy,retail,Crist Inc
+295,"54e8376990ae2034ab2123c49899ab1f",Hoeger Ltd Pharm,Lennestadt,GERMANY,51.1236,8.0681,pharmacy,retail,Erdman
+296,ea7c506dee1089019f9020b0a4981b27,Homenick-larson,Lübbecke,GERMANY,52.3081,8.6231,pharmacy,institution,Daugherty-rempel
+297,"1881aebce43cb07382e1f8e6fc4cce26",Homenick-larson Pharmaceutical Ltd,Bergkamen,GERMANY,51.6167,7.6333,hospital,government,Daugherty-rempel
+298,e3b4c02630d77cd886a1dd2a33892952,Huel Inc Pharm,Zwickau,GERMANY,50.7189,12.4961,pharmacy,retail,Crist Inc
+299,"8e383bfbe831a08c1e7c1f4142ad3855",Huels-klein,Peine,GERMANY,52.3203,10.2336,pharmacy,retail,Daugherty-rempel
+300,"05a1aeaf239983743a93f802dc0645e8",Huels-klein Pharmaceutical Ltd,Helmstedt,GERMANY,52.2281,11.0106,pharmacy,retail,Erdman
+301,b6b917c44bc5cf31ce9378cce4aa6445,Jacobs-jones Pharma Plc,Schwedt (oder),GERMANY,53.0631,14.2831,pharmacy,retail,Crist Inc
+302,"721bbada3dab598b34db095fd70830c0",Jacobs-jones Pharmaceutical Ltd,Flensburg,GERMANY,54.7819,9.4367,pharmacy,institution,Erdman
+303,e68c13bc14875c6dea752a42d858a8e9,Jakubowski Inc Pharma Plc,Tönisvorst,GERMANY,51.3208,6.4931,hospital,government,Daugherty-rempel
+304,"8cff098039d3694fe76505659c28a897",Jakubowski Inc Pharmaceutical Limited,Bolesławiec,POLAND,51.2667,15.5667,pharmacy,retail,Beier
+305,"9b0d102e3e563925744e166ddb62dbe1",Jakubowski Inc Pharmacy,Gladbeck,GERMANY,51.5713,6.9827,pharmacy,institution,Bashirian-kassulke
+306,"6a60733e0f2bd30ace9c644e877f5ddf",Jast-cruickshank Pharma Plc,Białystok,POLAND,53.1167,23.1667,pharmacy,retail,Beier
+307,"25dd4a761077f031a3f89dd08501d3cd",Jast-cruickshank Pharmaceutical Ltd,Düsseldorf,GERMANY,51.2311,6.7724,pharmacy,institution,Daugherty-rempel
+308,c10bdc292cdc59c31dc42ff3d1f588a8,Jast-cruickshank Pharmacy,Sankt Ingbert,GERMANY,49.3,7.1167,hospital,government,Erdman
+309,"316c8d0e600cb96ed4ff1834c1854ad8","Johns, Mueller And Nitzsche",Magdeburg,GERMANY,52.1278,11.6292,hospital,government,Daugherty-rempel
+310,"51c3d90ba0947afc63501c32cb2ef737","Johns, Mueller And Nitzsche Pharma Plc",Hemer,GERMANY,51.3833,7.7667,pharmacy,institution,Daugherty-rempel
+311,e1df0d1470c7b635070c08540329c942,"Johnson, Friesen And Torphy Pharm",Ravensburg,GERMANY,47.7831,9.6114,hospital,private,Daugherty-rempel
+312,c06aafb3613816b586b3fd35ce857226,"Johnson, Friesen And Torphy Pharma Plc",Gryfino,POLAND,53.2524,14.4883,hospital,government,Beier
+313,"983879d351c3e3c5067cd3fa62d8736f",Keeling Llc Pharmaceutical Limited,Gelsenkirchen,GERMANY,51.5167,7.1,hospital,government,Erdman
+314,cc51e2eb0a95b56a309691c197089c0c,Keeling Llc Pharmacy,Olsztyn,POLAND,53.78,20.4942,pharmacy,retail,Beier
+315,"20dd8fff448a84e4ccbe8159ff59c214","Kertzmann, Quitzon And Harris",Greven,GERMANY,52.0917,7.6083,hospital,government,Crist Inc
+316,"250a6127e0eabdded22c095420be0051","Kertzmann, Quitzon And Harris Pharma Plc",Reszel,POLAND,54.0504,21.1458,hospital,government,Beier
+317,bfe3f56015d58964446e7576624cfba5,"Kertzmann, Quitzon And Harris Pharmaceutical Limited",Forst,GERMANY,51.7333,14.6333,pharmacy,retail,Daugherty-rempel
+318,"95727e632d30a86bc3fbf3ebe404e038",Kertzmann-ward Pharma Plc,Opoczno,POLAND,51.3833,20.2833,pharmacy,institution,Beier
+319,"02fd6d6ff9d14bdd96d4993dfacb9ab3",Kertzmann-ward Pharmaceutical Limited,Goslar,GERMANY,51.906,10.4292,pharmacy,retail,Erdman
+320,"5f3d40fd30c453b5e8689f652f98e26c",Kihn Group,Kleve,GERMANY,51.79,6.14,pharmacy,institution,Erdman
+321,eefcb04e1847e40d167c894e02aa395f,Kihn Group Pharm,Vaihingen An Der Enz,GERMANY,48.9328,8.9564,hospital,private,Daugherty-rempel
+322,"755b4d72f22b10ad45fceba6af37b0d3",Kihn Group Pharmaceutical Limited,Norderstedt,GERMANY,53.7064,10.0103,hospital,government,Daugherty-rempel
+323,d45f700bf97b291ad58f0abe6a4340f5,"Kilback, Beer And Batz",Ratingen,GERMANY,51.3,6.85,pharmacy,institution,Erdman
+324,f95d76c75a1443c0e20d8b744b58c048,"Kilback, Beer And Batz Pharma Plc",Kutno,POLAND,52.2333,19.3667,pharmacy,retail,Beier
+325,"5d102208e07714e8ef568380cf857376","Kirlin, Hamill And Dickinson Pharma Plc",Weißenburg,GERMANY,49.0306,10.9719,pharmacy,retail,Erdman
+326,"93585fe834b9fe95d351da8970b093ed","Kirlin, Hamill And Dickinson Pharmaceutical Limited",Pirna,GERMANY,50.9622,13.9403,hospital,private,Erdman
+327,d072195c600bf20a289acab586cf93cb,Kling Inc,Itzehoe,GERMANY,53.925,9.5164,hospital,private,Bashirian-kassulke
+328,"2007f2bac50a37ece6d91a845f185791",Kling Inc Pharm,Heilbronn,GERMANY,49.1404,9.218,pharmacy,institution,Erdman
+329,"952a14511368ca89ff6ba2cbfa321d7c",Kling Inc Pharmaceutical Ltd,Ostrowiec Świętokrzyski,POLAND,50.9333,21.4,pharmacy,institution,Beier
+330,bd2a923b0b1ca9b5453f4fb90f5222af,"Koch, Borer And Hagenes",Kościan,POLAND,52.0833,16.65,hospital,private,Beier
+331,"4c2459db8bf922b7b36c412b87e33a1b","Koch, Borer And Hagenes Pharm",Waiblingen,GERMANY,48.8303,9.3169,hospital,private,Daugherty-rempel
+332,cf0fca9a9919a1ecf93103766c65dd1a,"Koch, Borer And Hagenes Pharmaceutical Ltd",Lauf,GERMANY,49.5103,11.2772,hospital,private,Erdman
+333,ddab678ba86aac7ea3b458e5fdc2ba04,Koch-osinski Pharm,Sandomierz,POLAND,50.6833,21.75,hospital,government,Beier
+334,"0ba4f77404c8ba1763e3855cada67414",Koch-osinski Pharmaceutical Ltd,Sankt Augustin,GERMANY,50.77,7.1867,hospital,private,Daugherty-rempel
+335,e229a2e05841fa4931532f928222a181,Koch-osinski Pharmacy,Hamminkeln,GERMANY,51.7319,6.5908,pharmacy,retail,Erdman
+336,"97d1c8b8dc103ab76dcc9871291159d9","Koelpin, Luettgen And Abernathy Pharmaceutical Ltd",Mörfelden-walldorf,GERMANY,49.9896,8.5661,hospital,private,Bashirian-kassulke
+337,af763cd56893f8a02886d7b732ceef89,"Koelpin, Luettgen And Abernathy Pharmacy",Wuppertal,GERMANY,51.2667,7.1833,hospital,private,Crist Inc
+338,fd7f9a1b3c07495ab062a3e345ba4f2d,Kohler-bednar Pharm,Bad Vilbel,GERMANY,50.1781,8.7361,hospital,government,Erdman
+339,"22da949933c673f267e297943f077356",Kohler-bednar Pharmaceutical Ltd,Lübeck,GERMANY,53.8697,10.6864,hospital,government,Erdman
+340,"0c04b23f73fe2b4b02d3cdf4997da2c8",Konopelski-blick,Bergisch Gladbach,GERMANY,50.9917,7.1367,hospital,government,Erdman
+341,"8e820d2616f1db7f5df11459b05a2b47",Konopelski-blick Pharmaceutical Limited,Bramsche,GERMANY,52.4089,7.9728,hospital,government,Erdman
+342,"662b51bbdc3b41eaafd5f1c69a7ffe54",Koss Ltd Pharma Plc,Dingolfing,GERMANY,48.6333,12.5,pharmacy,retail,Erdman
+343,f93c98795d4288cf8241a46c1d33e8b9,Koss Ltd Pharmaceutical Limited,Lwówek Śląski,POLAND,51.1167,15.5833,hospital,private,Beier
+344,c82d96a024c1b8fbb7ef2d4ba1fcde5c,Koss Ltd Pharmaceutical Ltd,Löhne,GERMANY,52.2,8.7,pharmacy,retail,Daugherty-rempel
+345,afcb9976476f73f269f7c8459b0a373d,Koss-beier,Nakło Nad Notecią,POLAND,53.1421,17.6018,pharmacy,retail,Beier
+346,"2f77b6d5a021a68b32b9cc7fc41b2154",Koss-beier Pharmaceutical Limited,Rastatt,GERMANY,48.8572,8.2031,pharmacy,institution,Crist Inc
+347,"9dbdef6e4b4edf11eadb14cae61d19c7",Koss-beier Pharmacy,Roth,GERMANY,49.2461,11.0911,hospital,government,Erdman
+348,c110c4c9a326eb7a5c45fe7509144350,Kozey Ltd Pharma Plc,Griesheim,GERMANY,49.8594,8.5525,pharmacy,institution,Erdman
+349,"9b4e0e3e643de56e7332a7f25dea5339",Kozey Ltd Pharmaceutical Ltd,Bielsk Podlaski,POLAND,52.7667,23.2,hospital,government,Beier
+350,c047487a38cf826778df161c82db28d3,Kozey Ltd Pharmacy,Stralsund,GERMANY,54.3,13.0833,pharmacy,retail,Daugherty-rempel
+351,"7c51083a817ec96d57532f6cae0eb16e",Kozey-emmerich,Würselen,GERMANY,50.8247,6.1275,hospital,government,Daugherty-rempel
+352,"54acbefe6a1f7b2869a661c884508726",Kozey-emmerich Pharmacy,Marktoberdorf,GERMANY,47.7667,10.6167,hospital,private,Crist Inc
+353,"09e4ef3ebbc99e318e56eda34981d102",Kozey-schroeder,Jawor,POLAND,51.05,16.1833,hospital,private,Beier
+354,"4d47549aecf6af4344547f98727773d2",Kozey-schroeder Pharm,Heiligenhaus,GERMANY,51.3265,6.971,hospital,private,Erdman
+355,"842ad12ea9f809f56b8bb8793e3548b9",Kozey-schroeder Pharma Plc,Langenhagen,GERMANY,52.4394,9.74,pharmacy,retail,Erdman
+356,"3832652e9f125a0987707289d82a803e",Kreiger Inc,Burgdorf,GERMANY,52.45,10.0083,pharmacy,retail,Crist Inc
+357,"0b9d47db86c5d81a5a40abe52e1a6981",Kreiger Inc Pharm,Salzgitter,GERMANY,52.1503,10.3593,hospital,government,Daugherty-rempel
+358,c15cd96513f13ade95deb7665580bebe,Kreiger Inc Pharma Plc,Mielec,POLAND,50.2833,21.4333,hospital,private,Beier
+359,"0ec568efbc31b1515b3c9d5ca9239bca",Kris Llc Pharm,Zeitz,GERMANY,51.0478,12.1383,pharmacy,institution,Crist Inc
+360,e8948bdebd7029a602169b92101ba2d5,Kris Llc Pharmaceutical Limited,Herten,GERMANY,51.6,7.1333,hospital,government,Crist Inc
+361,"7e2a8272c9d2954f6c6aafba936a8443",Kris Llc Pharmaceutical Ltd,Lichtenfels,GERMANY,50.1333,11.0333,hospital,private,Erdman
+362,"08173180ada5953b95513240eb1e628b",Kris Llc Pharmacy,Halberstadt,GERMANY,51.8958,11.0467,hospital,private,Crist Inc
+363,ad5ad7afa6d6fb1a73c73b2407d66364,"Kshlerin, Ryan And Leuschke",Goch,GERMANY,51.6839,6.1619,pharmacy,institution,Daugherty-rempel
+364,"121212fe10c3f4ab48724345107733a2","Kshlerin, Ryan And Leuschke Pharm",Rostock,GERMANY,54.0833,12.1333,hospital,private,Erdman
+365,"142bba160f301b262c77f0991fae2c66","Kshlerin, Ryan And Leuschke Pharma Plc",Zielona Góra,POLAND,51.9397,15.505,hospital,government,Beier
+366,"9e76f8e4e484a91367de6d996413203b","Kub, Von And Herzog Pharmaceutical Limited",Freudenstadt,GERMANY,48.4633,8.4111,hospital,private,Daugherty-rempel
+367,daeea5c784453d49bcbbd3651e1a85ec,"Kub, Von And Herzog Pharmaceutical Ltd",Borken,GERMANY,51.8439,6.8583,pharmacy,institution,Erdman
+368,"4ac666ad96a9b33b6f98dec748bf9c65","Kub, Von And Herzog Pharmacy",Wschowa,POLAND,51.8,16.3,hospital,private,Beier
+369,"53f483d63531adfff1a7c49f701a18bc",Kuhic Llc,Schleswig,GERMANY,54.5153,9.5697,pharmacy,retail,Crist Inc
+370,bbc0854e1d3b317c9e77e5198ff9ed29,Kuhic Llc Pharma Plc,Oborniki,POLAND,52.65,16.8167,pharmacy,retail,Beier
+371,"623a9ffabb016eae87f5a228689d30c1",Kuhic Llc Pharmaceutical Limited,Gronau,GERMANY,52.2125,7.0417,pharmacy,institution,Bashirian-kassulke
+372,e20883fab5debf4b4433562928fb10b4,Kunze Plc Pharm,Darłowo,POLAND,54.4167,16.4167,hospital,private,Beier
+373,df366e151de122e7ec6cc5317bb1592b,Kunze Plc Pharma Plc,Eisenach,GERMANY,50.9747,10.3244,hospital,government,Crist Inc
+374,cb78a95ad1bc512f8f280d171ad64a8c,"Kuphal, D'amore And Bode Pharm",Cologne,GERMANY,50.9422,6.9578,hospital,government,Erdman
+375,"5ca723e323726e01467d0af2b4bae298","Kuphal, D'amore And Bode Pharmaceutical Ltd",Szczecin,POLAND,53.4247,14.5553,pharmacy,retail,Beier
+376,"7cb3bae9effb2a70817c6c44cb1cc290","Kuphal, D'amore And Bode Pharmacy",Wesseling,GERMANY,50.8207,6.9786,hospital,government,Daugherty-rempel
+377,"4e42ed2b3d79afc9a6d1cd3387f6ba9d","Kuphal, Herzog And Purdy",Berlin,GERMANY,52.5167,13.3833,hospital,government,Daugherty-rempel
+378,"9b9b9f8a877382b327b22005b312820a","Kuphal, Herzog And Purdy Pharmaceutical Limited",Erding,GERMANY,48.3001,11.9082,pharmacy,retail,Erdman
+379,"8f430bdecaec3c04a476d284a253a4d5","Kutch, Daniel And Ortiz Pharm",Gummersbach,GERMANY,51.0333,7.5667,hospital,private,Daugherty-rempel
+380,"24b6559b61c6debf1b200895698daf71",Kutch-marks Pharm,Chełm,POLAND,51.1333,23.4833,hospital,private,Beier
+381,db22f59f06e610520ffffe3ead55991b,Kutch-marks Pharma Plc,Koblenz,GERMANY,50.3597,7.5978,hospital,government,Daugherty-rempel
+382,"94c85ebe856f29beae56c645ca1248a9",Kutch-marks Pharmaceutical Limited,Kreuztal,GERMANY,50.962,8.0064,hospital,private,Crist Inc
+383,"8854f5c9b6b9f538f3ccb5d93dc6aea4","Langworth, Olson And Satterfield Pharm",Tübingen,GERMANY,48.52,9.0556,hospital,private,Daugherty-rempel
+384,fc9c51fcfc21f34a4c4e4be225b868b2,"Langworth, Olson And Satterfield Pharmacy",Meschede,GERMANY,51.3503,8.2836,hospital,government,Erdman
+385,b7f7c56ebc2fb986dde1e652a4fc8f6b,Leannon-west,Rösrath,GERMANY,50.9,7.1833,hospital,private,Daugherty-rempel
+386,c4bb27bc07f4170adc868268e55655d5,Leannon-west Pharmaceutical Limited,Bocholt,GERMANY,51.8333,6.6167,hospital,government,Erdman
+387,bce6f24c38df00504633e50f112212b2,Leannon-west Pharmacy,Cieszyn,POLAND,49.75,18.6333,pharmacy,retail,Beier
+388,c399bbb32d99819abc8f82d2264b568e,"Lebsack, Yost And Heller Pharma Plc",Ibbenbüren,GERMANY,52.2778,7.7167,pharmacy,retail,Crist Inc
+389,b26d783fd7faec84eb3a3ed8e5ef99bc,"Lebsack, Yost And Heller Pharmaceutical Limited",Wieliczka,POLAND,49.9894,20.0661,pharmacy,institution,Beier
+390,d2f6ff03db36143e2e92815280df9ee1,Leffler-russel Pharm,Konstancin-jeziorna,POLAND,52.0938,21.1176,hospital,private,Beier
+391,"2690295697f926812c5ca0eed2197f9c",Leffler-russel Pharmaceutical Limited,Hennigsdorf,GERMANY,52.6378,13.2036,pharmacy,institution,Erdman
+392,"2bb362f11c55d89840a2617e489693f4",Leffler-russel Pharmaceutical Ltd,Lingen,GERMANY,52.5233,7.3172,pharmacy,retail,Bashirian-kassulke
+393,"96138190eb06093029113e46772e4525",Legros-runte Pharmaceutical Limited,Neckarsulm,GERMANY,49.1917,9.2244,hospital,private,Erdman
+394,"403d905696c1fad18d59d0c1ef8d1dc2",Legros-runte Pharmaceutical Ltd,Baden-baden,GERMANY,48.7619,8.2408,hospital,government,Crist Inc
+395,d3c63624503a8e99c258a76c689bb39a,Lemke Ltd Pharm,Tarnów,POLAND,50.0125,20.9883,hospital,private,Beier
+396,fc88a87700121cdfc8e995d00c89de09,Lemke Ltd Pharma Plc,Leverkusen,GERMANY,51.0333,6.9833,pharmacy,retail,Erdman
+397,"963115869bd612beec75abfbece311bc",Lemke Ltd Pharmaceutical Limited,Jülich,GERMANY,50.9222,6.3583,hospital,private,Erdman
+398,"40ee205dd15c550507cb86f4711b130b",Lesch Plc Pharma Plc,Königs Wusterhausen,GERMANY,52.2917,13.625,pharmacy,retail,Daugherty-rempel
+399,db4c2a8468360b52166afcf1ff8d25cd,Lesch Plc Pharmaceutical Ltd,Głuszyca,POLAND,50.6874,16.3717,pharmacy,retail,Cassin
+400,c1c4043446b12a787d361e9c7b54a169,Lesch Plc Pharmacy,Wrocław,POLAND,51.1077,17.0353,hospital,private,Beier
+401,"5369f1a8dd08b128b50913d704ec5d18",Leuschke Plc Pharm,Gaggenau,GERMANY,48.8039,8.3194,hospital,government,Gerlach Llc
+402,"83032af6daaed8ea583c943ad56eeeef",Leuschke Plc Pharmaceutical Ltd,Worms,GERMANY,49.6319,8.3653,pharmacy,institution,Crist Inc
+403,"7cc35d6bf46e37564b706cc9170ff0a6",Leuschke Plc Pharmacy,Ciechanów,POLAND,52.8817,20.6106,pharmacy,retail,Beier
+404,"74ecd21f80270db9f5b5ea22e5c5df74","Leuschke, Waters And Schowalter Pharma Plc",Herzogenrath,GERMANY,50.8667,6.1,pharmacy,retail,Erdman
+405,ce1ee0402e3718f105571816a7f04c74,"Leuschke, Waters And Schowalter Pharmaceutical Ltd",Krapkowice,POLAND,50.4751,17.9654,pharmacy,institution,Beier
+406,"77daa751708e096c66da9aadd8fae5bd","Leuschke, Waters And Schowalter Pharmacy",Salzkotten,GERMANY,51.6708,8.6047,hospital,government,Erdman
+407,b25fb520af9c6a2952cff97f9ae1ff39,Lindgren-simonis Pharm,Biskupiec,POLAND,53.8647,20.9569,pharmacy,retail,Beier
+408,"180116e17eebb1350b2d14e91f0c9942",Lindgren-simonis Pharmacy,Neumarkt,GERMANY,49.2833,11.4667,hospital,government,Erdman
+409,"93fcc94efc7f8208399685d4c8ca382f",Lockman Ltd,Połaniec,POLAND,50.4333,21.2833,pharmacy,institution,Beier
+410,d6765f023a3bf4911e95330a48ce512b,Lockman Ltd Pharm,Mettmann,GERMANY,51.25,6.9667,pharmacy,retail,Bashirian-kassulke
+411,"937dae22cc217538eadea474cbe87ae2",Lockman Ltd Pharma Plc,Bad Tölz,GERMANY,47.7603,11.5567,hospital,government,Erdman
+412,d4ed23be485fd89ea8baf79fd42255af,Lockman-welch,Kiel,GERMANY,54.3233,10.1394,hospital,government,Erdman
+413,d88d50e14d92a3d60848e2a013682aab,Lockman-welch Pharm,Bytom,POLAND,50.347,18.923,hospital,government,Beier
+414,c1315f91559f9000dc8624a4f39d9258,Lockman-welch Pharmaceutical Limited,Zweibrücken,GERMANY,49.2494,7.3608,pharmacy,retail,Erdman
+415,b1b8c10620620b398ec12f8bde036669,Mann-waelchi Pharm,Piotrków Trybunalski,POLAND,51.4,19.6833,hospital,private,Beier
+416,"98542edb8f07342af0faaef968f9e1a2",Mann-waelchi Pharma Plc,Ulm,GERMANY,48.3984,9.9916,hospital,private,Daugherty-rempel
+417,"956f9f96b2ea63588de3417370702247",Mann-waelchi Pharmacy,Achim,GERMANY,53.013,9.033,hospital,private,Daugherty-rempel
+418,"5ae7a9ccb8952085f923e4fdbe38d844",Mante-grady Pharm,Lubaczów,POLAND,50.1556,23.123,pharmacy,institution,Beier
+419,f697b13712ae9c45e80dbbde2ae89733,Mante-grady Pharma Plc,Sonthofen,GERMANY,47.5142,10.2817,hospital,private,Erdman
+420,"019fc09f85cc03381236b28d53af148f",Mante-grady Pharmaceutical Ltd,Laatzen,GERMANY,52.3077,9.8133,pharmacy,institution,Daugherty-rempel
+421,"1f601b395ec6676cf1cbf00dd499e4d7",Marquardt Plc,Wetter (ruhr),GERMANY,51.3881,7.395,hospital,government,Crist Inc
+422,"2f558bd20935b287ae9b3f2ec12c983a",Marquardt Plc Pharmaceutical Ltd,Offenburg,GERMANY,48.4708,7.9408,hospital,government,Erdman
+423,"00c897941e2370b6736bf6f57b2cf012",Marquardt-ryan Pharm,Königswinter,GERMANY,50.6833,7.1833,hospital,government,Daugherty-rempel
+424,"65805ae7a5a1355ebe57fb4b8dcb765b",Marquardt-ryan Pharma Plc,Sondershausen,GERMANY,51.3667,10.8667,pharmacy,institution,Crist Inc
+425,af47b24fb9b2ddfef17755be9a1398d8,Marquardt-ryan Pharmaceutical Ltd,Węgorzewo,POLAND,54.2167,21.75,hospital,private,Beier
+426,"2aeeccb1ec3ca278e5bfda71009dd23b",Mayert-weber,Homburg,GERMANY,49.3167,7.3333,pharmacy,retail,Daugherty-rempel
+427,"4db0803467a05e1ae59a97420b9c7e20",Mayert-weber Pharmaceutical Ltd,Apolda,GERMANY,51.0247,11.5139,pharmacy,institution,Daugherty-rempel
+428,"9dcec5e27126087687bea6db0a237a48","Mcclure, Zemlak And Dibbert Pharma Plc",Gdańsk,POLAND,54.3667,18.6333,pharmacy,retail,Beier
+429,da1e470e018bb1ec08d889cdcd7c1911,"Mcclure, Zemlak And Dibbert Pharmaceutical Limited",Kórnik,POLAND,52.2367,17.0986,hospital,private,Beier
+430,c8d1a28937c074fe1a161873dcd40275,"Mcclure, Zemlak And Dibbert Pharmacy",Beckum,GERMANY,51.7558,8.0408,hospital,private,Crist Inc
+431,"10a93948c2c3dba47e454975c32959e2",Mccullough Llc Pharma Plc,Częstochowa,POLAND,50.8,19.1167,pharmacy,retail,Beier
+432,"2d8683619acf5b5512f0242d19cce40e",Mccullough Llc Pharmaceutical Limited,Nuremberg,GERMANY,49.4528,11.0778,pharmacy,retail,Erdman
+433,d5aca5929f593299d1ee89ec3f7c9139,Mccullough Llc Pharmaceutical Ltd,Lage,GERMANY,51.9833,8.8,pharmacy,retail,Daugherty-rempel
+434,"6208a06fbabdab43f37339589d7c1ab2",Mcdermott Group Pharmaceutical Ltd,Lindau,GERMANY,47.5458,9.6839,pharmacy,institution,Daugherty-rempel
+435,"6ce743c8ef0d58128af08641fe396f5f",Mcdermott Group Pharmacy,Leonberg,GERMANY,48.8014,9.0131,hospital,private,Crist Inc
+436,f1c9e1651d099c3638845729502cb616,Mcdermott Inc Pharma Plc,Staßfurt,GERMANY,51.8667,11.5667,pharmacy,retail,Bashirian-kassulke
+437,"16e184557dab4161de1c729f669e05c2",Mcdermott Inc Pharmacy,Frankenthal,GERMANY,49.5333,8.35,hospital,private,Crist Inc
+438,"96491ff978d0a5699554f8da40e61fae",Mckenzie-zemlak Pharm,Rheinbach,GERMANY,50.6256,6.9491,pharmacy,institution,Daugherty-rempel
+439,"242fd88a1b98f0d5a9aced31a7a98ff2",Mckenzie-zemlak Pharma Plc,Unna,GERMANY,51.5347,7.6889,pharmacy,institution,Daugherty-rempel
+440,"86bab45a66e1ab92cd0800184ad65b18",Medhurst-beer,Aachen,GERMANY,50.7762,6.0838,hospital,private,Crist Inc
+441,d651a83773cf9600aeb489a3ccb3eb1b,Medhurst-beer Pharm,Viernheim,GERMANY,49.538,8.5792,pharmacy,institution,Crist Inc
+442,"2a8f53e0aa19a8d043414e3c5310d856",Medhurst-beer Pharmaceutical Limited,Rybnik,POLAND,50.0833,18.5,pharmacy,institution,Beier
+443,c11336304056e73c711b291516a0de2b,Miller-satterfield Pharm,Heinsberg,GERMANY,51.0631,6.0964,pharmacy,institution,Erdman
+444,"9cb779e1da04e09638ff1bc1e0ba1242",Miller-satterfield Pharma Plc,Nidzica,POLAND,53.3583,20.425,hospital,private,Beier
+445,e389acb5c3283f5098f74966cfbb9f02,Miller-satterfield Pharmaceutical Limited,Bad Kissingen,GERMANY,50.2,10.0667,pharmacy,retail,Daugherty-rempel
+446,"5e48fcfa22c95fc2328afc2288047044",Mills Inc Pharma Plc,Bydgoszcz,POLAND,53.1167,18.0,hospital,private,Beier
+447,f6cd9140f4e075d0998805feda943f02,Mills Inc Pharmaceutical Ltd,Emsdetten,GERMANY,52.1728,7.5344,hospital,private,Erdman
+448,"800ca02b8dcf9b6a0e3ae1a18b0e784a",Mills Inc Pharmacy,Bremen,GERMANY,53.1153,8.7975,pharmacy,retail,Erdman
+449,"1098a71ec2b65d9046909d17e1465269","Moen, Murazik And Smith",Siedlce,POLAND,52.1833,22.2833,pharmacy,retail,Beier
+450,"8f71a36028d873694f1482b581f5c524","Moen, Murazik And Smith Pharm",Altenburg,GERMANY,50.985,12.4333,hospital,government,Crist Inc
+451,d10ea35e35d2e78012bb34154ea03b03,"Moen, Murazik And Smith Pharmaceutical Ltd",Ingolstadt,GERMANY,48.7636,11.4261,hospital,government,Daugherty-rempel
+452,"25a407bc740ba9fbe2f3b545cca72759",Monahan Ltd,Oświęcim,POLAND,50.0333,19.2333,hospital,government,Beier
+453,"466f16cf14dc11eb5ee8a224db6a85dc",Monahan Ltd Pharma Plc,Güstrow,GERMANY,53.7939,12.1764,pharmacy,retail,Erdman
+454,"350083fffd639565ef7a72f0793ef4be",Monahan Ltd Pharmaceutical Ltd,Lüneburg,GERMANY,53.2525,10.4144,pharmacy,retail,Erdman
+455,"5d2e4f990cac0b1605b9f09415b4d193",Moore Plc Pharm,Bremerhaven,GERMANY,53.55,8.5833,hospital,government,Daugherty-rempel
+456,"5c33f1308e15bcfe46a46fbcfbedde24",Moore Plc Pharmaceutical Ltd,Łomża,POLAND,53.1833,22.0833,pharmacy,retail,Beier
+457,"59eeb3889d1ebf0cca65472b33e4938e",Mraz Group Pharma Plc,Hohen Neuendorf,GERMANY,52.6667,13.2831,hospital,private,Daugherty-rempel
+458,ef6c1802b5bff0ee938a03aed251ca29,Mraz Group Pharmaceutical Limited,Schweinfurt,GERMANY,50.05,10.2333,pharmacy,retail,Crist Inc
+459,c731bb8f7354b08de5afdeef54bea97b,Mraz Group Pharmacy,Piastów,POLAND,52.1833,20.85,hospital,private,Beier
+460,ce784b417a5d79f8ae093b6753152bb6,Mraz-kutch Pharm,Bieruń Stary,POLAND,50.0897,19.0928,pharmacy,retail,Beier
+461,"0030286e78d6b60ad48ea13b741d9070",Mraz-kutch Pharma Plc,Butzbach,GERMANY,50.4367,8.6622,pharmacy,retail,Erdman
+462,"2724c41f9f6472a13eec770b9e6109a5",Mraz-kutch Pharmacy,Bad Salzuflen,GERMANY,52.0875,8.7506,hospital,government,Erdman
+463,"891ca4d1a613ce4292174778279e5d51",Murray Plc,Wesel,GERMANY,51.6586,6.6178,pharmacy,retail,Erdman
+464,"21911202f1323f61eb2e05cb11f7f293",Murray Plc Pharma Plc,Reinbek,GERMANY,53.5089,10.2483,hospital,private,Erdman
+465,"7721281e88aa59419648b826dea82148",Nader-borer Pharm,Kerpen,GERMANY,50.8719,6.6961,hospital,private,Erdman
+466,ce98d9ecf155703e6cde5b80b7e2b497,Nader-borer Pharma Plc,Bielawa,POLAND,50.6908,16.623,pharmacy,retail,Gottlieb-cruickshank
+467,dee5c36322ad36490c01c7dad466771f,Nader-borer Pharmaceutical Limited,Grimma,GERMANY,51.2386,12.7253,hospital,private,Erdman
+468,c51d02474c702e38180a7c789304148e,Nader-gaylord Pharmaceutical Limited,Sobótka,POLAND,50.8986,16.7444,hospital,private,Beier
+469,d73d6ff52091d93d3d7b2b778bdc28f6,Nader-gaylord Pharmaceutical Ltd,Łódź,POLAND,51.7769,19.4547,pharmacy,retail,Beier
+470,c7667a70c7b67fa5daa08eec2029d74c,Nader-gaylord Pharmacy,Backnang,GERMANY,48.9464,9.4306,hospital,private,Erdman
+471,"8fe817cd858cac164b33fb7031d4e061","Nitzsche, Effertz And Maggio",Bayreuth,GERMANY,49.9481,11.5783,hospital,private,Crist Inc
+472,"714c659201d87749f6c882660e626671","Nitzsche, Effertz And Maggio Pharmaceutical Limited",Northeim,GERMANY,51.7067,10.0011,pharmacy,retail,Erdman
+473,"187cf8c9c3e56284fa1823ed2c29adf6","Nitzsche, Effertz And Maggio Pharmacy",Malbork,POLAND,54.0285,19.0444,hospital,private,Beier
+474,b6bd8b0f3b6b99c3fe5ebce48acccd18,"Nolan, Dubuque And Schultz",Oldenburg,GERMANY,53.1439,8.2139,hospital,private,Daugherty-rempel
+475,"59dfeb99a53478b1adeec109a1d1c9bb","Nolan, Dubuque And Schultz Pharm",Wałbrzych,POLAND,50.7667,16.2833,hospital,government,Beier
+476,a90b1a85141fcd131c4f4492aaccee94,"Nolan, Dubuque And Schultz Pharmacy",Wernigerode,GERMANY,51.835,10.7853,pharmacy,retail,Daugherty-rempel
+477,"94d50594f673888deadbf774f756a125",Okuneva-corkery,Kostrzyn Nad Odrą,POLAND,52.5883,14.6667,hospital,government,Beier
+478,"81d0d76b3140b967e659e79bf6f0360a",Okuneva-corkery Pharm,Groß-gerau,GERMANY,49.9214,8.4818,hospital,government,Erdman
+479,"6b3d3e91674a92fb487e590b19461632",Okuneva-corkery Pharma Plc,Bornheim,GERMANY,50.7592,7.005,pharmacy,retail,Daugherty-rempel
+480,"7cf2804d0890b2e61da4cabb4e25ee9e",Ondricka Ltd,Saalfeld,GERMANY,50.6506,11.3542,pharmacy,institution,Erdman
+481,d1287da4f817bb02ddb14f165d30f12e,Ondricka Ltd Pharmaceutical Ltd,Bamberg,GERMANY,49.8917,10.8917,pharmacy,institution,Erdman
+482,a456e1ee8dd1c4d0dc585b669c32b33e,Ondricka Ltd Pharmacy,Świnoujście,POLAND,53.9167,14.25,hospital,government,Cassin
+483,f6e22d57c9b3d09289b9d09ff86e556c,"Ondricka, Rosenbaum And Beahan",Starogard Gdański,POLAND,53.9667,18.5333,hospital,government,Beier
+484,"54a68cb0065910dfaf8454903fb03050","Ondricka, Rosenbaum And Beahan Pharm",Iserlohn,GERMANY,51.3833,7.6667,hospital,government,Crist Inc
+485,"05f79eb839994e813bd34ae70e12296d",Ondricka-waters Pharmaceutical Limited,Rinteln,GERMANY,52.1906,9.0814,hospital,government,Erdman
+486,"54a2d5f075a024bcda6e02a33dd5afc1",Ondricka-waters Pharmaceutical Ltd,Bad Oeynhausen,GERMANY,52.2,8.8,pharmacy,institution,Daugherty-rempel
+487,"384a0eec6067a7410da8ba77747aea33",Osinski-botsford Pharm,Meerbusch,GERMANY,51.2667,6.6667,pharmacy,retail,Erdman
+488,b1ce11779730ca7d28b477cc3f7f9f72,Osinski-botsford Pharmacy,Wiesloch,GERMANY,49.2942,8.6983,hospital,government,Erdman
+489,"1c934140d19278a66d0013909fe9240c",Osinski-collins,Rheinfelden (baden),GERMANY,47.5611,7.7917,hospital,private,Crist Inc
+490,c418a3aa71be17a56740be56253c6ca6,Osinski-collins Pharma Plc,Potsdam,GERMANY,52.4,13.0667,hospital,government,Erdman
+491,"8497737e612ff3978b9567ce4b9495b5",Osinski-collins Pharmaceutical Ltd,Elbląg,POLAND,54.1667,19.4,pharmacy,institution,Cassin
+492,"5d60b033f5c63ae515da9bd94625cd66",Parisian Ltd Pharm,Jelenia Góra,POLAND,50.9,15.7333,pharmacy,institution,Beier
+493,c221b50b95f8d2a24cf61ed77531d61e,Parisian Ltd Pharma Plc,Paderborn,GERMANY,51.7167,8.7667,hospital,government,Daugherty-rempel
+494,"00402aa3cf9429a8d9f00415f60cae3b",Parisian Ltd Pharmacy,Hoyerswerda,GERMANY,51.4331,14.25,hospital,private,Erdman
+495,"0a484dc6f0ea74c4531c5304f742704a","Parisian, Hagenes And Skiles Pharm",Greiz,GERMANY,50.6547,12.1997,hospital,government,Crist Inc
+496,"0319f1ab0758df24ab89529a0db81bef","Parisian, Hagenes And Skiles Pharma Plc",Ciechocinek,POLAND,52.8833,18.7833,pharmacy,retail,Beier
+497,"3f1c2afede2bb92a8c6bbc25d254cb16","Parisian, Hagenes And Skiles Pharmacy",Buxtehude,GERMANY,53.4769,9.7011,hospital,government,Crist Inc
+498,"628e96c75cb264cdf447a14a131d42a9","Parker, Green And Emmerich Pharma Plc",Baesweiler,GERMANY,50.9,6.1833,pharmacy,retail,Crist Inc
+499,dd9bfced8135bfbda4de3aa3d973fee8,"Parker, Green And Emmerich Pharmacy",Frankfurt (oder),GERMANY,52.35,14.55,hospital,government,Erdman
+500,d0589fe7bae24cd2ea0fe6f51e87f595,Paucek Plc,Espelkamp,GERMANY,52.3772,8.6328,pharmacy,retail,Daugherty-rempel
+501,c926943d5cd7bea97eb5854131805c7c,Paucek Plc Pharm,Bruchsal,GERMANY,49.1333,8.6,pharmacy,institution,Erdman
+502,a31735c7fc60262a2f4e83a3e2002ab8,"Paucek, Keeling And Bruen Pharm",Łęczna,POLAND,51.3,22.8833,pharmacy,institution,Beier
+503,"2e78128e573e0206c8c467d5cb88460d","Paucek, Keeling And Bruen Pharma Plc",Sankt Wendel,GERMANY,49.4667,7.1667,hospital,government,Erdman
+504,"4590f66e3fef797c0ceaa7c0c65f7fea","Paucek, Keeling And Bruen Pharmaceutical Limited",Bad Kreuznach,GERMANY,49.8469,7.8669,pharmacy,retail,Daugherty-rempel
+505,"19786756d97f939c49b9b215a7ea354b",Pfannerstill Group,Calw,GERMANY,48.7144,8.7375,hospital,private,Erdman
+506,"32cba0cf2d554d85a1c503021d31d496",Pfannerstill Group Pharmaceutical Limited,Kaarst,GERMANY,51.2278,6.6273,pharmacy,retail,Erdman
+507,"7ad07b8468c40c1a2ad60c6590f237e9",Pfannerstill Group Pharmaceutical Ltd,Jelcz-laskowice,POLAND,51.0333,17.3333,pharmacy,retail,Beier
+508,cf2f8d6d0464bc1667ef38a8e9583955,"Pfannerstill, Upton And Balistreri Pharm",Ilmenau,GERMANY,50.6872,10.9142,pharmacy,institution,Erdman
+509,b682bb93ea95350298b6ec06f153fbaa,"Pfannerstill, Upton And Balistreri Pharmacy",Dillingen,GERMANY,48.5667,10.4667,hospital,government,Crist Inc
+510,"4dd639d574468659651c09636aa98935",Pfeffer-hodkiewicz,Nordenham,GERMANY,53.5,8.4667,hospital,private,Daugherty-rempel
+511,ba4e6899a3143c10507ed660d22ca742,Pfeffer-hodkiewicz Pharm,Pulheim,GERMANY,51.0,6.8,pharmacy,retail,Erdman
+512,"6a6d32c62647fda9a04587c31f3b9d63",Pfeffer-hodkiewicz Pharmaceutical Ltd,Szczytno,POLAND,53.5628,20.9853,hospital,government,Beier
+513,"67df20d8b935238699ac57e2af63531d",Pfeffer-kirlin Pharmaceutical Limited,Selm,GERMANY,51.6833,7.4833,hospital,private,Daugherty-rempel
+514,"13e2050cc8ecd1048bef061c64445585",Pfeffer-kirlin Pharmacy,Ahlen,GERMANY,51.7633,7.8911,pharmacy,institution,Erdman
+515,f39d5a5b7e86e3ebe6f9ac47977f1bb5,Powlowski-buckridge,Sprockhövel,GERMANY,51.3614,7.244,hospital,government,Crist Inc
+516,"7ed7cfbe6d88d8ab2e77f958e51ba703",Powlowski-buckridge Pharma Plc,Ustka,POLAND,54.5805,16.8619,hospital,private,Beier
+517,c7060923b7322c3dddf56bf5d4bc076f,Powlowski-buckridge Pharmacy,Albstadt,GERMANY,48.2119,9.0239,pharmacy,retail,Crist Inc
+518,"3f26a28d7cc23e6f46d94abceab846e3",Predovic Llc Pharmaceutical Limited,Ingelheim,GERMANY,49.9747,8.0564,pharmacy,institution,Crist Inc
+519,"1b93f31fcb99329bc254201cb6c27fb5",Predovic Llc Pharmaceutical Ltd,Hannover,GERMANY,52.3744,9.7386,pharmacy,institution,Erdman
+520,"0b0da114e9fbcb282403c39edb7f23b6","Prohaska, Bogisich And Gutkowski Pharm",Bad Oldesloe,GERMANY,53.8117,10.3742,hospital,private,Erdman
+521,"7dd028792309f40a50010d5bee21f8a8","Prohaska, Bogisich And Gutkowski Pharmaceutical Limited",Weinheim,GERMANY,49.5561,8.6697,hospital,government,Crist Inc
+522,ff225b86046b18f76065a9647b8feb96,Prohaska-kuhic Pharma Plc,Pirmasens,GERMANY,49.2,7.6,hospital,government,Erdman
+523,f174449d32366dd10eecc50b7043109b,Prohaska-kuhic Pharmaceutical Limited,Wittmund,GERMANY,53.5747,7.7808,hospital,private,Erdman
+524,"05d0017b72f6873e6b4dfaae65960782",Prohaska-kuhic Pharmacy,Wisła,POLAND,49.6667,18.8667,pharmacy,institution,Beier
+525,f45bda3da7ce85e79da7c50fb75c5647,Purdy Ltd,Erkelenz,GERMANY,51.08,6.3156,pharmacy,retail,Bashirian-kassulke
+526,c8040008b5c2f00280fb44080bae72ab,Purdy Ltd Pharm,Korbach,GERMANY,51.2719,8.8731,pharmacy,retail,Crist Inc
+527,c5d772cf6bdc51e232a94db83fe78feb,Purdy Ltd Pharmaceutical Limited,Głuchołazy,POLAND,50.3131,17.3742,hospital,government,Beier
+528,"23b09977a94309b9c82be890879b2399",Quigley-heathcote Pharm,Witten,GERMANY,51.4333,7.3333,hospital,private,Daugherty-rempel
+529,"6c7c0359d842dc7a31a6aef2de1af01f",Quigley-heathcote Pharmaceutical Ltd,Lohmar,GERMANY,50.8415,7.2166,hospital,government,Crist Inc
+530,b7a55a06252cd7be875140991ee67187,Raynor Llc Pharm,Hilden,GERMANY,51.1714,6.9394,pharmacy,retail,Erdman
+531,"84413567187b9d46028c7d9a56e1fb7d",Raynor Llc Pharmaceutical Limited,Strausberg,GERMANY,52.5808,13.8814,pharmacy,retail,Erdman
+532,"815e611ce4d29a69b4c7c980d70e0488",Raynor-graham,Wedel,GERMANY,53.5833,9.7,pharmacy,retail,Erdman
+533,"00bfcee418558ed77e1e4291e28686fb",Raynor-graham Pharma Plc,Saarbrücken,GERMANY,49.2333,7.0,pharmacy,institution,Daugherty-rempel
+534,c408c572f1c2cdf33ff62067a1444184,Raynor-graham Pharmaceutical Limited,Gorzów Wielkopolski,POLAND,52.7333,15.25,pharmacy,institution,Beier
+535,"7e5dea4417419d4df1d7653db95527ee",Reichel Inc,Trier,GERMANY,49.7567,6.6414,hospital,government,Daugherty-rempel
+536,f29bff27031677df6a2d89bb472b781b,Reichel Inc Pharm,Schönebeck,GERMANY,52.0167,11.75,hospital,private,Erdman
+537,"0bd6a96a9b0c54867b330d3c01d1f711",Reilly Ltd,Mława,POLAND,53.1167,20.3667,pharmacy,retail,Cassin
+538,e2c7fee012fd08444979201faae0ca4c,Reilly Ltd Pharma Plc,Königsbrunn,GERMANY,48.2689,10.8908,hospital,private,Crist Inc
+539,"116a5c6d046bf2b72d648be972136434",Reilly Ltd Pharmacy,Sindelfingen,GERMANY,48.7133,9.0028,hospital,private,Erdman
+540,a4aa8a7e75752cc8ec529a05df03215e,Reinger Group Pharma Plc,Weil Am Rhein,GERMANY,47.5947,7.6108,pharmacy,institution,Daugherty-rempel
+541,a0c62b005fafb55c0b8ac5f3fa43538a,Reinger Group Pharmaceutical Limited,Schwerin,GERMANY,53.6333,11.4167,pharmacy,institution,Erdman
+542,"42f4e37fbd3902671c52bb15d823c259","Reinger, Kihn And Goyette Pharma Plc",Euskirchen,GERMANY,50.6597,6.7917,pharmacy,retail,Daugherty-rempel
+543,"50e3b7cc669eb6334a2162280be59708","Reinger, Kihn And Goyette Pharmaceutical Limited",Overath,GERMANY,50.95,7.3,hospital,government,Daugherty-rempel
+544,d012a7d00bd0ed197b77a83c6c62755f,"Reynolds, Jast And Mante",Achern,GERMANY,48.6314,8.0739,pharmacy,retail,Daugherty-rempel
+545,b973db6588530c5f3f07b4e0a696e79c,"Reynolds, Jast And Mante Pharm",Elmshorn,GERMANY,53.7547,9.6536,hospital,government,Daugherty-rempel
+546,"2e804e1f1f81854965a8d1d4e8e4f528","Reynolds, Jast And Mante Pharma Plc",Pleszew,POLAND,51.8974,17.7856,pharmacy,institution,Beier
+547,b2888971faa154cbced48dd0f56b8ec7,Ritchie-rodriguez Pharm,Łuków,POLAND,51.9167,22.3833,pharmacy,retail,Beier
+548,"12a2669daa14e14110b716f80b644bb9",Ritchie-rodriguez Pharmacy,Herford,GERMANY,52.1146,8.6734,pharmacy,retail,Daugherty-rempel
+549,"5d77c30748b8d8b7deb61bdcedd51059","Rodriguez, Stokes And Dickens",Ostfildern,GERMANY,48.7228,9.2631,hospital,government,Crist Inc
+550,c80d22a9f4d1290dfa213809a3f55cd4,"Rodriguez, Stokes And Dickens Pharma Plc",Sömmerda,GERMANY,51.1617,11.1169,hospital,government,Erdman
+551,"8d79f6e27d1ea45e4b316db1108d681c",Rogahn-klein Pharm,Donauwörth,GERMANY,48.7184,10.777,hospital,private,Erdman
+552,d7dba8610c396865f619ba71b6dd93a5,Rogahn-klein Pharma Plc,Leinfelden-echterdingen,GERMANY,48.6928,9.1428,pharmacy,institution,Erdman
+553,a6891ec14d117355c17c2c772a1bfca6,Rogahn-klein Pharmacy,Koronowo,POLAND,53.3137,17.937,hospital,private,Beier
+554,c46bf37ffce334e805715fd1c1a78411,Rohan And Sons Pharma Plc,Prenzlau,GERMANY,53.3167,13.8667,pharmacy,institution,Crist Inc
+555,db734c4b178ee9230bd21f0bd4ad27dc,Rohan And Sons Pharmaceutical Limited,Maintal,GERMANY,50.15,8.8333,pharmacy,institution,Erdman
+556,"5905cbf53ce1dc965c7567505bcc4456",Rohan Inc,Chojnów,POLAND,51.2667,15.9333,pharmacy,institution,Beier
+557,"9460aad9f32deda2b47c2b54520aa99f",Rohan Inc Pharm,Weilheim,GERMANY,47.8333,11.1333,hospital,private,Crist Inc
+558,"2234011e198825cad58c079552039252",Rohan Inc Pharmaceutical Limited,Amberg,GERMANY,49.4444,11.8483,pharmacy,retail,Erdman
+559,d7e3a0ffc5e2be4ad2ac90478ccb58b1,Rohan Plc Pharmaceutical Limited,Krynica,POLAND,49.4222,20.9594,pharmacy,retail,Beier
+560,"2e73bacbea13ba5c8276d41256f40b34",Rohan Plc Pharmacy,Schwäbisch Hall,GERMANY,49.1122,9.7375,pharmacy,institution,Crist Inc
+561,a09933ccb5df3ccb79f3463beba64ed7,"Romaguera, Moen And Hagenes Pharm",Unterschleißheim,GERMANY,48.2833,11.5667,pharmacy,retail,Erdman
+562,"1b6f6c14cf19a74c0fdf0f21a5cbc7b0","Romaguera, Moen And Hagenes Pharmaceutical Limited",Sopot,POLAND,54.4419,18.5478,hospital,private,Beier
+563,"08a241f90b9c9408cf4e2a551a65a473","Romaguera, Moen And Hagenes Pharmacy",Castrop-rauxel,GERMANY,51.55,7.3167,hospital,government,Erdman
+564,"795308365a0aa9b2a7372a4e0589c74c",Romaguera-fay Pharmaceutical Limited,Trzemeszno,POLAND,52.5614,17.8231,pharmacy,retail,Beier
+565,f5b61a309f5807ef3c6cb253b3c9b926,Romaguera-fay Pharmaceutical Ltd,Langen,GERMANY,49.9893,8.6803,hospital,government,Daugherty-rempel
+566,"1f85d0ff54113aea732964f7a9396bc5",Roob Plc,Świedbodzin,POLAND,52.25,15.5333,pharmacy,institution,Beier
+567,"07254d0fa5c7031c8e42a78d9dca4b8c",Roob Plc Pharm,Weiterstadt,GERMANY,49.9,8.6,hospital,government,Crist Inc
+568,ef05629d84ddbe6ba2a089f23efe7e5f,Roob Plc Pharmaceutical Limited,Frechen,GERMANY,50.9167,6.8167,pharmacy,retail,Daugherty-rempel
+569,"5a163cfa6f0aa71cbef73816f110b5ee","Roob, Ernser And Kub Pharmaceutical Limited",Suwałki,POLAND,54.0833,22.9333,hospital,government,Beier
+570,"6148ad5e6652834265ee9a1aaed87fd1","Roob, Ernser And Kub Pharmaceutical Ltd",Oer-erkenschwick,GERMANY,51.6422,7.2508,hospital,government,Erdman
+571,"34b85d5786c674db9d65a5f8315fb8f7","Roob, Ernser And Kub Pharmacy",Göttingen,GERMANY,51.5339,9.9356,pharmacy,retail,Daugherty-rempel
+572,b7f3aa16e5f6ce1085364f02dadb16b4,"Rosenbaum, Klein And Herzog",Zbąszyń,POLAND,52.2531,15.9178,hospital,private,Beier
+573,"94da0d709ec02145dd20f511bae8061b","Rosenbaum, Klein And Herzog Pharma Plc",Parchim,GERMANY,53.4167,11.8333,hospital,government,Daugherty-rempel
+574,"7fbb50ee2e1ccba801f9aff24e6d6543","Rosenbaum, Klein And Herzog Pharmaceutical Ltd",Fürstenfeldbruck,GERMANY,48.1778,11.2556,hospital,government,Daugherty-rempel
+575,e083c7aeb8f3918d7d29d314ca3e85e3,Rosenbaum-tromp Pharm,Bühl,GERMANY,48.6953,8.135,hospital,government,Erdman
+576,"873d53e01938f4588e636bb6305dac67",Rosenbaum-tromp Pharmacy,Lüdenscheid,GERMANY,51.2198,7.6273,hospital,private,Erdman
+577,"35d396b8f06a67f7874bbdfad5869042",Rowe Plc,Lörrach,GERMANY,47.6156,7.6614,hospital,private,Daugherty-rempel
+578,"527b7fab0dca45bfb7c825a9fb03af5a",Rowe Plc Pharm,Verl,GERMANY,51.8831,8.5167,pharmacy,retail,Crist Inc
+579,fc05c453f2ad35cf397930cf4b08d617,Rowe Plc Pharmaceutical Ltd,Kęty,POLAND,49.8821,19.2233,pharmacy,institution,Beier
+580,"71782f0064acf1b982d948d0fdc83503","Runolfsson, Swaniawski And Jaskolski Pharmaceutical Limited",Dessau-roßlau,GERMANY,51.8333,12.2333,pharmacy,institution,Erdman
+581,a4448f99479c171d8cb1a579094a6a1a,"Runolfsson, Swaniawski And Jaskolski Pharmacy",Sieradz,POLAND,51.6,18.75,hospital,private,Beier
+582,d10e9de9bec4b643b18120b337412e4c,Runolfsson-halvorson Pharm,Rheinberg,GERMANY,51.5467,6.6006,pharmacy,retail,Erdman
+583,"261faeaf644005b0a071331e646cd9f6",Runolfsson-halvorson Pharmacy,Recklinghausen,GERMANY,51.6167,7.2,pharmacy,institution,Crist Inc
+584,"0bc1520b39d961766a94070fa29f2629",Runolfsson-powlowski Pharmaceutical Limited,Wiesbaden,GERMANY,50.0825,8.24,pharmacy,institution,Erdman
+585,"0488d8458a911d69c36bbd6027109255",Runolfsson-powlowski Pharmacy,Crailsheim,GERMANY,49.1347,10.0706,hospital,government,Erdman
+586,"0296b188d9543c481be72850d810fd7e",Runte-marquardt Pharm,Wittenberg,GERMANY,51.8671,12.6484,hospital,private,Crist Inc
+587,e6510f08ee2a19718ffc901f288c5262,Runte-marquardt Pharmaceutical Ltd,Olecko,POLAND,54.0333,22.5,hospital,private,Beier
+588,b8ed514e06919425cb8600fd92268f0d,Runte-marquardt Pharmacy,Idstein,GERMANY,50.2206,8.2692,pharmacy,retail,Daugherty-rempel
+589,"2fba47e6559b24f27ec50d5c535ba41d",Rutherford And Sons,Gdynia,POLAND,54.5189,18.5319,pharmacy,retail,Beier
+590,"337ca48d05f4f09ebedb89fd27f53253",Rutherford And Sons Pharm,Meppen,GERMANY,52.6906,7.291,hospital,government,Daugherty-rempel
+591,f6afd4513b713db8ba3acc2efb789ce0,Rutherford And Sons Pharmaceutical Ltd,Dresden,GERMANY,51.0493,13.7384,hospital,private,Daugherty-rempel
+592,cb79996c87f9e11f49dd6b737d64c143,"Sanford, Franecki And Greenholt",Nowa Sól,POLAND,51.8,15.7167,pharmacy,institution,Gottlieb-cruickshank
+593,d5cc8ca3f99f3b233541bb253c253164,"Sanford, Franecki And Greenholt Pharma Plc",Waltrop,GERMANY,51.6167,7.3833,hospital,government,Bashirian-kassulke
+594,"29b99fb7f58297c2213331642548ca74","Sanford, Franecki And Greenholt Pharmaceutical Ltd",Rheine,GERMANY,52.2833,7.4333,pharmacy,institution,Daugherty-rempel
+595,ed98bc1a9373aa36daaa90bfd6d46d38,Sauer And Sons,Mechernich,GERMANY,50.6,6.65,pharmacy,retail,Erdman
+596,cd9e20638848b558aae727e796d801b3,Sauer And Sons Pharmaceutical Limited,Brzozów,POLAND,49.6953,22.0194,pharmacy,retail,Beier
+597,"01153bba3ee442782cc786ffaa4693ce",Sauer And Sons Pharmacy,Hürth,GERMANY,50.8775,6.8761,pharmacy,institution,Crist Inc
+598,e4618529d500389cb9310bd7e1f7ffe3,Sauer-herzog Pharmaceutical Limited,Bochum,GERMANY,51.4833,7.2167,pharmacy,retail,Erdman
+599,"076a20dfc0bf3576a70e1c6f4f6c9e5a",Sauer-herzog Pharmacy,Winsen,GERMANY,53.3667,10.2167,pharmacy,retail,Erdman
+600,a2615a668db76a448c4935f395b205e3,Schaden-hirthe,Kaiserslautern,GERMANY,49.4447,7.7689,pharmacy,institution,Crist Inc
+601,cd285b331c3dc7ff0d6d4ee12b6cd6e9,Schaden-hirthe Pharmaceutical Ltd,Świdnica,POLAND,50.8438,16.4886,pharmacy,institution,Beier
+602,"67dfd7f61b78a5c906dce13f79a38af3",Schaefer Group,Olpe,GERMANY,51.0289,7.8514,pharmacy,institution,Erdman
+603,"0eb707b9039d27cbf2537fc026887291",Schaefer Group Pharmaceutical Limited,Ustroń,POLAND,49.7167,18.8167,hospital,government,Cassin
+604,b296fb901ce4641f43d45287cd82dbf0,Schaefer Group Pharmaceutical Ltd,Rodgau,GERMANY,50.0256,8.8841,hospital,government,Erdman
+605,eee84afb741d13a5090f16b270589998,Schaefer Llc Pharma Plc,Stendal,GERMANY,52.6,11.85,pharmacy,institution,Crist Inc
+606,"61e4636cf90ecd7a431277fb59593970",Schaefer Llc Pharmacy,Kamień Pomorski,POLAND,53.9697,14.7858,hospital,government,Beier
+607,"3b6472557f1d3407a8a6b372dc7a8c57",Schaefer-rolfson,Niepołomice,POLAND,50.0339,20.2172,hospital,private,Beier
+608,a87624cd912836d6a74e01ca3c79d5ae,Schaefer-rolfson Pharma Plc,Freiberg,GERMANY,50.9119,13.3428,pharmacy,retail,Daugherty-rempel
+609,c5ea1f507befe1493dd4d7d4fe9bd570,Schaefer-rolfson Pharmacy,Germersheim,GERMANY,49.2167,8.3667,pharmacy,institution,Erdman
+610,"333ff18ab63538f504747d4177a9e62c",Schimmel-waelchi Pharma Plc,Garbsen,GERMANY,52.4183,9.5981,pharmacy,institution,Erdman
+611,"9ce6224b02a545e0c5f4a96652667991",Schimmel-waelchi Pharmaceutical Limited,Olching,GERMANY,48.2,11.3167,pharmacy,institution,Crist Inc
+612,e63b243892afaad4f583865607d8e80d,Schimmel-waelchi Pharmaceutical Ltd,Grodzisk Mazowiecki,POLAND,52.1039,20.6337,hospital,government,Beier
+613,"884f1a3029fb2f832d0c5f8d200955df","Schinner, Gaylord And Treutel Pharmaceutical Limited",Ahrensburg,GERMANY,53.6747,10.2411,hospital,private,Daugherty-rempel
+614,"0bfd1a5c9fe113202c764a584660bac2","Schinner, Gaylord And Treutel Pharmaceutical Ltd",Dąbrowa Górnicza,POLAND,50.3239,19.1947,hospital,government,Beier
+615,de494828b2241c8819335508603dbc40,"Schinner, Gaylord And Treutel Pharmacy",Hamm,GERMANY,51.6667,7.8167,pharmacy,retail,Daugherty-rempel
+616,c0b17b6d3d296f3043213adb9850a6f7,Schmitt Llc Pharm,Nysa,POLAND,50.4738,17.3344,pharmacy,retail,Beier
+617,df9ae960332746abb59e9157d9d1fe6d,Schmitt Llc Pharma Plc,Konstanz,GERMANY,47.6633,9.1753,pharmacy,institution,Daugherty-rempel
+618,"14de2f3d1b560b1928dd293bad0fd3cb","Schmitt, Berge And Haley Pharma Plc",Kłodzko,POLAND,50.4378,16.6528,hospital,private,Beier
+619,"7cd5d139b3af185e24e31dba95b268b7","Schmitt, Berge And Haley Pharmaceutical Ltd",Coburg,GERMANY,50.2666,10.9666,pharmacy,institution,Erdman
+620,"9c3862d01195f6c10e8922189d698a2c","Schowalter, Runolfsson And Vonrueden Pharmaceutical Limited",Neuss,GERMANY,51.2003,6.6939,hospital,private,Erdman
+621,"16ad90a3ebe9a0bdf97423b419769440","Schowalter, Runolfsson And Vonrueden Pharmaceutical Ltd",Grudziądz,POLAND,53.4925,18.7761,pharmacy,retail,Beier
+622,"2cd4ffa0ebe39e37b307f35e97dbee24",Schulist Llc Pharmaceutical Limited,Neustadt Am Rübenberge,GERMANY,52.5055,9.4636,pharmacy,institution,Erdman
+623,c13da00f4837ba2b702a112e8f06c022,Schulist-zulauf,Erfurt,GERMANY,50.9787,11.0328,pharmacy,institution,Erdman
+624,ecb5dd91a5aa71bf1effc55456134510,Schulist-zulauf Pharm,Tychy,POLAND,50.1667,19.0,hospital,private,Beier
+625,"3306535d3c99d7bf9b1b2cd6acc5e056",Schulist-zulauf Pharmaceutical Ltd,Kornwestheim,GERMANY,48.8597,9.185,pharmacy,retail,Erdman
+626,"84cc158efeadd2c89aa2ce97fee9879e",Schuppe Inc,Bensheim,GERMANY,49.6811,8.6228,pharmacy,retail,Erdman
+627,"33c29013917f9340eaf8d56becbd808d",Schuppe Inc Pharm,Traunstein,GERMANY,47.8683,12.6433,pharmacy,institution,Erdman
+628,"0ebd9b6e21c78841d49dd3ee890a0d1f",Senger-kirlin Pharma Plc,Soest,GERMANY,51.5711,8.1092,hospital,government,Erdman
+629,dec303cd06bb4509cc834b3e0cb0c6ff,Senger-kirlin Pharmaceutical Ltd,Friedrichsdorf,GERMANY,50.2569,8.6418,hospital,private,Daugherty-rempel
+630,"5f5ff7c3784e93751978729bb95fbdfa",Senger-kirlin Pharmacy,Kobyłka,POLAND,52.3395,21.1959,hospital,government,Beier
+631,e021b09a36099b9bee5d170cd292aefb,Sipes And Sons Pharma Plc,Radebeul,GERMANY,51.1033,13.67,hospital,private,Erdman
+632,"938caa47302dce4c9c1a7b1b6c88195d",Sipes And Sons Pharmaceutical Limited,Krefeld,GERMANY,51.3333,6.5667,pharmacy,institution,Daugherty-rempel
+633,af24082a500244dea36fe321282d5a21,Skiles-mckenzie Pharmaceutical Limited,Westerstede,GERMANY,53.25,7.9167,hospital,government,Bashirian-kassulke
+634,b9b9abece1e19a9bd0053309bcd6cb6d,Skiles-mckenzie Pharmacy,Dreieich,GERMANY,50.0189,8.6961,hospital,government,Erdman
+635,"99b1d58c9d43e04df0f964e8e3003c91",Smith Inc Pharm,Luckenwalde,GERMANY,52.0831,13.1667,pharmacy,institution,Crist Inc
+636,"435437677bd4a62074513fe1f8dc7b8b",Smith Inc Pharmacy,Kirchheim Unter Teck,GERMANY,48.6483,9.4511,pharmacy,institution,Erdman
+637,dfc964c6019292c3122482d09a8d203e,Spencer-jerde Pharmaceutical Limited,Kaufbeuren,GERMANY,47.88,10.6225,hospital,government,Erdman
+638,b49152e686297d2ecd464a5c0f7bb72c,Spencer-jerde Pharmacy,Przeworsk,POLAND,50.0591,22.4941,pharmacy,institution,Beier
+639,d8a90fc6190611d3db853046df509280,"Spinka, Schowalter And Conn",Bergheim,GERMANY,50.9667,6.65,pharmacy,retail,Daugherty-rempel
+640,"5643476e16e4a94c39f520b47f694ba0","Spinka, Schowalter And Conn Pharma Plc",Emmendingen,GERMANY,48.1214,7.8492,hospital,government,Crist Inc
+641,"72acbcdec08a3744c5299f63807d3184","Spinka, Schowalter And Conn Pharmaceutical Limited",Biłgoraj,POLAND,50.55,22.7333,pharmacy,institution,Beier
+642,"1832cd9263098d5d9edc52a28a8a5033",Stanton-cole,Skierniewice,POLAND,51.9528,20.1417,hospital,private,Beier
+643,ed17177b542aebab3cbf3a8c7a22b738,Stanton-cole Pharma Plc,Andernach,GERMANY,50.4397,7.4017,hospital,private,Daugherty-rempel
+644,"3315fbf6d52d83b391caa060dce394d4",Stanton-cole Pharmacy,Düren,GERMANY,50.8,6.4833,pharmacy,institution,Daugherty-rempel
+645,"58316047b768cd6458517de57a6e2a45",Stehr-champlin Pharmaceutical Limited,Nowe Miasto Lubawskie,POLAND,53.4167,19.5833,hospital,government,Beier
+646,ae27cff4a572dd10d033666f5b84017f,Stehr-champlin Pharmacy,Eberswalde,GERMANY,52.8331,13.8331,pharmacy,retail,Erdman
+647,b3783f522ae171939da1e16b433536e3,Steuber Ltd Pharm,Gera,GERMANY,50.8782,12.0824,hospital,government,Daugherty-rempel
+648,cf2dece41f9387d6d1f2eacb5239ea8f,Steuber Ltd Pharmaceutical Limited,Ennepetal,GERMANY,51.3021,7.3425,pharmacy,institution,Daugherty-rempel
+649,"563bcfc070f82b48e28efd872178ddf5",Steuber Ltd Pharmacy,Ostrołęka,POLAND,53.0833,21.5667,hospital,private,Beier
+650,"972414cbacf50f32b288119317c644a6","Steuber, Hills And Botsford",Gotha,GERMANY,50.9489,10.7183,pharmacy,institution,Crist Inc
+651,"5457a274dc684b19212b151db456e698","Steuber, Hills And Botsford Pharma Plc",Schmallenberg,GERMANY,51.1333,8.3,pharmacy,institution,Erdman
+652,"159534e9e16318f72d115c739e84d38b","Steuber, Skiles And Kilback Pharma Plc",Sosnowiec,POLAND,50.3,19.1667,pharmacy,retail,Beier
+653,"854167a5256313a4016508501f412bc6","Steuber, Skiles And Kilback Pharmaceutical Limited",Bonn,GERMANY,50.7339,7.0997,pharmacy,retail,Daugherty-rempel
+654,"04bd94143fefbda7c154b3ab92445140","Steuber, Skiles And Kilback Pharmacy",Datteln,GERMANY,51.6539,7.3417,pharmacy,institution,Daugherty-rempel
+655,e1b88c9408cf84bda12100d0c4f73cb1,Streich Plc,Bottrop,GERMANY,51.5232,6.9253,pharmacy,retail,Erdman
+656,b0e537282106eea335673e6cb7b1cd22,Streich Plc Pharm,Radolfzell Am Bodensee,GERMANY,47.7369,8.9697,hospital,private,Crist Inc
+657,"6ed8ca8a0bb25a52c67ee2926a319e59",Streich Plc Pharmaceutical Limited,Przemyśl,POLAND,49.785,22.7673,pharmacy,institution,Gottlieb-cruickshank
+658,"71b820d01d6cb542ccf12728df2e3d12",Terry-kub Pharma Plc,Weimar,GERMANY,50.9833,11.3167,pharmacy,retail,Erdman
+659,a7e4a3fb5212e627d2a2ca65409395d4,Terry-kub Pharmaceutical Ltd,Wegberg,GERMANY,51.1333,6.2667,pharmacy,retail,Erdman
+660,"235b13a4fd99ff5a47a7fec8334fc8bd",Tillman Group Pharma Plc,Neu-ulm,GERMANY,48.3833,10.0,hospital,government,Erdman
+661,"37a6d8d953692e8b3e45457709b2b55c",Tillman Group Pharmaceutical Limited,Geilenkirchen,GERMANY,50.9653,6.1194,hospital,government,Erdman
+662,"11aae7fc3ac79203e0710361cf067dcd",Torp-fisher,Grevenbroich,GERMANY,51.0883,6.5875,pharmacy,institution,Erdman
+663,a06ec6dd43ea849529f9d1b2d2d9204b,Torp-fisher Pharma Plc,Gorlice,POLAND,49.6556,21.1604,hospital,government,Cassin
+664,"36083d3cc558900cc774cc878b1ee608","Torphy, Pfeffer And Jakubowski Pharm",Limburg,GERMANY,50.3833,8.0667,pharmacy,retail,Daugherty-rempel
+665,b0cf5bf3f90cf885b2bb01c1dce42e08,"Torphy, Pfeffer And Jakubowski Pharmaceutical Ltd",Leipzig,GERMANY,51.35,12.3833,pharmacy,retail,Erdman
+666,bcf6d8c67e1369e02efd4a4ade8addd5,"Towne, Cummerata And Blanda Pharm",Kalisz,POLAND,51.757,18.083,hospital,private,Beier
+667,b45b76b836db4a18d5c05b3f1c2b1d28,"Towne, Cummerata And Blanda Pharmaceutical Limited",Naumburg,GERMANY,51.1521,11.8098,hospital,private,Daugherty-rempel
+668,a29e9e9fe137afd881270377c52175a5,"Towne, Cummerata And Blanda Pharmaceutical Ltd",Darmstadt,GERMANY,49.8667,8.65,hospital,government,Crist Inc
+669,"85778d1d8a899bd693db203a071ac5bf",Trantow Llc Pharm,Harsewinkel,GERMANY,51.9667,8.2331,pharmacy,institution,Gerlach Llc
+670,b253e7acd1388d1a5b0279b174fbcee2,Trantow Llc Pharma Plc,Braniewo,POLAND,54.3833,19.8333,pharmacy,retail,Beier
+671,b8db32d60b3d616de79d7ed4f8332247,Trantow Llc Pharmacy,Landau,GERMANY,49.1994,8.1231,hospital,private,Erdman
+672,"51ac17955dbd5bbb7a30977ff9e7df25",Turner Ltd,Porta Westfalica,GERMANY,52.2167,8.9333,hospital,private,Erdman
+673,"752ee2c0ad23431a57cf598c23ed4d0f",Turner Ltd Pharmacy,Dortmund,GERMANY,51.5139,7.4653,pharmacy,retail,Erdman
+674,a0caf747baed3dc8a0e358deed2d79ad,Upton Plc Pharma Plc,Munich,GERMANY,48.1372,11.5755,hospital,government,Crist Inc
+675,"87ea5773de7fd973cbb6942902f66dcb",Upton Plc Pharmaceutical Limited,Mühlhausen,GERMANY,51.2167,10.45,pharmacy,retail,Daugherty-rempel
+676,a1b9c77f125e405e93890959e5c8609b,"Upton, Abernathy And Goodwin Pharm",Kelkheim (taunus),GERMANY,50.138,8.4525,pharmacy,retail,Erdman
+677,dcbee6fc7705db256f9c97b74bfdd807,"Upton, Abernathy And Goodwin Pharmaceutical Limited",Detmold,GERMANY,51.9378,8.8833,hospital,government,Erdman
+678,"4494373ea53ce938b5b24021632bbe42","Upton, Abernathy And Goodwin Pharmaceutical Ltd",Jarosław,POLAND,50.0162,22.6778,hospital,government,Beier
+679,"17f8fc095b767dfd61377192f0fcaf58",Vandervort Llc Pharm,Stade,GERMANY,53.6008,9.4764,pharmacy,retail,Crist Inc
+680,"46a855d414213869825ccf94bbbff490",Vandervort Llc Pharma Plc,Łańcut,POLAND,50.0687,22.2291,pharmacy,institution,Carter-conn
+681,c0a5a59bedae4bb31108b807bb69a8ff,Vandervort Llc Pharmaceutical Ltd,Rottweil,GERMANY,48.1681,8.6247,hospital,private,Crist Inc
+682,"4a70129e720faec8aa1bed355b1ecf58",Veum And Sons Pharmaceutical Limited,Landsberg,GERMANY,48.0528,10.8689,pharmacy,institution,Erdman
+683,de68eb874ea122420ac79790d09c2cfc,Veum And Sons Pharmaceutical Ltd,Dorsten,GERMANY,51.66,6.9642,pharmacy,institution,Erdman
+684,ac7538ebc4fbafd00362d9bced7bd180,Veum-kerluke Pharma Plc,Wismar,GERMANY,53.8925,11.465,pharmacy,retail,Erdman
+685,"0b61764535d58b15dc7047e137b6b3e3",Veum-kerluke Pharmacy,Człuchów,POLAND,53.65,17.3667,pharmacy,retail,Beier
+686,"3fe97e6fb102ad5f4c3806f59131a325",Vonrueden-adams Pharm,Delitzsch,GERMANY,51.5264,12.3425,pharmacy,retail,Crist Inc
+687,"0b05b039562fe35d38939933a872a9fd",Vonrueden-adams Pharmaceutical Limited,Fellbach,GERMANY,48.8086,9.2758,pharmacy,institution,Erdman
+688,"9eabffbf1e42b4968ef5595ce3b17870",Waelchi Llc Pharm,Sinsheim,GERMANY,49.25,8.8833,pharmacy,retail,Erdman
+689,"015a5edefb77f986d8e064c75b4331da",Waelchi Llc Pharmaceutical Limited,Essen,GERMANY,51.4508,7.0131,hospital,private,Erdman
+690,"8bee8abdc10bc26bce8a5209c9dbbaee",Waelchi Llc Pharmacy,Katowice,POLAND,50.25,19.0,hospital,government,Beier
+691,"4fc222a4538425f7920b6b1e70266de1",Walsh-brown Pharma Plc,Osnabrück,GERMANY,52.2789,8.0431,pharmacy,retail,Crist Inc
+692,"460000a587e3bfa6d2326c51d598fe76",Walsh-brown Pharmaceutical Ltd,Bernburg,GERMANY,51.8,11.7333,hospital,private,Crist Inc
+693,d9d3936aed936fec059a5858de2fc682,Walsh-brown Pharmacy,Chorzów,POLAND,50.3,18.95,pharmacy,retail,Beier
+694,"0602e8c592153490647f7c2c9ba45f56",Walter Ltd,Kętrzyn,POLAND,54.0833,21.3833,pharmacy,institution,Beier
+695,"1925d98c8f45db316c55e5c5e4a5a9f9",Walter Ltd Pharmaceutical Limited,Neubrandenburg,GERMANY,53.5569,13.2608,pharmacy,institution,Erdman
+696,"6a6d8cfdd909e9382a8ad603325cd4a3",Ward Group Pharm,Mönchengladbach,GERMANY,51.2,6.4333,hospital,private,Crist Inc
+697,"3fe4fab3fd985f057dcfb65f29f6c2fa",Ward Group Pharma Plc,Barsinghausen,GERMANY,52.3031,9.4606,pharmacy,retail,Crist Inc
+698,"2e1f620bafb59c08413ea2806e760e79",Ward Group Pharmaceutical Limited,Zabrze,POLAND,50.3,18.7833,pharmacy,institution,Beier
+699,"31f823aa835d50485c70eb3de34abe9e","Watsica, Larson And Labadie Pharma Plc",Husum,GERMANY,54.4769,9.0511,hospital,private,Daugherty-rempel
+700,"90910bce3e91ec185422a81966205dd0","Watsica, Larson And Labadie Pharmaceutical Ltd",Nettetal,GERMANY,51.3167,6.2833,hospital,private,Erdman
+701,"785cfba2bdec9b3c4465617e2fecfe2c",Watsica-kovacek Pharmaceutical Ltd,Leimen,GERMANY,49.3481,8.6911,pharmacy,institution,Crist Inc
+702,ecdbaea1fad9ef37315e9c2bd030f09b,Watsica-kovacek Pharmacy,Hameln,GERMANY,52.1031,9.36,pharmacy,institution,Erdman
+703,"87875f8fb28ec1b96ce2df0b531a2a30",Weber Ltd Pharmaceutical Ltd,Merseburg,GERMANY,51.3544,11.9928,hospital,private,Erdman
+704,b97e032784fa8f62326e6843279f752b,Weber Ltd Pharmacy,Halle,GERMANY,51.4828,11.9697,pharmacy,institution,Erdman
+705,d15fe651f144d4b1a35b6ff8bb80ff8b,Wehner-stehr,Steinfurt,GERMANY,52.1504,7.3366,pharmacy,institution,Daugherty-rempel
+706,"3e6a3d547af76b3b646a8f1099211a9b",Wehner-stehr Pharm,Chemnitz,GERMANY,50.8333,12.9167,hospital,government,Crist Inc
+707,"836278c497132e87794907de0bd79a77",Welch-langworth,Warsaw,POLAND,52.2167,21.0333,pharmacy,retail,Cassin
+708,"99ac579e2e80b859394a79e97591a505",Welch-langworth Pharm,Papenburg,GERMANY,53.0667,7.4,hospital,private,Crist Inc
+709,"382a0ad86e4f90cdfa3342d3d29e0b34",Welch-orn,Chełmno,POLAND,53.3492,18.4261,hospital,private,Beier
+710,"7fe674dd8d00fd1ff5efc6bda189808a",Welch-orn Pharm,Emden,GERMANY,53.3669,7.2061,hospital,private,Erdman
+711,f14dde7a175da2827a81565950d2b52b,Welch-orn Pharmacy,Bingen Am Rhein,GERMANY,49.9669,7.895,hospital,government,Erdman
+712,"13353bda82b89a3a99d4a6e9e7fbb273",West Group Pharm,Langenfeld,GERMANY,51.1167,6.95,pharmacy,institution,Erdman
+713,"4dd3a5a62c73d34d2146086241db360d",West Group Pharma Plc,Aschersleben,GERMANY,51.75,11.4667,pharmacy,retail,Daugherty-rempel
+714,"610ee1320bc471b635d9441c1cfc1f94",West Group Pharmacy,Kluczbork,POLAND,50.9833,18.2167,hospital,government,Beier
+715,"16fef8289a35f8f43dcbef19b7851edc",White Inc Pharm,Ehingen An Der Donau,GERMANY,48.2833,9.7236,pharmacy,retail,Daugherty-rempel
+716,f9cc50bd3564c25179227c71181722c4,White Inc Pharmacy,Bad Homburg,GERMANY,50.2292,8.6105,hospital,government,Daugherty-rempel
+717,"6ce4797cdf2dab330bfd4ed665589bf6","Wiegand, Jast And Yost",Korschenbroich,GERMANY,51.1833,6.5167,pharmacy,institution,Erdman
+718,b06f2a344ad8dac91d8154f6690a6a15,"Wiegand, Jast And Yost Pharma Plc",Płock,POLAND,52.55,19.7,hospital,private,Beier
+719,"2cd8340bd3b2e154f74b00cd17624d8a","Wiegand, Jast And Yost Pharmaceutical Ltd",Ludwigshafen,GERMANY,49.4811,8.4353,pharmacy,institution,Bashirian-kassulke
+720,d57bd0f50beb9b978536bc75db9e8696,Will And Sons Pharma Plc,Gniew,POLAND,53.8333,18.8333,pharmacy,retail,Beier
+721,"9359dc3091acb49ad1547f8cc2dd5d15",Will And Sons Pharmaceutical Limited,Poznań,POLAND,52.4,16.9167,hospital,government,Beier
+722,"531e3230d94a3cfd3f5f06a4f9b2395b",Will And Sons Pharmacy,Suhl,GERMANY,50.6106,10.6931,hospital,private,Daugherty-rempel
+723,b56ddb7fe4b2e107d2e12e07c1eccb75,"Will, Mcglynn And Fritsch Pharmaceutical Limited",Alzey,GERMANY,49.7517,8.1161,hospital,government,Daugherty-rempel
+724,"745457b367067b3298d4181654ec5cdf","Will, Mcglynn And Fritsch Pharmaceutical Ltd",Bitterfeld,GERMANY,51.6167,12.3167,pharmacy,retail,Daugherty-rempel
+725,"48bd2de1e3a9a215666734354d046f03","Wintheiser, Breitenberg And Gottlieb",Bünde,GERMANY,52.2,8.6,hospital,private,Daugherty-rempel
+726,ccd2abc33e49db21429e08efc9a1e455,"Wintheiser, Breitenberg And Gottlieb Pharma Plc",Warstein,GERMANY,51.45,8.3667,pharmacy,institution,Daugherty-rempel
+727,"9dbd2c176902c8b1e5ef531bc62a929e","Wintheiser, Breitenberg And Gottlieb Pharmaceutical Limited",Milanówek,POLAND,52.1243,20.6654,pharmacy,retail,Carter-conn
+728,ed6441cf050abc01a5be7f300520fdc9,"Wisozk, Brekke And Bartoletti",Sonneberg,GERMANY,50.35,11.1667,hospital,government,Erdman
+729,ccca4453097719f5810bd5b307fc94fd,"Wisozk, Brekke And Bartoletti Pharmacy",Falkensee,GERMANY,52.5583,13.0917,pharmacy,institution,Daugherty-rempel
+730,"79980f22b79228149e778ff74fd54d72",Wolff Group,Pfungstadt,GERMANY,49.8056,8.6044,pharmacy,retail,Crist Inc
+731,"6a23707797c663a2cf4809820380d65d",Wolff Group Pharm,Gubin,POLAND,51.95,14.7333,hospital,government,Beier
+732,fc882c4049b71e867958410651525124,Wolff Group Pharmaceutical Ltd,Alsdorf,GERMANY,50.8744,6.1615,hospital,private,Erdman
+733,"21dfcfcb8ed42dbce72c580081bb507a","Wuckert, Kreiger And Howell",Idar-oberstein,GERMANY,49.7019,7.3253,hospital,private,Erdman
+734,c5e8df0b145338947392d59906019657,"Wuckert, Kreiger And Howell Pharma Plc",Lippstadt,GERMANY,51.6667,8.35,hospital,government,Erdman
+735,b3d06b18c13c1b68468a9de1d68b7c92,"Wunsch, Mills And Walter",Kielce,POLAND,50.8725,20.6319,pharmacy,institution,Cassin
+736,"305f55211275917a5899ee13d973654b","Wunsch, Mills And Walter Pharm",Kempen,GERMANY,51.3658,6.4194,pharmacy,retail,Daugherty-rempel
+737,bf6dd344dc0e3a91b5bc7e5ce4d37c34,"Wunsch, Mills And Walter Pharmaceutical Limited",Münster,GERMANY,51.9625,7.6256,pharmacy,retail,Crist Inc
+738,bb021aee835104f6a18b51b8445a326c,"Yundt, Leuschke And Ward",Wittlich,GERMANY,49.9869,6.8897,pharmacy,institution,Bashirian-kassulke
+739,"0b81bb59552bad879c3446968cfae16a","Yundt, Leuschke And Ward Pharma Plc",Ahaus,GERMANY,52.0794,7.0134,pharmacy,retail,Erdman
+740,"48146358758360a8058d6f47fd58665f","Yundt, Leuschke And Ward Pharmaceutical Ltd",Żychlin,POLAND,52.2453,19.6236,hospital,government,Beier
+741,"3673d69f487e95f19488c6d2229b93c3",Yundt-crona Pharm,Pinneberg,GERMANY,53.6591,9.8009,hospital,government,Daugherty-rempel
+742,"0146d3aa26b191134f9319aef23c1bf0",Yundt-crona Pharmaceutical Ltd,Siemiatycze,POLAND,52.4272,22.8625,hospital,private,Beier
+743,"437360f301bb29fcbbd2f8fe0e0a1588",Zemlak Group Pharm,Vechta,GERMANY,52.7306,8.2886,hospital,private,Erdman
+744,c09693a65378c3262dfe18f143015876,Zemlak Group Pharmaceutical Limited,Koszalin,POLAND,54.1903,16.1817,hospital,private,Beier
+745,cd6bdec5309cf3efb352b08f250f3bf9,Zemlak Group Pharmacy,Solingen,GERMANY,51.1667,7.0833,hospital,private,Crist Inc
+746,"9ee57661afa7962ad6137e25f88e1385",Zemlak-witting,Cuxhaven,GERMANY,53.8667,8.7,pharmacy,retail,Erdman
+747,cad1fa1ccdc8e03b72d1ec970e578118,Zemlak-witting Pharmaceutical Limited,Plettenberg,GERMANY,51.2128,7.8715,hospital,government,Daugherty-rempel
+748,ea184488fec99a681036b03c060a32ad,Zemlak-witting Pharmacy,Międzyrzecz,POLAND,52.4446,15.578,pharmacy,institution,Beier
+749,"65b6b3a029020bf8154a7f032b6f44f0","Zieme, Doyle And Kunze",Lublin,POLAND,51.2333,22.5667,hospital,private,Beier
+750,ed51e158b184e1bc68015d70b29db4bc,"Zieme, Doyle And Kunze Pharm",Stuttgart,GERMANY,48.7761,9.1775,pharmacy,retail,Daugherty-rempel
+751,"01168e375ccb40e75441421bb129e7d0","Zieme, Doyle And Kunze Pharmacy",Tuttlingen,GERMANY,47.985,8.8233,pharmacy,retail,Daugherty-rempel

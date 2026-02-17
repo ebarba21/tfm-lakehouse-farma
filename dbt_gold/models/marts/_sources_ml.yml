@@ -6,6 +6,7 @@ sources:
     schema: default
     tables:
       - name: ml_customer_clusters
+        identifier: gold_ml_customer_clusters
         description: "Segmentación de clientes usando K-Means clustering"
         columns:
           - name: customer_sk
@@ -22,6 +23,7 @@ sources:
             description: "Métrica de calidad del clustering (0-1)"
             
       - name: ml_demand_forecast
+        identifier: gold_ml_demand_forecast
         description: "Predicciones de demanda mensual por producto-territorio"
         columns:
           - name: product_name

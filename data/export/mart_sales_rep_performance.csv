@@ -1,0 +1,14 @@
+"sales_rep_sk","sales_rep_name","manager","sales_team","total_customers","total_transactions","total_sales","avg_transaction_value","total_units_sold","sales_per_customer","products_sold","cities_covered"
+7,Jimmy Grey,Alisha Cordwell,Charlie,751,19178,994337138.94,51847.8,2314508,1324017.5,240,749
+1,Abigail Thompson,Tracy Banks,Bravo,751,19206,989006921.06,51494.69,2322211,1316920.0,240,749
+10,Sheila Stones,Britanny Bold,Delta,751,19352,968775098.24,50060.72,2409150,1289980.16,240,749
+4,Daniel Gates,Alisha Cordwell,Charlie,751,19072,964740675.19,50584.14,2339292,1284608.09,240,749
+3,Anne Wu,Britanny Bold,Delta,751,19207,928678110.17,48351.02,2253147,1236588.7,240,749
+9,Morris Garcia,Tracy Banks,Bravo,751,19107,908803513.5,47563.9,2274180,1210124.52,240,749
+11,Stella Given,Alisha Cordwell,Charlie,751,19227,897312663.42,46669.41,2132220,1194823.79,240,749
+6,Jessica Smith,Britanny Bold,Delta,751,19295,892643493,46262.94,2177142,1188606.52,240,749
+12,Steve Pepple,Tracy Banks,Bravo,751,19266,885402244.57,45956.72,2264037,1178964.37,240,749
+8,Mary Gerrard,Britanny Bold,Delta,751,19086,884873522.91,46362.44,2132756,1178260.35,240,749
+13,Thompson Crawford,James Goodwill,Alfa,751,19263,883322229.18,45855.9,2136265,1176194.71,240,749
+5,Erica Jones,James Goodwill,Alfa,751,19166,882302382,46034.77,2161308,1174836.73,240,749
+2,Alan Ray,James Goodwill,Alfa,751,19279,854140585.2,44304.2,2093050,1137337.66,240,749

@@ -1,17 +1,6 @@
-# =============================================================================
-# dbt Profiles - Conexión al Spark Thrift Server
-# =============================================================================
-# Este archivo configura la conexión de dbt al Spark Thrift Server.
-# 
-# Ubicación: debe estar en dbt_gold/profiles.yml para que Airflow lo encuentre
-# cuando ejecute dbt desde dentro del contenedor.
-#
-# Para uso local (desde Windows), el profiles.yml está en:
-#   C:\Users\lopez\.dbt\profiles.yml
-#
-# Para uso desde contenedor (Airflow), este archivo se monta en:
-#   /app/dbt_gold/profiles.yml
-# =============================================================================
+# Conexión de dbt al Spark Thrift Server
+# Desde Airflow (contenedor): este archivo se monta en /app/dbt_gold/profiles.yml
+# Desde Windows (local): C:\Users\lopez\.dbt\profiles.yml
 
 dbt_gold:
   target: dev

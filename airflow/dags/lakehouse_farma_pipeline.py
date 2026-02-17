@@ -1,15 +1,6 @@
 """
-DAG: Lakehouse Farma Pipeline
-=============================
-
-Orquesta el pipeline completo del data lakehouse farmaceutico:
-Bronze -> Silver -> Gold -> ML -> dbt
-
-Este DAG ejecuta los jobs de Spark y dbt en secuencia para procesar
-datos farmaceuticos desde la capa raw hasta los marts analiticos.
-
-Autor: Eric
-Proyecto: TFM Master Data Engineering - UCM
+DAG que orquesta el pipeline completo del lakehouse farmacéutico.
+Secuencia: Bronze -> Silver -> Gold -> ML -> dbt
 """
 
 from datetime import datetime, timedelta
@@ -41,7 +32,7 @@ docker exec {SPARK_CONTAINER} bash -lc '/opt/spark/bin/spark-submit \
 with DAG(
     dag_id='lakehouse_farma_pipeline',
     default_args=default_args,
-    description='Pipeline completo del lakehouse farmaceutico',
+    description='Pipeline completo del lakehouse farmacéutico',
     schedule_interval=None,
     start_date=datetime(2026, 1, 1),
     catchup=False,
@@ -51,18 +42,14 @@ with DAG(
     start = EmptyOperator(task_id='start')
     end = EmptyOperator(task_id='end')
 
-    # -------------------------------------------------------------------------
-    # BRONZE LAYER
-    # -------------------------------------------------------------------------
+    # BRONZE
     with TaskGroup(group_id='bronze_layer') as bronze_group:
         ingest_pharma = BashOperator(
             task_id='ingest_pharma_sales',
             bash_command=SPARK_SUBMIT_BASE.format(script='ingest_pharma.py'),
         )
 
-    # -------------------------------------------------------------------------
-    # SILVER LAYER
-    # -------------------------------------------------------------------------
+    # SILVER
     with TaskGroup(group_id='silver_layer') as silver_group:
         curate_pharma = BashOperator(
             task_id='curate_pharma_sales',
@@ -73,21 +60,16 @@ with DAG(
             bash_command=SPARK_SUBMIT_BASE.format(script='build_silver_orders.py'),
         )
 
-    # -------------------------------------------------------------------------
-    # GOLD LAYER
-    # -------------------------------------------------------------------------
+    # GOLD - modelo dimensional
     with TaskGroup(group_id='gold_layer') as gold_group:
         build_gold = BashOperator(
             task_id='build_dimensional_model',
             bash_command=SPARK_SUBMIT_BASE.format(script='build_gold.py'),
         )
 
-    # -------------------------------------------------------------------------
-    # ML LAYER - Dos modelos: Clustering + Forecast
-    # -------------------------------------------------------------------------
+    # ML - clustering y forecast en paralelo
     with TaskGroup(group_id='ml_layer') as ml_group:
-        
-        # ML 1: Customer Clustering (K-Means)
+
         customer_clustering = BashOperator(
             task_id='customer_clustering',
             bash_command=f"""
@@ -99,8 +81,7 @@ with DAG(
                 /app/src/spark/ml_customer_clustering.py'
             """,
         )
-        
-        # ML 2: Demand Forecast (GBT Regression)
+
         demand_forecast = BashOperator(
             task_id='demand_forecast',
             bash_command=f"""
@@ -112,15 +93,13 @@ with DAG(
                 /app/src/spark/ml_demand_forecast.py'
             """,
         )
-        
+
         # Los dos modelos pueden correr en paralelo
         [customer_clustering, demand_forecast]
 
-    # -------------------------------------------------------------------------
-    # DBT LAYER
-    # -------------------------------------------------------------------------
+    # DBT - registro de tablas, transformaciones y tests
     with TaskGroup(group_id='dbt_layer') as dbt_group:
-        
+
         cleanup_warehouse = BashOperator(
             task_id='cleanup_spark_warehouse',
             bash_command="""
@@ -170,7 +149,5 @@ CREATE TABLE IF NOT EXISTS gold_ml_demand_forecast USING DELTA LOCATION '/data/g
 
         cleanup_warehouse >> register_tables >> dbt_run >> dbt_test
 
-    # -------------------------------------------------------------------------
-    # Dependencias del DAG
-    # -------------------------------------------------------------------------
+    # Dependencias
     start >> bronze_group >> silver_group >> gold_group >> ml_group >> dbt_group >> end

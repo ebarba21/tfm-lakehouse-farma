@@ -1,0 +1,8 @@
+# Dependencias para ejecutar los tests unitarios (pytest)
+# Instalar con: pip install -r requirements-dev.txt
+pytest==8.3.4
+pytest-mock==3.14.0
+pyyaml==6.0.2
+pyspark==3.5.1
+kafka-python-ng==2.2.3
+faker==24.8.0

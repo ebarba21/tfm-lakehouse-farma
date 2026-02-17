@@ -5,17 +5,8 @@
     )
 }}
 
-/*
-    Mart: Forecast Accuracy Analysis
-    ================================
-    Analiza la precisión del modelo de forecast de demanda,
-    comparando predicciones vs valores reales por producto y territorio.
-    
-    Métricas clave:
-    - MAPE (Mean Absolute Percentage Error) por producto
-    - Accuracy promedio por país
-    - Productos con mejor/peor predicción
-*/
+-- Precisión del modelo de forecast por producto.
+-- Compara predicciones vs valores reales, calcula MAPE y clasifica accuracy.
 
 WITH forecast_data AS (
     SELECT
@@ -68,14 +59,12 @@ SELECT
     pa.avg_accuracy AS product_accuracy_pct,
     pa.total_actual_sales,
     pa.total_predicted_sales,
-    -- Clasificación de precisión
-    CASE 
+    CASE
         WHEN pa.avg_accuracy >= 90 THEN 'Excelente'
         WHEN pa.avg_accuracy >= 80 THEN 'Bueno'
         WHEN pa.avg_accuracy >= 70 THEN 'Aceptable'
         ELSE 'Necesita mejora'
     END AS accuracy_category,
-    -- Métricas del modelo (constantes)
     fd.model_r2,
     fd.model_rmse
 FROM product_accuracy pa

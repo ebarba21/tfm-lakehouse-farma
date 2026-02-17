@@ -1,42 +1,63 @@
-﻿# ===== Datos generados (Delta Lake) =====
+﻿# Datos del lakehouse (Delta Lake, parquets, checkpoints)
+# NOTA: data/landing/ se mantiene (contiene pharma-data.csv fuente)
 data/bronze/
 data/silver/
 data/gold/
 data/checkpoints/
-data/ivy/
+checkpoints/
 
-# ===== Logs =====
-logs/
-*.log
+# Cachés de Spark / Ivy
+ivy/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Airflow
 airflow/logs/
-dbt_gold/logs/
-dbt_gold/target/
+airflow/dags/__pycache__/
 
-# ===== Python =====
+# dbt
+target/
+dbt_packages/
+logs/
+dbt_gold/target/
+dbt_gold/logs/
+dbt_gold/dbt_packages/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 .venv/
 venv/
 
-# ===== dbt =====
-dbt_gold/target/
-dbt_gold/dbt_packages/
-dbt_gold/logs/
-dbt_gold/.user.yml
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
 
-# ===== Airflow =====
-airflow/logs/
-airflow/plugins/
-
-# ===== Entorno =====
+# Entorno
 .env
-*.tmp
-*.bak
-.DS_Store
-Thumbs.db
 
-# ===== IDE =====
+# IDE
 .idea/
 .vscode/
 *.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Artefactos varios
+estructura_proyecto.txt
+-Force/
+*.crc
+
+# Word temp files
+~$*
+~WRL*.tmp
+
+# dbt user config
+.user.yml
