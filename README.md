@@ -19,8 +19,10 @@ Plataforma de datos integral para el sector farmacéutico que implementa una arq
 | Orquestación | Apache Airflow | 2.10.4 |
 | Transformaciones | dbt Core | 1.11.2 |
 | ML | Spark MLlib | 3.5.1 |
-| Visualización | Power BI Desktop | JDBC/Thrift |
 | Contenedores | Docker Compose | v2 |
+| Lenguaje | Python | 3.11 |
+| Base de datos | PostgreSQL | 15 |
+| Visualización | Power BI Desktop | 2.150.2102.0 |
 
 ## Estructura del Proyecto
 
@@ -60,7 +62,7 @@ tfm-lakehouse-farma/
 │   ├── arquitectura_datos.svg            # Diagrama de arquitectura
 │   ├── diccionario_datos.md              # Descripción de tablas y columnas
 │   └── runbook.md                        # Operaciones y troubleshooting
-├── docker-compose.yml                    # Definición de servicios (9 contenedores)
+├── docker-compose.yml                    # Definición de servicios (8 contenedores)
 ├── pytest.ini                            # Configuración pytest
 ├── requirements-dev.txt                  # Dependencias de test
 ├── .env                                  # Variables de entorno (AIRFLOW_UID)
