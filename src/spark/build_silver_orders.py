@@ -1,5 +1,5 @@
 """
-Transformación Bronze -> Silver para orders (streaming).
+TransformaciÃ³n Bronze -> Silver para orders (streaming).
 
 Maneja tanto el esquema nuevo (customer_name, product_name) como el antiguo
 (site_id, product_id) para compatibilidad con datos generados antes del cambio.
@@ -10,10 +10,34 @@ from pyspark.sql.functions import (
     col, to_timestamp, upper, lower, trim, initcap, row_number,
 )
 from pyspark.sql.window import Window
+from pyspark.sql.types import (
+    StructType, StructField, StringType, IntegerType, DoubleType, TimestampType
+)
+from pyspark.sql.utils import AnalysisException
 
 
 BRONZE_PATH = "/data/bronze/orders_stream_raw"
 SILVER_PATH = "/data/silver/orders"
+
+# Esquema vacío consistente con el esquema nuevo (new_schema)
+EMPTY_SILVER_SCHEMA = StructType([
+    StructField("event_id",      StringType(),    True),
+    StructField("order_id",      StringType(),    True),
+    StructField("event_ts",      TimestampType(), True),
+    StructField("customer_name", StringType(),    True),
+    StructField("city",          StringType(),    True),
+    StructField("country",       StringType(),    True),
+    StructField("channel",       StringType(),    True),
+    StructField("sub_channel",   StringType(),    True),
+    StructField("product_name",  StringType(),    True),
+    StructField("product_class", StringType(),    True),
+    StructField("qty",           IntegerType(),   True),
+    StructField("unit_price",    DoubleType(),    True),
+    StructField("currency",      StringType(),    True),
+    StructField("latitude",      DoubleType(),    True),
+    StructField("longitude",     DoubleType(),    True),
+    StructField("total_amount",  DoubleType(),    True),
+])
 
 
 def create_spark_session():
@@ -32,11 +56,21 @@ def create_spark_session():
 
 def read_bronze(spark, path):
     print(f"[silver] Leyendo Bronze desde: {path}")
-    df = spark.read.format("delta").load(path)
-    record_count = df.count()
-    print(f"[silver] Registros en Bronze: {record_count:,}")
-    print(f"[silver] Columnas disponibles: {df.columns}")
-    return df
+    try:
+        df = spark.read.format("delta").load(path)
+        record_count = df.count()
+        if record_count == 0:
+            print(f"[silver] WARN: Bronze orders existe pero está vacío. "
+                  "El consumer de Kafka aún no ha generado datos.")
+            return spark.createDataFrame([], EMPTY_SILVER_SCHEMA)
+        print(f"[silver] Registros en Bronze: {record_count:,}")
+        print(f"[silver] Columnas disponibles: {df.columns}")
+        return df
+    except AnalysisException:
+        print(f"[silver] WARN: Bronze orders no existe en {path}. "
+              "El consumer de Kafka no ha corrido todavía. "
+              "Se genera Silver vacío para no bloquear el pipeline.")
+        return spark.createDataFrame([], EMPTY_SILVER_SCHEMA)
 
 
 def transform_to_silver(df):
@@ -50,7 +84,7 @@ def transform_to_silver(df):
         print("[silver] Detectado esquema NUEVO (consistente con pharma-data)")
         return _transform_new_schema(df)
     else:
-        print("[silver] Detectado esquema ANTIGUO (IDs genéricos)")
+        print("[silver] Detectado esquema ANTIGUO (IDs genÃ©ricos)")
         return _transform_old_schema(df)
 
 
@@ -61,7 +95,7 @@ def _transform_new_schema(df):
         .withColumn("event_ts", to_timestamp(col("event_ts")))
         .withColumn("event_id", trim(col("event_id")))
         .withColumn("order_id", trim(col("order_id")))
-        # Normalización consistente con Silver pharma
+        # NormalizaciÃ³n consistente con Silver pharma
         .withColumn("customer_name", initcap(trim(col("customer_name"))))
         .withColumn("city", initcap(trim(col("city"))))
         .withColumn("country", upper(trim(col("country"))))
@@ -158,6 +192,22 @@ def main():
 
     try:
         bronze_df = read_bronze(spark, BRONZE_PATH)
+
+        # Si no hay datos de streaming todavía, escribimos Silver vacío
+        # para no bloquear las capas Gold y dbt que dependen de esta tabla.
+        if bronze_df.rdd.isEmpty():
+            print("[silver] Sin datos de streaming. Escribiendo Silver orders vacío...")
+            (
+                spark.createDataFrame([], EMPTY_SILVER_SCHEMA)
+                .write.format("delta")
+                .mode("overwrite")
+                .option("overwriteSchema", "true")
+                .save(SILVER_PATH)
+            )
+            print("[silver] Silver orders vacío escrito correctamente.")
+            print("[silver] FIN - 0 registros procesados (sin datos de streaming aún)")
+            return
+
         silver_df = transform_to_silver(bronze_df)
 
         print("\n[silver] Esquema de la tabla Silver:")

@@ -1,10 +1,10 @@
 """
-Construcción de la capa Gold: Modelo Dimensional (Estrella).
+ConstrucciÃ³n de la capa Gold: Modelo Dimensional (Estrella).
 
 Dimensiones: dim_time, dim_product, dim_customer, dim_sales_rep
-Hechos: fact_sales (histórico), fact_orders (streaming)
+Hechos: fact_sales (histÃ³rico), fact_orders (streaming)
 
-El modelo permite análisis cruzado entre ventas históricas y pedidos
+El modelo permite anÃ¡lisis cruzado entre ventas histÃ³ricas y pedidos
 en tiempo real gracias a la consistencia de datos en Bronze/Silver.
 """
 
@@ -17,7 +17,11 @@ from pyspark.sql.functions import (
     min as spark_min, max as spark_max,
 )
 from pyspark.sql.window import Window
-from pyspark.sql.types import IntegerType
+from pyspark.sql.types import (
+    IntegerType, StructType, StructField, StringType,
+    DoubleType, TimestampType
+)
+from pyspark.sql.utils import AnalysisException
 from itertools import chain
 
 
@@ -33,6 +37,46 @@ DIM_CUSTOMER_PATH = f"{GOLD_PATH}/dim_customer"
 DIM_SALES_REP_PATH = f"{GOLD_PATH}/dim_sales_rep"
 FACT_SALES_PATH = f"{GOLD_PATH}/fact_sales"
 FACT_ORDERS_PATH = f"{GOLD_PATH}/fact_orders"
+
+# Esquema mínimo de Silver orders para poder trabajar sin datos de streaming
+EMPTY_ORDERS_SCHEMA = StructType([
+    StructField("event_id",      StringType(),    True),
+    StructField("order_id",      StringType(),    True),
+    StructField("event_ts",      TimestampType(), True),
+    StructField("customer_name", StringType(),    True),
+    StructField("city",          StringType(),    True),
+    StructField("country",       StringType(),    True),
+    StructField("channel",       StringType(),    True),
+    StructField("sub_channel",   StringType(),    True),
+    StructField("product_name",  StringType(),    True),
+    StructField("product_class", StringType(),    True),
+    StructField("qty",           IntegerType(),   True),
+    StructField("unit_price",    DoubleType(),    True),
+    StructField("currency",      StringType(),    True),
+    StructField("latitude",      DoubleType(),    True),
+    StructField("longitude",     DoubleType(),    True),
+    StructField("total_amount",  DoubleType(),    True),
+])
+
+
+def load_silver_safe(spark, path, empty_schema, label):
+    """Carga una tabla Silver Delta de forma segura.
+    Si la ruta no existe o está vacía devuelve un DataFrame vacío con el
+    esquema correcto, evitando que el pipeline completo falle por la
+    ausencia de datos de streaming."""
+    try:
+        df = spark.read.format("delta").load(path)
+        count = df.count()
+        if count == 0:
+            print(f"[gold] WARN: {label} existe pero está vacío. "
+                  "Se usará DataFrame vacío (sin datos de streaming).")
+            return spark.createDataFrame([], empty_schema)
+        print(f"  - {label}: {count:,} registros")
+        return df
+    except AnalysisException:
+        print(f"[gold] WARN: {label} no encontrado en {path}. "
+              "Se usará DataFrame vacío (consumer de Kafka no ha corrido).")
+        return spark.createDataFrame([], empty_schema)
 
 
 def create_spark_session():
@@ -51,7 +95,7 @@ def create_spark_session():
 
 def write_delta(df, path, table_name):
     count = df.count()
-    print(f"[gold] Escribiendo {table_name}: {count:,} registros → {path}")
+    print(f"[gold] Escribiendo {table_name}: {count:,} registros â†’ {path}")
     (
         df.write
         .format("delta")
@@ -74,16 +118,20 @@ def build_dim_time(spark, pharma_df, orders_df):
         .distinct()
     )
 
-    orders_dates = (
-        orders_df
-        .select(
-            year("event_ts").alias("year").cast(IntegerType()),
-            date_format("event_ts", "MMMM").alias("month")
+    # Solo se añaden fechas de orders si hay datos de streaming
+    if orders_df.rdd.isEmpty():
+        print("[gold] INFO: orders_df vacío, DIM_TIME se construye solo desde pharma_sales.")
+        all_dates = pharma_dates
+    else:
+        orders_dates = (
+            orders_df
+            .select(
+                year("event_ts").alias("year").cast(IntegerType()),
+                date_format("event_ts", "MMMM").alias("month")
+            )
+            .distinct()
         )
-        .distinct()
-    )
-
-    all_dates = pharma_dates.union(orders_dates).distinct()
+        all_dates = pharma_dates.union(orders_dates).distinct()
 
     month_map = {
         "January": 1, "February": 2, "March": 3, "April": 4,
@@ -113,7 +161,7 @@ def build_dim_time(spark, pharma_df, orders_df):
 
 
 def build_dim_product(spark, pharma_df):
-    """Dimensión de productos con surrogate key."""
+    """DimensiÃ³n de productos con surrogate key."""
     print("\n[gold] Construyendo DIM_PRODUCT...")
 
     products = (
@@ -130,10 +178,10 @@ def build_dim_product(spark, pharma_df):
 
 
 def build_dim_customer(spark, pharma_df):
-    """Dimensión de clientes con info geográfica y de canal."""
+    """DimensiÃ³n de clientes con info geogrÃ¡fica y de canal."""
     print("\n[gold] Construyendo DIM_CUSTOMER...")
 
-    # first() para obtener valor representativo cuando hay variación
+    # first() para obtener valor representativo cuando hay variaciÃ³n
     customers = (
         pharma_df
         .groupBy("customer_name")
@@ -160,7 +208,7 @@ def build_dim_customer(spark, pharma_df):
 
 
 def build_dim_sales_rep(spark, pharma_df):
-    """Dimensión de representantes: rep → manager → team."""
+    """DimensiÃ³n de representantes: rep â†’ manager â†’ team."""
     print("\n[gold] Construyendo DIM_SALES_REP...")
 
     sales_reps = (
@@ -187,7 +235,7 @@ def build_dim_sales_rep(spark, pharma_df):
 # --- Hechos ---
 
 def build_fact_sales(spark, pharma_df, dim_time, dim_product, dim_customer, dim_sales_rep):
-    """Tabla de hechos de ventas históricas. Granularidad: 1 fila por transacción."""
+    """Tabla de hechos de ventas histÃ³ricas. Granularidad: 1 fila por transacciÃ³n."""
     print("\n[gold] Construyendo FACT_SALES...")
 
     dim_time_join = dim_time.select(
@@ -226,6 +274,27 @@ def build_fact_orders(spark, orders_df, dim_product, dim_customer):
     """Tabla de hechos de pedidos streaming. Granularidad: 1 fila por evento."""
     print("\n[gold] Construyendo FACT_ORDERS...")
 
+    if orders_df.rdd.isEmpty():
+        print("[gold] INFO: orders_df vacío. FACT_ORDERS se crea como tabla vacía.")
+        empty_schema = StructType([
+            StructField("order_sk",     IntegerType(), True),
+            StructField("event_id",     StringType(),  True),
+            StructField("order_id",     StringType(),  True),
+            StructField("event_ts",     TimestampType(), True),
+            StructField("product_sk",   IntegerType(), True),
+            StructField("customer_sk",  IntegerType(), True),
+            StructField("qty",          IntegerType(), True),
+            StructField("unit_price",   DoubleType(),  True),
+            StructField("total_amount", DoubleType(),  True),
+            StructField("channel",      StringType(),  True),
+            StructField("sub_channel",  StringType(),  True),
+            StructField("country",      StringType(),  True),
+            StructField("city",         StringType(),  True),
+            StructField("currency",     StringType(),  True),
+        ])
+        write_delta(spark.createDataFrame([], empty_schema), FACT_ORDERS_PATH, "fact_orders")
+        return spark.createDataFrame([], empty_schema)
+
     fact = (
         orders_df
         .join(dim_product.select("product_sk", "product_name"), "product_name", "left")
@@ -245,7 +314,7 @@ def build_fact_orders(spark, orders_df, dim_product, dim_customer):
 
 def main():
     print("=" * 70)
-    print("[gold] INICIO - Construcción del Modelo Dimensional")
+    print("[gold] INICIO - ConstrucciÃ³n del Modelo Dimensional")
     print("=" * 70)
 
     spark = create_spark_session()
@@ -253,9 +322,10 @@ def main():
     try:
         print("\n[gold] Cargando datos Silver...")
         pharma_df = spark.read.format("delta").load(SILVER_PHARMA_PATH)
-        orders_df = spark.read.format("delta").load(SILVER_ORDERS_PATH)
         print(f"  - pharma_sales: {pharma_df.count():,} registros")
-        print(f"  - orders: {orders_df.count():,} registros")
+        orders_df = load_silver_safe(
+            spark, SILVER_ORDERS_PATH, EMPTY_ORDERS_SCHEMA, "orders"
+        )
 
         # Dimensiones
         dim_time = build_dim_time(spark, pharma_df, orders_df)
